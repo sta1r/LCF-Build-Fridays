@@ -1,0 +1,280 @@
+/* -------------------------------------------------------------- 
+   
+   forms.css
+   * Sets up some default styling for forms
+   * Gives you classes to enhance your forms
+   
+   Usage:
+   * For text fields, use class .title or .text
+   
+-------------------------------------------------------------- */
+#content-col form { 
+	padding: 15px;
+}
+
+/* Fieldsets */
+fieldset {
+	padding: 10px 0; 
+	margin: 0 0 1em 0; 
+}
+
+legend { 
+	font-weight: bold; 
+	font-size:1.2em; 
+}
+
+/* Labels */
+label {
+	display: block; 
+	font-weight: bold; 
+	margin-bottom: 4px;
+}
+
+.bodycopy label, p label { font-weight: normal; }
+
+.bodycopy {
+	padding-bottom: 9px !important;
+}
+
+/* Text fields */
+fieldset input.text, input.title 	{ margin:0.5em 0.5em 0.5em 0; }
+form fieldset input[type="text"]	{ width: 312px; padding: 4px;}
+form input[type="submit"] 			{ margin-right: 0;}
+fieldset input.text, input.title   	{ border:1px solid #bbb; background:#f6f6f6; padding:5px; }
+fieldset input.text:focus,
+fieldset input.title:focus         	{ border:1px solid #999; background:#fff; }
+fieldset input.title               	{ font-size:1.5em; }
+
+/* Textareas */
+fieldset textarea { 
+	width: 310px !important; 
+	margin: 0 0.5em 0.5em 0;
+	border:1px solid #bbb; 
+	padding:5px; 
+}
+
+fieldset textarea:focus { border:1px solid #999; background:#fff; }
+
+/* Select fields */
+select { 
+	padding: 4px;
+}
+
+fieldset select {
+	width:320px; 
+}
+
+select:focus { border:1px solid #999; background:#fff; }
+
+
+/* GENERAL FORM CONTROLS */
+input#upto {
+	width: 500px;
+}
+
+input.checkbox {
+	margin: -3px 6px 0 0;
+}
+
+input.required {
+	border: 1px solid red;
+}
+
+/* RADIO BUTTONS */
+input.radio {
+	margin: 5px 5px 5px 0;
+}
+
+/* SUCCESS / ERROR MESSAGES */	
+#error, #error h3, .error {
+	color: red !important;
+}
+
+input.error {
+	border: 2px solid red !important;
+}
+
+#error {
+	padding: 5px 10px;	
+}
+
+
+
+#reload {
+	font-size: 1.6em;
+	margin: 40px 0 20px;
+}
+
+	
+/* some overrides */
+input#areacode {
+	width: 40px;
+	float: left;
+	margin-right: 10px;
+}
+
+input#telephone.with-area {
+	width: 251px;
+}
+
+.register .featured {
+	margin: 24px 0 0 0;
+}
+
+div#main-content #inner-left {
+	width: 200px;
+}
+
+#inner-right form p {
+	display: block;
+	width: auto !important;
+}
+
+.button-container {
+	text-align: right;
+}
+
+blockquote {
+	font-style: italic;
+	margin: 20px 0 20px 10px;
+}
+
+/* Text fields */
+fieldset.register input.text, .register input.title   { width: 300px; margin:0.5em 0.5em 0.5em 0; }
+form fieldset.register input[type="text"]		{ width: 300px; }
+fieldset.register input.text, input.title   { border:1px solid #bbb; background:#f6f6f6; padding:5px; }
+fieldset.register input.text:focus,
+fieldset.register input.title:focus         { border:1px solid #999; background:#fff; }
+fieldset.register input.title               { font-size:1.5em; }
+
+/* Textareas */
+fieldset.register textarea            { width: 400px; height: 250px; margin:0.5em 0.5em 0.5em 0; }
+fieldset.register textarea            { border:1px solid #bbb; background:#eee; padding:5px; }
+fieldset.register textarea:focus      { border:1px solid #999; background:#fff; }
+
+/* Select fields */ /* (these are nice but don't match the UAL styles) */
+/*.register select              { border:1px solid #ccc; background:#f6f6f6; }
+.register select:focus        { border:1px solid #999; background:#fff; }*/
+
+
+/* CUSTOM STYLES FOR LCF FORMS */
+
+
+/* GENERAL FORM CONTROLS */
+.register textarea, .register select {
+	padding: 4px;
+	margin: 5px 0;
+}
+
+.register label.error { 
+	display: none;
+}
+
+.register fieldset.guest label {
+	display: inline;
+}
+
+input#upto {
+	width: 500px;
+}
+
+/* SUBMIT */
+div.submission {
+	text-align: right;
+}
+
+.block {
+	padding-top: 10px;
+	border-top: 1px dotted #3B5A6F;
+}
+
+.highlight {
+	background-color: #FFFACC;
+	padding: 9px;
+	margin-bottom: 18px;
+	opacity: 0;
+	line-height: 1.5em;
+}
+
+div#main-content #inner-left {
+	width: 200px;
+}
+
+div#main-content #inner-left.success {
+	height: 100px;
+	background: url(../img/check.png) 100px 0 no-repeat;
+}
+
+.icon-block {
+	padding-left: 46px;
+	height: 44px;
+}
+
+.icon-block.pp {
+	background: url(../img/peacock.jpg) top left no-repeat;
+}
+.icon-block.facebook {
+	background: url(../img/facebook.jpg) top left no-repeat;
+}
+.icon-block.twitter {
+	background: url(../img/twitter.jpg) top left no-repeat;
+}
+
+#printer {
+	cursor: pointer;
+	position: absolute;
+	text-align: left;
+	top: 139px;
+	right: 0;
+	padding: 2px;
+	width: 96px;
+	border: 1px solid #ccc;
+	background: #bef9bb url(../img/printer.png) 82px 2px no-repeat;
+}
+
+#printer img {
+	margin: 2px;
+}
+
+#printer small {
+	margin: -2px 0 0;
+}
+
+/* Inline styles for Nested Accordion lists - AM 17-7-08 */
+
+ul#list-folding.ui-accordion ul.inner li {
+	height: auto !important;	
+	background-color: transparent;
+	min-height: 10px;
+}
+
+#list-folding form {
+	background-color: #FFF;
+}
+
+#list-folding ul.inner {
+	_margin: 0 0 0 26px;
+}
+    
+#list-folding ul.inner li div.sublist_content {
+	margin: 10px 0 0 -24px;
+	_margin: 10px 0 0 -28px; 
+}
+
+.ui-accordion ul.inner li a {
+	cursor: pointer;
+}
+
+ul#list-folding li ul.inner li a {
+	background-color: transparent;
+}
+
+.sublist_content p {
+
+}
+
+button[type="submit"] {
+	cursor: pointer;
+	background-color: #FFF;
+	border: none;
+}

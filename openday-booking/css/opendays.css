@@ -1,0 +1,240 @@
+/* -------------------------------------------------------------- 
+   
+   forms.css
+   * Sets up some default styling for forms
+   * Gives you classes to enhance your forms
+   
+   Usage:
+   * For text fields, use class .title or .text
+   
+-------------------------------------------------------------- */
+
+.register .bodycopy label { font-weight: normal; }
+
+
+/* Fieldsets */
+fieldset.register     { padding:1.4em; margin: 0.5em 0; }
+
+/* Text fields */
+fieldset.register input.text, .register input.title   { width: 300px; margin:0.5em 0.5em 0.5em 0; }
+form fieldset.register input[type="text"]		{ width: 300px; }
+fieldset.register input.text, input.title   { border:1px solid #bbb; background:#f6f6f6; padding:5px; }
+fieldset.register input.text:focus,
+fieldset.register input.title:focus         { border:1px solid #999; background:#fff; }
+fieldset.register input.title               { font-size:1.5em; }
+
+/* Textareas */
+fieldset.register textarea            { width: 400px; height: 250px; margin:0.5em 0.5em 0.5em 0; }
+fieldset.register textarea            { border:1px solid #bbb; background:#eee; padding:5px; }
+fieldset.register textarea:focus      { border:1px solid #999; background:#fff; }
+
+/* Select fields */ /* (these are nice but don't match the UAL styles) */
+/*.register select              { border:1px solid #ccc; background:#f6f6f6; }
+.register select:focus        { border:1px solid #999; background:#fff; }*/
+
+
+/* Success, error & notice boxes for messages and errors. */
+.error,
+.notice, 
+.success    {  }
+.error      { color: #D12F19; border-color: #FBC2C4; }
+.notice     { background: #FFF6BF; color: #817134; border-color: #FFD324; }
+/*.success    { background: #E6EFC2; color: #529214; border-color: #C6D880; }*/
+.error a    { color: #D12F19; }
+.notice a   { color: #817134; }
+/*.success a  { color: #529214; }*/
+
+
+/* GENERAL FORM CONTROLS */
+form.register input[type="text"] {
+	margin: 5px 0;
+}
+
+label {
+	margin: 0;
+}
+
+.register label.error { 
+	display: none;
+}
+
+.opendays input[type="submit"], input.clear {
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	border: none;
+	font-family: Georgia,serif;
+   padding: 3px 4px;
+	cursor: pointer;
+}
+.opendays #inner-right input[type="submit"] {
+	background-color: #3B5A6F;
+	color: #fff;
+}
+.opendays #inner-right input.clear {
+	background-color: #fff;
+	color: #3B5A6F;
+}
+
+input#upto {
+	width: 500px;
+}
+
+textarea {
+	width: 600px;
+}
+
+input.checkbox {
+    margin: 4px 10px 2px 0;
+    vertical-align: bottom;
+    *overflow: hidden;
+}
+
+
+
+/* RADIO BUTTONS */
+input.radio {
+	margin: 10px 5px -3px 5px;
+}
+span.radio_option {
+	padding: 0 0 2px 0;
+}
+
+
+/* SUBMIT */
+div.submission {
+	text-align: right;
+}
+
+
+/* SUCCESS / ERROR MESSAGES */	
+#error {
+	border: 2px solid red;
+	padding: 5px 10px;
+}
+
+.error {
+	color: red;
+}
+
+#reload {
+	font-size: 1.6em;
+	margin: 40px 0 20px;
+}
+
+div#main-content #inner-left {
+	width: 200px;
+}
+
+div#main-content #inner-left.success {
+	height: 100px;
+	background: url(../img/check.png) 100px 0 no-repeat;
+}
+
+.icon-block {
+	padding-left: 46px;
+	height: 44px;
+}
+
+.icon-block.pp {
+	background: url(../img/peacock.jpg) top left no-repeat;
+}
+.icon-block.facebook {
+	background: url(../img/facebook.jpg) top left no-repeat;
+}
+.icon-block.twitter {
+	background: url(../img/twitter.jpg) top left no-repeat;
+}
+
+/* ERROR MESSAGES */
+.errMsg {
+	color: #E02007;
+	display: inline;
+	}
+
+.errFld {
+	border: 1px solid #E02007;
+	}
+
+#error h3 {
+	color: red !important;
+}
+
+/* Styles for Nested Accordion lists - AM 4/5/11 */
+.opendays .list-folding li {
+	padding: 0 5px 0 0;
+}
+
+.list-folding li {
+	background-color: transparent;
+}
+
+.sublist_content a {
+	background: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.title {
+	padding: 5px 0 9px;
+	background-color: #D4DADD;
+}
+
+#content-col .list-folding form {
+	background-color: #FFF;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: right;
+}
+
+.inner li a {
+	background-color: transparent !important;
+}
+
+button[type="submit"] {
+	cursor: pointer;
+	background-color: #FFF;
+	border: none;
+}
+
+.sublist_content {
+	display: none;
+	background-color: #fff;
+	padding-top: 10px;
+}
+
+.list-folding li .sublist_content li {
+	height: auto !important;	
+	background-color: transparent;
+	min-height: 10px;
+}
+
+.sublist_content p {
+	width: auto !important;
+}
+
+/* IE */
+.ie .register legend {
+	margin: 0 0 0 -8px; color: #3B5A6F;
+}
+
+.ie .register fieldset {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.ie .register input.textfield {
+	width: 280px;
+}
+
+.ie div#main-content #inner-left.success {
+	width: 180px;
+	background: url(../img/check.gif) top left no-repeat;
+}
+
+.ie div#main-content #inner-right.success {
+	margin-right: 10px; /* dunno why - oh yeah IE's shit */
+}
+
+.ie #printer {
+	right: 35px;
+}
