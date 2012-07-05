@@ -1,6 +1,6 @@
 <?php 
 $page = "index";
-$title = "Open Days";
+$title = "Open Days Survey";
 include('header.php'); 
 ?>
            
