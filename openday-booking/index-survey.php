@@ -21,7 +21,7 @@ include('header.php');
 				</li>
 				</div>
 
-				<div id="list12" class="sublist_content">
+				<div id="list13" class="sublist_content">
 					<p>Please note the times indicated above.</p>
 					<ul class="inner">
 					<li><strong>BA Fashion Design and Realisation</strong></li>
