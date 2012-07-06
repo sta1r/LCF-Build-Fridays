@@ -13,15 +13,15 @@ include('header.php');
 		 <ul class="list-folding">
 
 			<li>
-				<div class="title expander"><a href="#"><span>Fashion Design</span></a><br /><span class="bodycopy">Saturday 15 September and Saturday 6 October (John Prince’s Street)</span></div>
+				<div class="title expander"><a href="#"><span>Fashion Design</span></a><br /><span class="bodycopy">Saturday 15 September and Saturday 6 October, 11am (John Prince’s Street)</span></div>
 
 				<div id="list1" class="sublist_content bodycopy">
 					<ul class="inner">
-						<li>BA (Hons) Fashion Design Technology: Menswear and Womenswear (11am)</li>
-						<li>FdA Designer Pattern Cutter (11am)</li>
-						<li>Becoming an LCF Student (12pm)</li>
-						<li>BA (Hons) Fashion Design and Development, Contour and Sportswear (1pm)</li>
-						<li>MDes International Fashion Production Management (1pm)</li>
+						<li>BA (Hons) Fashion Design Technology: Menswear and Womenswear</li>
+						<li>FdA Designer Pattern Cutter</li>
+						<li>Becoming an LCF Student</li>
+						<li>BA (Hons) Fashion Design and Development, Contour and Sportswear</li>
+						<li>MDes International Fashion Production Management</li>
 					</ul>
 					<p>Tours will be available at our Curtain Road site after the presentation.</p>
 
@@ -32,14 +32,14 @@ include('header.php');
 				</div>
 			</li><!-- #list1 -->
 			<li>
-				<div class="title expander"><a href="#"><span>Textiles and Fashion Design and Marketing</span></a><br /><span class="bodycopy">Wednesday 19 September and Wednesday 10 October (Lime Grove)</span></div>
+				<div class="title expander"><a href="#"><span>Textiles and Fashion Design and Marketing</span></a><br /><span class="bodycopy">Wednesday 19 September and Wednesday 10 October, 11am (Lime Grove)</span></div>
 
 				<div id="list2" class="sublist_content bodycopy">
 					<ul class="inner">
-						<li>FdA Fashion Design Technology (Knitwear and Surface Textiles) (11am)</li>
-						<li>BA (Hons) Fashion Design Technology: Fashion Textiles (11am)</li>
-						<li>Becoming an LCF Student (12pm)</li>
-						<li>FdA Fashion Design and Marketing (1pm)</li>
+						<li>FdA Fashion Design Technology (Knitwear and Surface Textiles)</li>
+						<li>BA (Hons) Fashion Design Technology: Fashion Textiles</li>
+						<li>Becoming an LCF Student</li>
+						<li>FdA Fashion Design and Marketing</li>
 					</ul>
 
 					<form action="booking.php" method="get">    
@@ -49,15 +49,15 @@ include('header.php');
 				</div>
 			</li><!-- #list2 -->
 			<li>
-				<div class="title expander"><a href="#"><span>Cordwainers Footwear/Accessories and Fashion Jewellery</span></a><br /><span class="bodycopy">Thursday 4 October and Wednesday 17 October (Golden Lane)</span></div>
+				<div class="title expander"><a href="#"><span>Cordwainers Footwear/Accessories and Fashion Jewellery</span></a><br /><span class="bodycopy">Thursday 4 October and Wednesday 17 October, 11am (Golden Lane)</span></div>
 
 				<div id="list3" class="sublist_content bodycopy">
 					<ul class="inner">
-						<li>FdA Cordwainers Footwear (11am)</li>
-						<li>BA(Hons) Cordwainers Footwear (11am)</li>
-						<li>Becoming an LCF Student (12pm)</li>
-						<li>BA (Hons) Cordwainers Accessories (1pm)</li>
-						<li>BA (Hons) Fashion Jewellery (1pm)</li>
+						<li>FdA Cordwainers Footwear</li>
+						<li>BA(Hons) Cordwainers Footwear</li>
+						<li>Becoming an LCF Student</li>
+						<li>BA (Hons) Cordwainers Accessories</li>
+						<li>BA (Hons) Fashion Jewellery</li>
 					</ul>
 
 					<form action="booking.php" method="get">    
@@ -67,13 +67,13 @@ include('header.php');
 				</div>
 			</li><!-- #list3 -->
 			<li>
-				<div class="title expander"><a href="#"><span>Tailoring</span></a><br /><span class="bodycopy">Wednesday 31 October (Mare Street)</span></div>
+				<div class="title expander"><a href="#"><span>Tailoring</span></a><br /><span class="bodycopy">Wednesday 31 October, 1pm (Mare Street)</span></div>
 
 				<div id="list4" class="sublist_content bodycopy">
 					<ul class="inner">
-						<li>Becoming an LCF Student (1pm)</li>
-						<li>FdA Tailoring (2pm)</li>
-						<li>BA (Hons) Bespoke Tailoring (2pm)</li>
+						<li>Becoming an LCF Student</li>
+						<li>FdA Tailoring</li>
+						<li>BA (Hons) Bespoke Tailoring</li>
 					</ul>
 
 					<form action="booking.php" method="get">    
@@ -83,16 +83,16 @@ include('header.php');
 				</div>
 			</li><!-- #list4 -->
 			<li>
-				<div class="title expander"><a href="#"><span>Fashion Management and Fashion Business</span></a><br /><span class="bodycopy">Wednesday 26 September and Saturday 13 October (High Holborn)</span></div>
+				<div class="title expander"><a href="#"><span>Fashion Management and Fashion Business</span></a><br /><span class="bodycopy">Wednesday 26 September and Saturday 13 October, 11am (High Holborn)</span></div>
 
 				<div id="list5" class="sublist_content bodycopy">
 					<ul class="inner">
-						<li>Introduction from the Dean of Management and Science (11am)</li>
-						<li>BA (Hons) Fashion Management (12pm)</li>
-						<li>MSc International Fashion Management (12pm)</li>
-						<li>FdA Fashion Buying and Merchandising (12pm and 1.30pm)</li>
-						<li>FdA Fashion Marketing and Promotion  (12pm and 1.30pm)</li>
-						<li>FdA Fashion Retail Branding and Visual Merchandising (3pm)</li>
+						<li>Introduction from the Dean of Management and Science</li>
+						<li>BA (Hons) Fashion Management</li>
+						<li>MSc International Fashion Management</li>
+						<li>FdA Fashion Buying and Merchandising</li>
+						<li>FdA Fashion Marketing and Promotion</li>
+						<li>FdA Fashion Retail Branding and Visual Merchandising</li>
 					</ul>
 					<p>Please note FdA Fashion Retail Branding and Visual Merchandising sessions will be held at John Prince’s Street site after the Introductory session at High Holborn. Students will be shown how to get there on the day</p>
 
@@ -103,13 +103,13 @@ include('header.php');
 				</div>
 			</li><!-- #list5 -->
 			<li>
-				<div class="title expander"><a href="#"><span>Cosmetic Science and Beauty and Spa Management</span></a><br /><span class="bodycopy">Friday 12 October (John Prince’s Street)</span></div>
+				<div class="title expander"><a href="#"><span>Cosmetic Science and Beauty and Spa Management</span></a><br /><span class="bodycopy">Friday 12 October, 11am (John Prince’s Street)</span></div>
 
 				<div id="list6" class="sublist_content bodycopy">
 					<ul class="inner">
-						<li>MSc Cosmetic Science (11am)</li>
-						<li>Becoming an LCF Student (12pm)</li>
-						<li>FdSc Beauty and Spa Management (1pm)</li>
+						<li>MSc Cosmetic Science</li>
+						<li>Becoming an LCF Student</li>
+						<li>FdSc Beauty and Spa Management</li>
 					</ul>
 					<p>A taster session is available for students interested in MSc Cosmetic Science between 2pm-5pm. To book a place please email opendays@fashion.arts.ac.uk as spaces are limited.</p>
 
@@ -120,15 +120,15 @@ include('header.php');
 				</div>
 			</li><!-- #list6 -->
 			<li>
-				<div class="title expander"><a href="#"><span>Performance Design</span></a><br /><span class="bodycopy">Saturday 22 September and Saturday 20 October (Lime Grove)</span></div>
+				<div class="title expander"><a href="#"><span>Performance Design</span></a><br /><span class="bodycopy">Saturday 22 September and Saturday 20 October, 11am (Lime Grove)</span></div>
 
 				<div id="list7" class="sublist_content bodycopy">
 					<ul class="inner">
-						<li>BA (Hons) Technical Effects for Performance (11am)</li>
-						<li>Becoming an LCF Student (12pm)</li>
-						<li>BA (Hons) Costume for Performance (1pm)</li>
-						<li>FdA Hair and Make Up for Film and TV (2pm)</li>
-						<li>BA (Hons) Make Up and Prosthetics for Performance (3pm)</li>
+						<li>BA (Hons) Technical Effects for Performance</li>
+						<li>Becoming an LCF Student</li>
+						<li>BA (Hons) Costume for Performance</li>
+						<li>FdA Hair and Make Up for Film and TV</li>
+						<li>BA (Hons) Make Up and Prosthetics for Performance</li>
 					</ul>
 
 					<form action="booking.php" method="get">    
@@ -138,18 +138,18 @@ include('header.php');
 				</div>
 			</li><!-- #list7 -->
 			<li>
-				<div class="title expander"><a href="#"><span>Fashion Media and Communications</span></a><br /><span class="bodycopy">Saturday 29 September and Saturday 27 October (Lime Grove)</span></div>
+				<div class="title expander"><a href="#"><span>Fashion Media and Communications</span></a><br /><span class="bodycopy">Saturday 29 September and Saturday 27 October, 10.30am (Lime Grove)</span></div>
 
 				<div id="list8" class="sublist_content bodycopy">
 					<ul class="inner">
-						<li>BA (Hons) Fashion Public Relations (10.30am)</li>
-						<li>BA (Hons) Fashion Journalism (10.30am)</li>
-						<li>Becoming an LCF Student (11.30am)</li>
-						<li>FdA Hair and Make Up for Fashion (12pm)</li>
-						<li>BA (Hons) Fashion Photography (1pm)</li>
-						<li>FdA Fashion Styling and Photography (2pm)</li>
-						<li>BA (Hons) Creative Direction for Fashion (3pm)</li>
-						<li>BA (Hons) Fashion Illustration (4pm)</li>
+						<li>BA (Hons) Fashion Public Relations</li>
+						<li>BA (Hons) Fashion Journalism</li>
+						<li>Becoming an LCF Student</li>
+						<li>FdA Hair and Make Up for Fashion</li>
+						<li>BA (Hons) Fashion Photography</li>
+						<li>FdA Fashion Styling and Photography</li>
+						<li>BA (Hons) Creative Direction for Fashion</li>
+						<li>BA (Hons) Fashion Illustration</li>
 					</ul>
 
 					<form action="booking.php" method="get">    
@@ -176,14 +176,14 @@ include('header.php');
 				</div>
 			</li><!-- #list9 -->
 			<li>
-				<div class="title expander"><a href="#"><span>Further Education</span></a><br /><span class="bodycopy">Wednesday 6 February and Wednesday 27 February 2013 (Lime Grove)</span></div>
+				<div class="title expander"><a href="#"><span>Further Education</span></a><br /><span class="bodycopy">Wednesday 6 February and Wednesday 27 February 2013, 11am (Lime Grove)</span></div>
 
 				<div id="list10" class="sublist_content bodycopy">
 					<ul class="inner">
-						<li>Access to HE (Diploma): Fashion Business (11am)</li>
-						<li>Becoming an LCF Student (12pm)</li>
-						<li>Access to HE (Diploma): Fashion Media and Communications (1pm)</li>
-						<li>Access to HE (Diploma): Fashion (2pm)</li>
+						<li>Access to HE (Diploma): Fashion Business</li>
+						<li>Becoming an LCF Student</li>
+						<li>Access to HE (Diploma): Fashion Media and Communications</li>
+						<li>Access to HE (Diploma): Fashion</li>
 					</ul>
 
 					<form action="booking.php" method="get">    
