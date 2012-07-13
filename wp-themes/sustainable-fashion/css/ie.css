@@ -1,0 +1,15 @@
+#gel {
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f670800, endColorstr=#7f670800);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f670800, endColorstr=#7f670800)";	
+	background: transparent; /* additional requirement for #gel transparency - see http://robertnyman.com/2010/01/11/css-background-transparency-without-affecting-child-elements-through-rgba-and-filters/ */
+}
+
+#main-content blockquote {
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33FFFFFF, endColorstr=#33FFFFFF);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#330033ff, endColorstr=#330033ff)";	
+	background: transparent;
+}
