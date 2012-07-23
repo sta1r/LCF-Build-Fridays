@@ -5,13 +5,13 @@
 	case "fd-15sep":
   $opendaytitle = 'Fashion Design'; 
 		$opendaydatestring = 'Saturday 15 September';
-		$opendaylocation = 'John Prince’s Street';
+		$opendaylocation = 'John Prince\'s Street';
 		$opendayextras = '';
  	break;
 	case "fd-6oct":
   $opendaytitle = 'Fashion Design'; 
 		$opendaydatestring = 'Saturday 6 October';
-		$opendaylocation = 'John Prince’s Street';
+		$opendaylocation = 'John Prince\'s Street';
 		$opendayextras = '';
  	break;
 	case "tm-19sep":
@@ -59,7 +59,7 @@
 	case "cs-12oct":
   $opendaytitle = 'Cosmetic Science and Beauty and Spa Management'; 
 		$opendaydatestring = 'Friday 12 October';
-		$opendaylocation = 'John Prince’s Street';
+		$opendaylocation = 'John Prince\'s Street';
 		$opendayextras = '';
  	break;
 	case "pd-22sep":
@@ -89,19 +89,19 @@
 	case "pt-28nov":
   $opendaytitle = 'Part Time Degrees'; 
 		$opendaydatestring = 'Wednesday 28 November';
-		$opendaylocation = 'John Prince’s Street';
+		$opendaylocation = 'John Prince\'s Street';
 		$opendayextras = '';
  	break;
 	case "pt-13feb":
   $opendaytitle = 'Part Time Degrees'; 
 		$opendaydatestring = 'Wednesday 13 February';
-		$opendaylocation = 'John Prince’s Street';
+		$opendaylocation = 'John Prince\'s Street';
 		$opendayextras = '';
  	break;
 	case "pt-11may":
   $opendaytitle = 'Part Time Degrees'; 
 		$opendaydatestring = 'Saturday 11 May';
-		$opendaylocation = 'John Prince’s Street';
+		$opendaylocation = 'John Prince\'s Street';
 		$opendayextras = '';
  	break;
 	case "fe-6feb":

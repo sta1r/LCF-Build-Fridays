@@ -1,6 +1,6 @@
 <?php 
 $page = "index";
-$title = "Open Days Booking";
+$title = "Select your open day";
 include('header.php'); 
 ?>
            
@@ -8,10 +8,9 @@ include('header.php');
 
 		<div id="inner-right">
 
-				<p></p>
+			<p>Please choose your area of interest from the list below and click 'Select' to book your place. Our postgraduate dates will be advertised shortly.</p>
 
 		 <ul class="list-folding">
-
 			<li>
 				<div class="title expander"><a href="#"><span>Fashion Design</span></a><br /><span class="bodycopy">Saturday 15 September and Saturday 6 October, 11am (John Prince’s Street)</span></div>
 
@@ -107,7 +106,7 @@ include('header.php');
 
 				<div id="list6" class="sublist_content bodycopy">
 					<ul class="inner">
-						<li>MSc Cosmetic Science</li>
+						<li>MSc Cosmetic Science (Integrated MSc with BSc exit point)</li>
 						<li>Becoming an LCF Student</li>
 						<li>FdSc Beauty and Spa Management</li>
 					</ul>

@@ -41,7 +41,7 @@
 				   <li><a href="http://www.arts.ac.uk/e-bulletin/"><span>e-bulletin</span></a></li>
 
 				</ul>
-		    <div class="grid_16"><p class="copyright">&copy; 2011 University of the Arts London All Rights Reserved.</p></div>
+		    <div class="grid_16"><p class="copyright">&copy; <?php echo date('Y'); ?> University of the Arts London All Rights Reserved.</p></div>
 		</div>
 		
 		
@@ -51,15 +51,24 @@
 
 		<script type="text/javascript" src="js/jquery.metadata.js"></script><!-- the metadata script is essential to make validation work with checkboxes -->
 		<script type="text/javascript" src="js/clear-form-input.js"></script>
-		<script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
 
 		<script type="text/javascript">
 
+		// The Metadata plugin enables us to add special attributes to the first checkbox in any group, that add special conditions for validation
 		$.metadata.setType("attr", "validate");
 
 		$(document).ready(function(){
 
-				$("#register").validate();
+				$("#register").validate(/*{
+					rules: {
+								interest: {
+									//required: "#newsletter:checked",
+									minlength: 1
+								},
+								agree: "required"
+							}
+				}*/);
 
 				$('.expander').click(function(e) {
 					$(this).parent().find('.sublist_content').slideToggle();

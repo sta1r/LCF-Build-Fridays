@@ -14,33 +14,40 @@ $last_name=$_POST['last_name'];
 $email=$_POST['email'];
 $telephone=$_POST['telephone'];
 $guest=$_POST['guest'];
+$gender=$_POST['gender'];
+$age=$_POST['age'];
+$region=$_POST['region'];
+$doing=$_POST['doing'];
+$firstuni=$_POST['first-uni'];
 $interest=$_POST['interest'];
 $course_level=$_POST['course_level'];
 $study_mode=$_POST['study_mode'];
 $optout=$_POST['optout'];
 
-
 // generate a subject list string for course choices containing multiple checkbox selections
 function getList($array) {
-	$the_list = '';
-	$i = 0;
 	
-	foreach ($array as $list_item) {
-		if ($i == 0) {
+	if($array) {
+		$the_list = '';
+		$i = 0;
+	
+		foreach ($array as $list_item) {
+			if ($i == 0) {
 
-			$the_list = $list_item;
+				$the_list = $list_item;
 
-		} else {
+			} else {
 
-			$the_list = $the_list.', '.$list_item;
+				$the_list = $the_list.', '.$list_item;
 
+			}
+
+			$i++;
 		}
-
-		$i++;
-	}
 	
-	$array = $the_list;
-	return $array;
+		$array = $the_list;
+		return $array;
+	}
 	
 }
 
@@ -70,7 +77,7 @@ include('db_connect.php');
 
 // enter values into the database
 $sql = "insert into lcfopenday0910 values 
-		(NULL, '".$first_name."', '".$last_name."', '".$email."', '".$telephone."', '".$opendaydate[0]."', '".$guest[0]."', '".$course_level_list."', '".$study_mode_list."', '".$interest_list."', '".$optout."', NOW())";
+		(NULL, '".$first_name."', '".$last_name."', '".$email."', '".$telephone."', '".$opendaydate[0]."', '".$guest[0]."', '".$gender[0]."', '".$age[0]."', '".$region."', '".$doing[0]."', '".$firstuni[0]."', '".$course_level_list."', '".$study_mode_list."', '".$interest_list."', '".$optout."', NOW())";
 
 $result = mysql_query($sql, $db);
 
@@ -100,12 +107,11 @@ mysql_close($db);
 <div id="inner-left" class="success"></div>				
 <div id="inner-right" class="success">
 
-<div id="responsedata">
-<?php 
-include('responsedata.php');
-include('success.html'); 
-?>
-</div><!-- #responsedata -->
+<!--<div id="responsedata">
+	<p>Thank you for registering your details with us. We will contact you by email once the open days are available for booking.</p>
+</div>--><!-- #responsedata -->
+<?php include('responsedata.php'); ?>
+<?php include('success.html'); ?>
 
 </div><!-- #inner-right -->
 
@@ -117,7 +123,6 @@ $subject = 'LCF Open Days - '.$first_name.' '.$last_name.' - Your Booking';
 // send the email
 mail($email, $subject, $message, $headers);
 ?>
-
 
 <?php } // end if good data conditional ?>
 

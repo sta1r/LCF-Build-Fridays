@@ -58,7 +58,7 @@
 		
 		<header class="grid_16">
 			<!-- Start of LCF header code -->
-    		<div id="logo"><a href="http://www.fashion.arts.ac.uk/"><img src="http://www.arts.ac.uk/css/purple.gif" alt="London College of Fashion" /></a></div>
+    		<div id="logo"><a href="http://www.fashion.arts.ac.uk/"><img src="http://www.fashion.arts.ac.uk/media/artsacukstyleassets/styleassets/images/purple.gif" alt="London College of Fashion" /></a></div>
 
 		    <div id="guides"></div>
 
@@ -75,7 +75,9 @@
 
 		    <a href="#content" class="aa">Skip secondary navigation</a>
 
-				<ul id="nav-sub" class="nav"><li><a href="http://www.fashion.arts.ac.uk/">Home</a></li><li><a href="http://www.fashion.arts.ac.uk/about/">About Us</a></li><li><a href="http://www.fashion.arts.ac.uk/courses/">Courses</a></li><li><a href="http://newsevents.arts.ac.uk/lcf/">News &amp; Events</a></li><li><a href="http://www.fashion.arts.ac.uk/showcase/">Showcase</a></li><li><a href="http://www.fashion.arts.ac.uk/research/">Research</a></li><li><a href="http://www.fashion.arts.ac.uk/contact/">Contact Us</a></li><li><a href="http://www.fashion.arts.ac.uk/international/">International</a></li><li><span class="currentbranch0">Open Days</span></li><li><a href="http://www.fashion.arts.ac.uk/enterprise/">Enterprise</a></li><li><a href="http://www.fashion.arts.ac.uk/alumni/">Alumni</a></li></ul>
+				<ul id="nav-sub" class="nav"><li><a href="/">Home</a></li><li><a href="/about/">About Us</a></li><li><a href="/courses/">Courses</a></li><li><span class="currentbranch0"><a href="/prospective-students/">Prospective Students</a></span></li><li><a href="http://newsevents.arts.ac.uk/lcf/">News &amp; Events</a></li><li><a href="/showcase/">Showcase</a></li><li><a href="/research/">Research</a></li><li><a href="/international/">International</a></li><li><a href="/enterprise/">Enterprise</a></li><li><a href="/alumni/">Alumni</a></li></ul>
+				         <!-- navigation object : College Top Navigation Column 3 --><ul id="nav-popup" class="nav"><li><a href="/prospective-students/how-to-apply/">How to apply</a></li><li><span class="currentbranch0">Open Days</span></li><li><a href="/prospective-students/student-services/">Student Services</a></li><li><a href="/prospective-students/scholarships/">Scholarships</a></li><li><a href="/prospective-students/virtual-tours/">Virtual Tours</a></li><li><a href="/prospective-students/facilities/">Facilities</a></li><li><a href="/prospective-students/portfolio-advice/">Portfolio advice</a></li><li><a href="/prospective-students/mature-students/">Mature students</a></li><li><a href="/prospective-students/../student-stories/">Meet our students</a></li><li><a href="/prospective-students/../brochure/">LCF Brochures</a></li></ul>
+				
 
 				<!--<ul id="nav-popup" class="nav"><li><a href="http://www.fashion.arts.ac.uk/opendays/cantmakethedate/">Can't make the date?</a></li><li><a href="http://www.fashion.arts.ac.uk/opendays/lcfontour/">LCF On Tour</a></li></ul>-->
 
@@ -104,8 +106,14 @@
         <div id="breadcrumb-trail">
             <ul>
                 <li><a href="http://www.fashion.arts.ac.uk/"><span>London College of Fashion</span></a></li>
+								<li><a href="http://www.fashion.arts.ac.uk/prospective-students/">Prospective Students</a></li>
                 <li><a href="http://www.fashion.arts.ac.uk/opendays/">Open Days</a></li>
-					 			<li class="active">Booking</li>
+					 			<?php if ($page == 'index') { ?>
+									<li class="active">Select</li>
+								<?php } else { ?>
+									<li><a href="http://www.fashion.arts.ac.uk/openday-booking/">Select</a></li>
+									<li class="active">Booking</li>
+								<?php } ?>
             </ul>
         </div>
         <div id="content-col">

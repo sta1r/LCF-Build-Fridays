@@ -25,7 +25,7 @@ include('header.php');
 						
 		<?php } else { ?>		
 		
-	<form action="response_b.php" id="register" class="register" method="post">
+	<form action="response.php" id="register" class="register" method="post">
 
 		<fieldset id="opendays">
 			<legend>Available dates</legend>
@@ -80,7 +80,7 @@ include('header.php');
 			</select>
 		</fieldset><!-- #opendays -->	
 		
-		
+
 		<fieldset id="usermeta">
 			<legend>Your details</legend>
 			<label for="first_name">First Name *</label>
@@ -94,7 +94,6 @@ include('header.php');
 		
 			<label for="telephone">Telephone * </label>
 			<input type="text" id="telephone" name="telephone" class="textfield required" /><br />
-		
 		</fieldset><!-- Usermeta -->
 			
 		<fieldset class="guest">
@@ -127,13 +126,13 @@ include('header.php');
 				<input type=checkbox name="interest[]" value="FdA Hair and Make Up for Film and TV" class="checkbox">FdA Hair and Make Up for Film and TV<br/>
 				<?php 	break;
 					 case "pt": ?>
-				<p><label><input type=checkbox name="interest[]" value="BA (Hons) Fashion Media" class="checkbox">BA (Hons) Fashion Media (Part time)</label></p>
+				<p><label><input type=checkbox name="interest[]" value="BA (Hons) Fashion Media" class="checkbox" validate="required:true, minlength:1">BA (Hons) Fashion Media (Part time)</label></p>
 				<p><label><input type=checkbox name="interest[]" value="BA (Hons) Fashion Design Realisation" class="checkbox">BA (Hons) Fashion Design Realisation (Part time)</label></p>
 				<p><label><input type=checkbox name="interest[]" value="BA (Hons) Fashion Business" class="checkbox">BA (Hons) Fashion Business (Part time)</label></p>
 				<p><label><input type=checkbox name="interest[]" value="FdA Fashion Retail Branding and Visual Merchandising" class="checkbox">Foundation Degree Fashion Retail Branding and Visual Merchandising (Part time)</label></p>
 				<?php 	break;					
 				    case "pg-fb": ?> 
-				<input type=checkbox name="interest[]" value="PG Cert Fashion Buying and Merchandising" class="checkbox">PG Cert Fashion Buying and Merchandising<br/>				
+				<input type=checkbox name="interest[]" value="PG Cert Fashion Buying and Merchandising" class="checkbox" validate="required:true, minlength:1">PG Cert Fashion Buying and Merchandising<br/>				
 				<input type=checkbox name="interest[]" value="MA Design Management for the Fashion Industries" class="checkbox">MA Design Management for the Fashion Industries<br/>
 				<input type=checkbox name="interest[]" value="MA Fashion Entrepreneurship" class="checkbox">MA Fashion Entrepreneurship<br/>
 				<input type=checkbox name="interest[]" value="MA Fashion and the Environment" class="checkbox">MA Fashion and the Environment<br/>
