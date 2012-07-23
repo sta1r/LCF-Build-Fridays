@@ -2,155 +2,119 @@
 // this file lists all the information related to an individual openday selection
 	switch ($opendaydate[0])
 	{
-    case "hh14sept":
-    $opendaytitle = 'High Holborn Open Day (Fashion Business and Fashion Management)'; 
-		$opendaydatestring = 'Wednesday 14 September';
-		$opendaylocation = 'High Holborn';
+	case "fd-15sep":
+  $opendaytitle = 'Fashion Design'; 
+		$opendaydatestring = 'Saturday 15 September';
+		$opendaylocation = 'John Prince’s Street';
 		$opendayextras = '';
-   	break;
-    case "hh1oct":
-    $opendaytitle = 'High Holborn Open Day (Fashion Business and Fashion Management)'; 
-		$opendaydatestring = 'Saturday 1 October';
-		$opendaylocation = 'High Holborn';
+ 	break;
+	case "fd-6oct":
+  $opendaytitle = 'Fashion Design'; 
+		$opendaydatestring = 'Saturday 6 October';
+		$opendaylocation = 'John Prince’s Street';
 		$opendayextras = '';
-   	break;
-    case "jps-fd17sept":
-    $opendaytitle = 'John Prince\'s Street Open Day (Fashion Design)'; 
-		$opendaydatestring = 'Saturday 17 September';
-		$opendaylocation = 'John Prince\'s Street';
+ 	break;
+	case "tm-19sep":
+	  $opendaytitle = 'Textiles and Fashion Design and Marketing'; 
+			$opendaydatestring = 'Wednesday 19 September';
+			$opendaylocation = 'Lime Grove';
+			$opendayextras = '';
+	break;
+	case "tm-10oct":
+	  $opendaytitle = 'Textiles and Fashion Design and Marketing'; 
+			$opendaydatestring = 'Wednesday 10 October';
+			$opendaylocation = 'Lime Grove';
+			$opendayextras = '';
+	break;
+	case "cf-4oct":
+	  $opendaytitle = 'Cordwainers Footwear/Accessories and Fashion Jewellery'; 
+			$opendaydatestring = 'Thursday 4 October';
+			$opendaylocation = 'Golden Lane';
+			$opendayextras = '';
+	break;
+	case "cf-17oct":
+	  $opendaytitle = 'Cordwainers Footwear/Accessories and Fashion Jewellery'; 
+			$opendaydatestring = 'Wednesday 17 October';
+			$opendaylocation = 'Golden Lane';
+			$opendayextras = '';
+	break;
+	case "ta-31oct":
+	  $opendaytitle = 'Tailoring'; 
+			$opendaydatestring = 'Wednesday 31 October';
+			$opendaylocation = 'Mare Street';
+			$opendayextras = '';
+	break;
+	case "mb-26sep":
+	  $opendaytitle = 'Fashion Management and Fashion Business'; 
+			$opendaydatestring = 'Wednesday 26 September';
+			$opendaylocation = 'High Holborn';
+			$opendayextras = '';
+	break;
+	case "mb-13oct":
+	  $opendaytitle = 'Fashion Management and Fashion Business'; 
+			$opendaydatestring = 'Saturday 13 October';
+			$opendaylocation = 'High Holborn';
+			$opendayextras = '';
+	break;
+	case "cs-12oct":
+  $opendaytitle = 'Cosmetic Science and Beauty and Spa Management'; 
+		$opendaydatestring = 'Friday 12 October';
+		$opendaylocation = 'John Prince’s Street';
 		$opendayextras = '';
-   	break;
-    case "jps-fd15oct":
-    $opendaytitle = 'John Prince\'s Street Open Day (Fashion Design)'; 
-		$opendaydatestring = 'Saturday 15 October';
-		$opendaylocation = 'John Prince\'s Street';
-		$opendayextras = '';
-   	break;
-    case "lg-mc16sept":
-    $opendaytitle = 'Lime Grove Open Day (Media and Communications)'; 
-		$opendaydatestring = 'Friday 16 September';
+ 	break;
+	case "pd-22sep":
+  $opendaytitle = 'Performance Design'; 
+		$opendaydatestring = 'Saturday 22 September';
 		$opendaylocation = 'Lime Grove';
 		$opendayextras = '';
-   	break;
-    case "lg-mc22oct":
-    $opendaytitle = 'Lime Grove Open Day (Media and Communications)'; 
-		$opendaydatestring = 'Saturday 22 October';
+ 	break;
+	case "pd-20oct":
+  $opendaytitle = 'Performance Design'; 
+		$opendaydatestring = 'Saturday 20 October';
 		$opendaylocation = 'Lime Grove';
 		$opendayextras = '';
-   	break;
-    case "lg-mup10oct":
-    $opendaytitle = 'Lime Grove Open Day (Make Up and Performance)'; 
-		$opendaydatestring = 'Monday 10 October';
+ 	break;
+	case "mc-29sep":
+  $opendaytitle = 'Fashion Media and Communications'; 
+		$opendaydatestring = 'Saturday 29 September';
 		$opendaylocation = 'Lime Grove';
 		$opendayextras = '';
-   	break;
-    case "lg-mup28oct":
-    $opendaytitle = 'Lime Grove Open Day (Make Up and Performance)'; 
-		$opendaydatestring = 'Friday 28 October';
+ 	break;
+	case "mc-27oct":
+  $opendaytitle = 'Fashion Media and Communications'; 
+		$opendaydatestring = 'Saturday 27 October';
 		$opendaylocation = 'Lime Grove';
 		$opendayextras = '';
-   	break;				
-    case "gl21sept":
-    $opendaytitle = 'Golden Lane Open Day'; 
-		$opendaydatestring = 'Wednesday 21 September';
-		$opendaylocation = 'Golden Lane';
+ 	break;
+	case "pt-28nov":
+  $opendaytitle = 'Part Time Degrees'; 
+		$opendaydatestring = 'Wednesday 28 November';
+		$opendaylocation = 'John Prince’s Street';
 		$opendayextras = '';
-   	break;
-	  case "gl19oct":
-    $opendaytitle = 'Golden Lane Open Day (Footwear, Accessories and Fashion Jewellery)'; 
-		$opendaydatestring = 'Wednesday 19 October';
-		$opendaylocation = 'Golden Lane';
+ 	break;
+	case "pt-13feb":
+  $opendaytitle = 'Part Time Degrees'; 
+		$opendaydatestring = 'Wednesday 13 February';
+		$opendaylocation = 'John Prince’s Street';
 		$opendayextras = '';
-   	break;	
-	  case "ms28sept":
-    $opendaytitle = 'Mare Street Open Day (Tailoring and MDes International Fashion Production Management)'; 
-		$opendaydatestring = 'Wednesday 28 September';
-		$opendaylocation = 'Mare Street';
+ 	break;
+	case "pt-11may":
+  $opendaytitle = 'Part Time Degrees'; 
+		$opendaydatestring = 'Saturday 11 May';
+		$opendaylocation = 'John Prince’s Street';
 		$opendayextras = '';
-   	break;
-	  case "jps-csbt12oct":
-    $opendaytitle = 'John Prince\'s Street Open Day (Cosmetic Science and Beauty Therapy)'; 
-		$opendaydatestring = 'Wednesday 12 October';
-		$opendaylocation = 'John Prince\'s Street';
-		$opendayextras = '';
-   	break;
-	  case "lg-fdm23sept":
-    $opendaytitle = 'Lime Grove Open Day (Textiles and Fashion Design and Marketing)'; 
-		$opendaydatestring = 'Friday 23 September';
+ 	break;
+	case "fe-6feb":
+  $opendaytitle = 'Further Education'; 
+		$opendaydatestring = 'Wednesday 6 February';
 		$opendaylocation = 'Lime Grove';
 		$opendayextras = '';
-   	break;
-	  case "lg-fdm5oct":
-    $opendaytitle = 'Lime Grove Open Day (Textiles and Fashion Design and Marketing)'; 
-		$opendaydatestring = 'Wednesday 5 October';
+ 	break;
+	case "fe-27feb":
+  $opendaytitle = 'Further Education'; 
+		$opendaydatestring = 'Wednesday 27 February';
 		$opendaylocation = 'Lime Grove';
 		$opendayextras = '';
-   	break;
-	  case "lg-fe8feb":
-    $opendaytitle = 'Further Education Courses at Lime Grove'; 
-		$opendaydatestring = 'Wednesday 8 February';
-		$opendaylocation = 'Lime Grove';
-		$opendayextras = '';
-   	break;
-	  case "lg-fe29feb":
-    $opendaytitle = 'Further Education Courses at Lime Grove'; 
-		$opendaydatestring = 'Wednesday 29 February';
-		$opendaylocation = 'Lime Grove';
-		$opendayextras = '';
-   	break;
-	  case "pg-fb1feb":
-    $opendaytitle = 'Postgraduate Courses in Fashion Business'; 
-		$opendaydatestring = 'Wednesday 1 February, 6pm';
-		$opendaylocation = 'John Prince\'s Street';
-		$opendayextras = '';
-   	break;
-	  case "pg-fmc9feb":
-    $opendaytitle = 'Postgraduate Courses in Fashion Media and Communications'; 
-		$opendaydatestring = 'Thursday 9 February, 6pm';
-		$opendaylocation = 'John Prince\'s Street';
-		$opendayextras = '';
-   	break;
-	  case "pg-fdt15feb":
-    $opendaytitle = 'Postgraduate Courses in Fashion Design and Technology'; 
-		$opendaydatestring = 'Saturday 4 February, 10am-12pm';
-		$opendaylocation = 'John Prince\'s Street';
-		$opendayextras = '';
-   	break;
-		case "pt-17sept":
-    $opendaytitle = 'Part Time Degrees'; 
-		$opendaydatestring = 'Saturday 17 September 2011, 10.30am';
-		$opendaylocation = 'The Flexible Factory - The Plaza, 120 Oxford Street';
-		$opendayextras = '';
-   	break;
-	  case "pt-26nov":
-    $opendaytitle = 'Part Time Degrees'; 
-		$opendaydatestring = 'Saturday 26 November, 10.30am';
-		$opendaylocation = 'High Holborn';
-		$opendayextras = '';
-   	break;
-	  case "pt-25feb":
-    $opendaytitle = 'Part Time Degrees';
-		$opendaydatestring = 'Saturday 25 February, 10.30am';
-		$opendaylocation = 'High Holborn';
-		$opendayextras = '';
-   	break;
-	  case "pt-28apr":
-    $opendaytitle = 'Part Time Degrees'; 
-		$opendaydatestring = 'Wednesday 16 May, 6pm';
-		$opendaylocation = 'John Prince\'s Street';
-		$opendayextras = '';
-   	break;
-	  case "pt-7july":
-    $opendaytitle = 'Part Time Degrees'; 
-		$opendaydatestring = 'Saturday 7 July, 10.30am';
-		$opendaylocation = 'John Prince\'s Street';
-		$opendayextras = '';
-   	break;
-	  case "pg-fdt4feb":
-    $opendaytitle = 'Postgraduate Courses in Fashion Design and Technology'; 
-		$opendaydatestring = 'Saturday 4 February, 10am-12pm';
-		$opendaylocation = 'Victoria House, High Holborn';
-		$opendayextras = '';
-   	break;
+ 	break;
 	}	
 ?>

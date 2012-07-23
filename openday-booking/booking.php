@@ -36,55 +36,44 @@ include('header.php');
 			$bSubmit=true;
 			switch ($area)
 		{
-		    case "hh": ?>
-				<!--<option value="hh14sept">Wednesday 14 September</option>-->
-				<!--option value="hh1oct">Saturday 1 October</option-->
-				<option selected>Sorry - this open day is now fully booked</option>
-		<?php   
-				$bSubmit=false;
-				break;
-		    case "jps-fd": ?>
-				<!--<option value="jps-fd17sept">Saturday 17 September</option>-->
-				<option selected>Sorry - this open day is now fully booked</option>
+		    case "fd": ?>
+	      <option value="fd-15sep">Saturday 15 September</option>
+	      <option value="fd-6oct">Saturday 6 October</option>
 		<?php 	break;
-		    case "lg-mc": ?>
-				<!--<option value="lg-mc16sept">Friday 16 September</option>-->
-				<!--option value="lg-mc22oct">Saturday 22 October</option-->
-				<option selected>Sorry - this open day is now fully booked</option>
-		<?php 	
-				$bSubmit=false;
-				break;			
-		    case "lg-mup": ?>
-				<option selected>Sorry - this open day is now fully booked</option>
-		<?php 	break;						
-		    case "gl": ?>
-				<option selected>Sorry - this open day is now fully booked</option>
+		    case "tm": ?>
+	      <option value="tm-19sep">Wednesday 19 September</option>
+	      <option value="tm-10oct">Wednesday 10 October</option>
 		<?php 	break;
-		    case "ms": ?>
-				<option selected>Sorry - this open day is now fully booked</option>
-		<?php 	break;					
-		    case "jps-csbt": ?>
-				<option selected>Sorry - this open day is now fully booked</option>
-		<?php    break;
-		    case "lg-fdm": ?>
-				<option selected>Sorry - this open day is now fully booked</option>
+		    case "cf": ?>
+		  <option value="cf-4oct">Thursday 4 October</option>
+		  <option value="cf-17oct">Wednesday 17 October</option>
 		<?php 	break;
-		    case "lg-fe": ?>
-		    <!--<option value="lg-fe8feb">Wednesday 8 February</option>-->
-				<option value="lg-fe29feb">Wednesday 29 February</option>
-		<?php 	break;			
-		    case "pg-fb": ?>
-				<option selected>Sorry - this open day is now fully booked</option>
-		<?php 	break;						
-		    case "pg-fmc": ?>
-				<option selected>Sorry - this open day is now fully booked</option>
-		<?php 	break;					
-		    case "pg-fdt": ?>
-				<option selected>Sorry - this open day is now fully booked</option>
+		    case "ta": ?>
+		  <option value="ta-31oct">Wednesday 31 October</option>
+		<?php 	break;
+		    case "mb": ?>
+		  <option value="mb-26sep">Wednesday 26 September</option>
+		  <option value="mb-13oct">Saturday 13 October</option>
+		<?php 	break;
+		    case "cs": ?>
+		  <option value="cs-12oct">Friday 12 October</option>
+		<?php 	break;
+		    case "pd": ?>
+		  <option value="pd-22sep">Saturday 22 September</option>
+		  <option value="pd-20oct">Saturday 20 October</option>
+		<?php 	break;
+		    case "mc": ?>
+		  <option value="mc-29sep">Saturday 29 September</option>
+		  <option value="mc-27oct">Saturday 27 October</option>
 		<?php 	break;
 		    case "pt": ?>
-	      <option value="pt-26nov">Saturday 26 November, 10.30am</option>
-	      <option value="pt-7july">Saturday 7 July, 10.30am</option>
+		  <option value="pt-28nov">Wednesday 28 November</option>
+		  <option value="pt-13feb">Wednesday 13 February</option>
+		  <option value="pt-11may">Saturday 11 May</option>
+		<?php 	break;
+		    case "fe": ?>
+		  <option value="fe-6feb">Wednesday 6 February</option>
+		  <option value="fe-27feb">Wednesday 27 February</option>
 		<?php 	break;
 		}
 			?>
