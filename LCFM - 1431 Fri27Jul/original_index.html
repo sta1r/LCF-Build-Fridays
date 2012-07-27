@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>Asger Juel Larsen | LCFM</title>
+
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<link rel="stylesheet" type="text/css" media="all" href="http://www.lcfm.co.uk/wordpress/wp-content/themes/lcf-men/style.css" />
+
+
+    <link rel="stylesheet" media="all" type="text/css" href="http://www.lcfm.co.uk/wordpress/wp-content/themes/lcf-men/css/bg.css">
+
+<script type="text/javascript">
+
+function fBuildNav(active,totes){
+	var i=1;
+	var txt="<a style='text-decoration:none' href='javascript:fLoadPreviousClip();'><</a> ";
+	
+     for (i=1;i<=totes;i++){
+	   if(i == active){
+	     txt=txt+"<a style='text-decoration:underline' href='javascript:fLoadClip("+n[i-1]+","+i+","+totes+")'>"+i+"</a> ";
+	   }else{
+	     txt=txt+"<a style='text-decoration:none' href='javascript:fLoadClip("+n[i-1]+","+i+","+totes+")'>"+i+"</a> ";
+	   }
+	 }
+	 
+	var txt=txt+" <a style='text-decoration:none' href='javascript:fLoadNextClip();'>></a>";
+	
+	var div=document.getElementById("nav");
+    div.innerHTML=txt;
+}
+
+
+var n = new Array();
+function fAddToClipsArray(id){
+    n.push(id);
+}
+
+var c = new Array();
+function fAddToCaptionsArray(cap){
+    c.push(cap);
+}
+
+
+var clipNum=0;
+var clipTotes=0;
+
+function fLoadClip(clipID,num,t){
+  clipTotes = t;
+  if(clipNum==0){
+    clipNum=1;
+  } else{
+    clipNum = num;
+  }
+  
+  var txt=document.getElementById("videoclip")
+  txt.innerHTML="<center><div style='border: solid 10px #FFFFFF; width:580px; height:326px'><iframe src='http://player.vimeo.com/video/"+n[clipNum-1]+"?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff' width='580' height='326' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div><br>"+c[clipNum-1]+"</center>";
+  
+  fBuildNav(clipNum,clipTotes);
+}
+
+function fLoadNextClip(){
+   if (clipNum < clipTotes){
+     clipNum++;
+   }else{
+      clipNum = 1;
+   }
+  var txt=document.getElementById("videoclip")
+  txt.innerHTML="<center><div style='border: solid 10px #FFFFFF; width:580px; height:326px'><iframe src='http://player.vimeo.com/video/"+n[clipNum-1]+"?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff' width='580' height='326' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div><br>"+c[clipNum-1]+"</center>";
+  
+  fBuildNav(clipNum,clipTotes);
+}
+
+function fLoadPreviousClip(){
+   if (clipNum > 1){
+     clipNum--;
+   }else{
+      clipNum = clipTotes;
+   }
+  var txt=document.getElementById("videoclip")
+  txt.innerHTML="<center><div style='border: solid 10px #FFFFFF; width:580px; height:326px'><iframe src='http://player.vimeo.com/video/"+n[clipNum-1]+"?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff' width='580' height='326' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div><br>"+c[clipNum-1]+"</center>";
+  
+  fBuildNav(clipNum,clipTotes);
+}
+
+
+function fBuildImgNav(active,totes){
+	var i=1;
+	
+	
+	var txt="<center style='color:#FFFFFF;'><a style='color:#FFFFFF;text-decoration:none' href='javascript:onclick=changeStackOrder(-1,totes);'><</a>  ";
+	
+     for (i=1;i<=totes;i++){
+	   if(i == active){
+	     txt=txt+"<a style='color:#FFFFFF;text-decoration:underline' href='javascript:onclick=changeStackOrder("+i+",totes);'>"+i+"</a>  ";
+	   }else{
+	     txt=txt+"<a style='color:#FFFFFF;text-decoration:none' href='javascript:onclick=changeStackOrder("+i+",totes);'>"+i+"</a>  ";
+	   }
+	 }
+	 
+	var txt=txt+" <a style='color:#FFFFFF;text-decoration:none' href='javascript:onclick=changeStackOrder(500,totes);'>></a></center>";
+	
+	var div=document.getElementById("imgnav");
+    div.innerHTML=txt;
+	
+	
+}
+
+
+function fHideDiv(s){
+    document.getElementById(s).style.visibility='hidden';
+}
+
+function fShowDiv(s){
+    var vis = document.getElementById(s).style.visibility;
+	if(vis=='hidden'){
+      document.getElementById(s).style.visibility='visible';
+	}else{
+	  document.getElementById(s).style.visibility='hidden';
+	}
+}
+
+
+
+  var imgNum = 1;
+  var totes = 0;
+  
+function changeStackOrder(n,t){
+
+   totes = t;
+   //alert(n +' '+ t +' '+ totes);
+   if(n==500 || n== -1){
+     if(n==500){
+	   //alert (imgNum + ' ' + totes);
+	   if(imgNum < totes){
+	     imgNum++;
+		 fUpDateImgs(imgNum,totes);
+		}else{
+		 imgNum = 1;
+		 fUpDateImgs(imgNum,totes);
+	   }
+	 }else{
+	    //alert (imgNum + ' ' + totes);
+	   if(imgNum > 1){
+	     imgNum--;
+		 fUpDateImgs(imgNum,totes);
+		}else{
+		 imgNum = totes;
+		 fUpDateImgs(imgNum,totes);
+	   }
+	 }
+  }else{
+  
+    fUpDateImgs(n,t);
+    
+	
+  }
+  
+  fBuildImgNav(imgNum,totes);
+}
+
+function fUpDateImgs(n,t){
+     var i=1;
+     for (i=1;i<=20;i++){
+   
+      var El = document.getElementById('img'+i);
+      if (El != null){
+         document.getElementById('img'+i).style.zIndex=(1000-i).toString();
+		 document.getElementById('img'+i).style.visibility='hidden';
+	  }
+     }
+	  
+	 myObject = document.getElementById('img'+n);
+	
+	 if (myObject != null || myObject != undefined) {
+	   myObject.style.zIndex="3000";
+       myObject.style.visibility='visible';
+	 }
+	 imgNum = n;
+	  
+	  
+}
+
+</script>
+
+
+<link rel="pingback" href="http://www.lcfm.co.uk/wordpress/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="LCFM &raquo; Feed" href="http://www.lcfm.co.uk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="LCFM &raquo; Comments Feed" href="http://www.lcfm.co.uk/comments/feed/" />
+<link rel='stylesheet' id='jscrollpane-css'  href='http://www.lcfm.co.uk/wordpress/wp-content/plugins/wp-jscrollpane/css/jquery.jscrollpane.min.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='Lozenge-css'  href='http://www.lcfm.co.uk/wordpress/wp-content/plugins/wp-jscrollpane/themes/Lozenge/lozenge.min.css?ver=3.3.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.lcfm.co.uk/wordpress/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://www.lcfm.co.uk/wordpress/wp-content/plugins/wp-jscrollpane/js/jquery.jscrollpane.min.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://www.lcfm.co.uk/wordpress/wp-content/plugins/wp-jscrollpane/js/wpjsp.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://www.lcfm.co.uk/wordpress/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.lcfm.co.uk/wordpress/xmlrpc.php?rsd" />
+<link rel='prev' title='Event' href='http://www.lcfm.co.uk/event/' />
+<link rel='next' title='Domingo Rodriguez' href='http://www.lcfm.co.uk/domingo-rodriguez/' />
+
+<!-- All in One SEO Pack 1.6.14.3 by Michael Torbert of Semper Fi Web Design[78,109] -->
+<link rel="canonical" href="http://www.lcfm.co.uk/asger-juel-larsen/" />
+<!-- /all in one seo pack -->
+</head>
+
+<body onLoad="fUpDateImgs(1,1);" class="page page-id-20 page-template page-template-onecolumn-artist-page-php">
+
+<div id="cadreT"></div>
+<div id="cadreR"></div>
+<div id="cadreB"></div>
+<div id="cadreL"></div>
+
+
+
+<div id="bg" style="z-index:-1;">
+  <div>
+<table cellpadding="0" cellspacing="0"><tbody><tr><td>
+
+
+</td></tr></tbody></table>
+  </div>
+</div>
+
+
+
+
+
+<div id="wrapper" class="hfeed">
+	<div id="header">
+		<div id="masthead">
+			<div id="branding" role="banner">
+														<center><a href="http://www.lcfm.co.uk"><img src="http://www.lcfm.co.uk/wordpress/wp-content/uploads/2012/05/LCFM_logo_04-01.jpg" width="451" height="76" alt="" border="0" /></a></center>
+					                    
+                    
+			</div><!-- #branding -->
+		</div><!-- #masthead -->
+        
+	</div><!-- #header -->
+    
+      <ul id="inner_menu2">
+    
+            <li><a href="http://www.lcfm.co.uk">HOME / INFO</a></li>
+        
+    		<li  class="current_page_item"><a href="http://www.lcfm.co.uk/asger-juel-larsen/">Asger Juel Larsen</a></li>
+     
+    
+      
+        <li><a href="http://www.lcfm.co.uk/domingo-rodriguez/">Domingo Rodriguez</a></li>
+      
+        
+         
+        <li><a href="http://www.lcfm.co.uk/matteo-molinari/">Matteo Molinari</a></li>
+        
+         
+        <li><a href="http://www.lcfm.co.uk/oliver-ruuger/">Oliver Ruuger</a></li>
+     
+    
+             <li><a href="http://www.lcfm.co.uk/event/">EVENT</a></li>
+          
+     
+     
+            <li><a href="http://www.lcfm.co.uk/video/">VIDEO</a></li>
+          
+            <li><a href="http://www.lcfm.co.uk/ma_n/">MA_N</a></li>
+          
+      
+        <li><a href="http://www.lcfm.co.uk/menswear-at-lcf/">MENSWEAR AT LCF</a></li>
+            
+              <li><a href="http://www.lcfm.co.uk/press/">PRESS</a></li>
+            
+      
+      
+        	<li ><span style="border-width:0px; margin:3px"></span></li>
+		<li class="current_page_item"><a href="javascript:fShowDiv('content');">Information</a></li>
+        <li><span style="border-width:0px; margin:3px"></span></li>
+        <li><span style="border-width:0px; margin:3px"></span></li>
+        <li><span style="border-width:0px; margin:3px"></span></li>
+       
+    
+     
+    
+        
+     
+   </ul>
+
+	<div id="main">
+
+		<div id="container" class="one-column">
+			<div id="content-artist-page" role="main">
+
+			
+
+				<div id="post-20" class="post-20 page type-page status-publish hentry">
+					
+                       
+					<div id="imgnav" ></div>
+                    
+                    <script type="text/javascript">fBuildImgNav(1,5); changeStackOrder(1,5);</script>                    
+					<div class="entry-content" style="position:relative;">
+						
+										  
+										
+                    <div id="img1"  style="margin-left:-223px ; margin-right:auto; width:426px; position:absolute; left:50%; z-index: 999">
+						
+                    <img  style="border: 10px solid #FFFFFF; " src="http://www.lcfm.co.uk/wordpress/wp-content/uploads/2012/05/LCFM_Asger-Juel-Larsen_Portfolio_01.jpg" width="426" height="283"><br /><div style="margin-left:10px;color:#FFFFFF;"><center>Asger Juel Larsen</center></div>
+                    </div>
+										  
+										
+                    <div id="img2"  style="margin-left:-120px ; margin-right:auto; width:220px; position:absolute; left:50%; z-index: 998">
+						
+                    <img  style="border: 10px solid #FFFFFF; " src="http://www.lcfm.co.uk/wordpress/wp-content/uploads/2012/05/LCFM_Asger-Juel-Larsen_Portfolio_02.jpg" width="220" height="330"><br /><div style="margin-left:10px;color:#FFFFFF;"><center>Asger Juel Larsen</center></div>
+                    </div>
+										  
+										
+                    <div id="img3"  style="margin-left:-120px ; margin-right:auto; width:220px; position:absolute; left:50%; z-index: 997">
+						
+                    <img  style="border: 10px solid #FFFFFF; " src="http://www.lcfm.co.uk/wordpress/wp-content/uploads/2012/05/LCFM_Asger-Juel-Larsen_Portfolio_03.jpg" width="220" height="330"><br /><div style="margin-left:10px;color:#FFFFFF;"><center>Asger Juel Larsen</center></div>
+                    </div>
+										  
+										
+                    <div id="img4"  style="margin-left:-120px ; margin-right:auto; width:220px; position:absolute; left:50%; z-index: 996">
+						
+                    <img  style="border: 10px solid #FFFFFF; " src="http://www.lcfm.co.uk/wordpress/wp-content/uploads/2012/05/LCFM_Asger-Juel-Larsen_Portfolio_04.jpg" width="220" height="330"><br /><div style="margin-left:10px;color:#FFFFFF;"><center>Asger Juel Larsen</center></div>
+                    </div>
+										  
+										
+                    <div id="img5"  style="margin-left:-223px ; margin-right:auto; width:426px; position:absolute; left:50%; z-index: 995">
+						
+                    <img  style="border: 10px solid #FFFFFF; " src="http://www.lcfm.co.uk/wordpress/wp-content/uploads/2012/05/LCFM_Asger-Juel-Larsen_Portfolio_05.jpg" width="426" height="283"><br /><div style="margin-left:10px;color:#FFFFFF;"><center>Asger Juel Larsen</center></div>
+                    </div>
+						
+					
+                                          <div id="content" style=" visibility:hidden; position:absolute; top:-25px; left:60px; z-index:5000; padding: 0px; width: 298px; height:420px;">
+					    <div class="entry-content" style="padding:12px;"><p>Asger Juel Larsen is a designer that marks and merits the adventurous and rule breaking reinvention of modern menswear.</p>
+<p>Hailing from Denmark but truely establishing his art in the UK, Asger graduated &#8216;top of the class&#8217; at London College of Fashion in 2009 with a BA Menswear Degree, Asger has since then conquered the Masters degree at the same institution.</p>
+<p>His aesthetics have been consistently evolving during the academic time frame, illustrating ambition and flare in the imagination. And with placements alongside John Richmond and Burberry Prorsum included in the tapestry of his background, the platform and landscape for Asger&#8217;s future collections is bright.</p>
+<p>His designs are an intoxicating medley of the past and future, taking inspiration from historical events and fusing it into a futuristic sci-fi sphere. The clash of textures play with ideas of masculine strength and vulnerability. Asger&#8217;s aesthetics are both industrial and romantic, taking the gothic and androgynous to new levels of sophistication and depth.</p>
+<p><a href="http://asgerjuellarsen.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://asgerjuellarsen.com']);" target="_blank">asgerjuellarsen.com</a></p>
+<p><a href="http://www.lcfm.co.uk/video/" >video clips</a></p>
+ 
+				        <center><a href="javascript:fHideDiv('content');">close</a></center></div>
+                      </div>
+					</div>
+				</div><!-- #post-## -->
+
+				
+			<div id="comments">
+
+
+	<p class="nocomments">Comments are closed.</p>
+
+
+								
+</div><!-- #comments -->
+
+            
+            
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+	</div><!-- #main -->
+
+	
+
+</div><!-- #wrapper -->
+
+</body>
+</html>
