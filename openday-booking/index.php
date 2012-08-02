@@ -91,7 +91,7 @@ include('header.php');
 						<li>MSc International Fashion Management (12pm both dates)</li>
 						<li>FdA Fashion Buying and Merchandising (12pm and 1.30pm both dates)</li>
 						<li>FdA Fashion Marketing and Promotion (12pm and 1.30pm both dates)</li>
-						<li>FdA Fashion Retail Branding and Visual Merchandising (3pm both dates)</li>
+						<li>FdA Fashion Retail Branding and Visual Merchandising (3.30pm both dates)</li>
 					</ul>
 					<p>Please note FdA Fashion Retail Branding and Visual Merchandising sessions will be held at John Prince’s Street site after the Introductory session at High Holborn. Students will be shown how to get there on the day</p>
 
