@@ -7,22 +7,32 @@ $headers = 'From: London College of Fashion <opendays@fashion.arts.ac.uk>' . "\r
   'X-Mailer: PHP/' . phpversion();
 include('header.php'); 
 
+
+function clean_input($data) {
+	$data = trim($data);
+	$data = str_replace('\'', '', $data);
+	$data = htmlspecialchars($data);
+	return $data;
+}
+
+
 // create short variable names
-$opendaydate=$_POST['opendaydate'];
-$first_name=$_POST['first_name'];	
-$last_name=$_POST['last_name'];	
-$email=$_POST['email'];
-$telephone=$_POST['telephone'];
-$guest=$_POST['guest'];
-$gender=$_POST['gender'];
-$age=$_POST['age'];
-$region=$_POST['region'];
-$doing=$_POST['doing'];
-$firstuni=$_POST['first-uni'];
-$interest=$_POST['interest'];
-$course_level=$_POST['course_level'];
-$study_mode=$_POST['study_mode'];
-$optout=$_POST['optout'];
+$opendaydate= $_POST['opendaydate'];
+$first_name= clean_input($_POST['first_name']);	
+$last_name= clean_input($_POST['last_name']);	
+$email= clean_input( $_POST['email'] );
+$telephone= clean_input( $_POST['telephone'] );
+$guest= $_POST['guest'];
+$gender= clean_input( $_POST['gender'] );
+$age= clean_input( $_POST['age'] );
+$region= clean_input( $_POST['region'] );
+$doing= clean_input( $_POST['doing'] );
+$firstuni= clean_input( $_POST['first-uni'] );
+$interest= clean_input( $_POST['interest'] );
+$course_level= clean_input( $_POST['course_level'] );
+$study_mode= clean_input( $_POST['study_mode'] );
+$optout= $_POST['optout'];
+
 
 // generate a subject list string for course choices containing multiple checkbox selections
 function getList($array) {
