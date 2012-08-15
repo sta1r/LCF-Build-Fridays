@@ -74,12 +74,12 @@
 		$opendaylocation = 'Lime Grove';
 		$opendayextras = '';
  	break;
-	case "mc-29sep":
+/*	case "mc-29sep":
   $opendaytitle = 'Fashion Media and Communications'; 
 		$opendaydatestring = 'Saturday 29 September';
 		$opendaylocation = 'Lime Grove';
 		$opendayextras = '';
- 	break;
+ 	break; */
 	case "mc-27oct":
   $opendaytitle = 'Fashion Media and Communications'; 
 		$opendaydatestring = 'Saturday 27 October';

@@ -137,7 +137,7 @@ include('header.php');
 				</div>
 			</li><!-- #list7 -->
 			<li>
-				<div class="title expander"><a href="#"><span>Fashion Media and Communications</span></a><br /><span class="bodycopy">Saturday 29 September and Saturday 27 October, 10.30am (Lime Grove)</span></div>
+				<div class="title expander"><a href="#"><span>Fashion Media and Communications</span></a><br /><span class="bodycopy"><strike>Saturday 29 September</strike> *FULLY BOOKED* and Saturday 27 October, 10.30am (Lime Grove)</span></div>
 
 				<div id="list8" class="sublist_content bodycopy">
 					<ul class="inner">
