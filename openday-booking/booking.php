@@ -64,7 +64,7 @@ include('header.php');
 		<?php 	break;
 		    case "mc": ?>
 		<!--  <option value="mc-29sep">Saturday 29 September</option> -->
-		  <option value="mc-27oct">Saturday 27 October</option>
+		<!--    <option value="mc-27oct">Saturday 27 October</option> -->
 		<?php 	break;
 		    case "pt": ?>
 		  <option value="pt-28nov">Wednesday 28 November</option>
