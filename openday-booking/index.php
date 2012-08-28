@@ -151,10 +151,10 @@ include('header.php');
 						<li>BA (Hons) Fashion Illustration (4pm both dates)</li>
 					</ul>
 
-					<form action="booking.php" method="get">    
+				<!--	<form action="booking.php" method="get">    
 					<input type="hidden" value="mc" name="openday">	
 					<p><input type="submit" value="Select" /></p>
-					</form>
+					</form>  -->
 				</div>
 			</li><!-- #list8 -->
 			<li>
