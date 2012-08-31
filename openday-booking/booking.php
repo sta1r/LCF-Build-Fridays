@@ -37,7 +37,7 @@ include('header.php');
 			switch ($area)
 		{
 		    case "fd": ?>
-	      <option value="fd-15sep">Saturday 15 September</option>
+<!--	      <option value="fd-15sep">Saturday 15 September</option> -->
 	      <option value="fd-6oct">Saturday 6 October</option>
 		<?php 	break;
 		    case "tm": ?>

@@ -2,12 +2,12 @@
 // this file lists all the information related to an individual openday selection
 	switch ($opendaydate[0])
 	{
-	case "fd-15sep":
+/*	case "fd-15sep":
   $opendaytitle = 'Fashion Design'; 
 		$opendaydatestring = 'Saturday 15 September';
 		$opendaylocation = 'John Prince\'s Street';
 		$opendayextras = '';
- 	break;
+ 	break; */
 	case "fd-6oct":
   $opendaytitle = 'Fashion Design'; 
 		$opendaydatestring = 'Saturday 6 October';
