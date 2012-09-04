@@ -24,10 +24,10 @@ include('header.php');
 					</ul>
 					<p>Tours will be available at our Curtain Road site after the presentation.</p>
 
-					<form action="booking.php" method="get">    
+			<!--		<form action="booking.php" method="get">    
 					<input type="hidden" value="fd" name="openday">	
 					<p><input type="submit" value="Select" /></p>
-					</form>
+					</form> -->
 				</div>
 			</li><!-- #list1 -->
 			<li>
@@ -75,10 +75,10 @@ include('header.php');
 						<li>BA (Hons) Bespoke Tailoring (2pm)</li>
 					</ul>
 
-					<form action="booking.php" method="get">    
+			<!--		<form action="booking.php" method="get">    
 					<input type="hidden" value="ta" name="openday">	
 					<p><input type="submit" value="Select" /></p>
-					</form>
+					</form> -->
 				</div>
 			</li><!-- #list4 -->
 			<li>
