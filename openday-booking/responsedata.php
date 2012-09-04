@@ -7,13 +7,13 @@
 		$opendaydatestring = 'Saturday 15 September';
 		$opendaylocation = 'John Prince\'s Street';
 		$opendayextras = '';
- 	break; */
+ 	break; 
 	case "fd-6oct":
   $opendaytitle = 'Fashion Design'; 
 		$opendaydatestring = 'Saturday 6 October';
 		$opendaylocation = 'John Prince\'s Street';
 		$opendayextras = '';
- 	break;
+ 	break; */
 	case "tm-19sep":
 	  $opendaytitle = 'Textiles and Fashion Design and Marketing'; 
 			$opendaydatestring = 'Wednesday 19 September';
@@ -38,12 +38,12 @@
 			$opendaylocation = 'Golden Lane';
 			$opendayextras = '';
 	break;
-	case "ta-31oct":
+/*	case "ta-31oct":
 	  $opendaytitle = 'Tailoring'; 
 			$opendaydatestring = 'Wednesday 31 October';
 			$opendaylocation = 'Mare Street';
 			$opendayextras = '';
-	break;
+	break; */
 	case "mb-26sep":
 	  $opendaytitle = 'Fashion Management and Fashion Business'; 
 			$opendaydatestring = 'Wednesday 26 September';

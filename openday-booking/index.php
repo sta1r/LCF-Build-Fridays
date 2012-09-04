@@ -12,7 +12,7 @@ include('header.php');
 
 		 <ul class="list-folding">
 			<li>
-				<div class="title expander"><a href="#"><span>Fashion Design</span></a><br /><span class="bodycopy"><strike>Saturday 15 September *FULLY BOOKED*</strike> Saturday 6 October, 11am (John Prince’s Street)</span></div>
+				<div class="title expander"><a href="#"><span>Fashion Design</span></a><br /><span class="bodycopy"><strike>Saturday 15 September and Saturday 6 October, 11am (John Prince’s Street)</strike> *FULLY BOOKED*</span></div>
 
 				<div id="list1" class="sublist_content bodycopy">
 					<ul class="inner">
@@ -66,7 +66,7 @@ include('header.php');
 				</div>
 			</li><!-- #list3 -->
 			<li>
-				<div class="title expander"><a href="#"><span>Tailoring</span></a><br /><span class="bodycopy">Wednesday 31 October, 1pm (Mare Street)</span></div>
+				<div class="title expander"><a href="#"><span>Tailoring</span></a><br /><span class="bodycopy"><strike>Wednesday 31 October, 1pm (Mare Street)</strike> *FULLY BOOKED*</span></div>
 
 				<div id="list4" class="sublist_content bodycopy">
 					<ul class="inner">
