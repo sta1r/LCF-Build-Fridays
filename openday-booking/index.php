@@ -82,7 +82,7 @@ include('header.php');
 				</div>
 			</li><!-- #list4 -->
 			<li>
-				<div class="title expander"><a href="#"><span>Fashion Management and Fashion Business</span></a><br /><span class="bodycopy">Wednesday 26 September and Saturday 13 October, 11am (High Holborn)</span></div>
+				<div class="title expander"><a href="#"><span><strike>Fashion Management and Fashion Business</span></a><br /><span class="bodycopy">Wednesday 26 September and Saturday 13 October, 11am (High Holborn)</span></strike> *FULLY BOOKED* </div>
 
 				<div id="list5" class="sublist_content bodycopy">
 					<ul class="inner">
@@ -95,10 +95,10 @@ include('header.php');
 					</ul>
 					<p>Please note FdA Fashion Retail Branding and Visual Merchandising sessions will be held at John Prince’s Street site after the Introductory session at High Holborn. Students will be shown how to get there on the day</p>
 
-					<form action="booking.php" method="get">    
+					<!--<form action="booking.php" method="get">    
 					<input type="hidden" value="mb" name="openday">	
 					<p><input type="submit" value="Select" /></p>
-					</form>
+					</form>-->
 				</div>
 			</li><!-- #list5 -->
 			<li>
