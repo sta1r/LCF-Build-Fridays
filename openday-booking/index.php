@@ -31,7 +31,7 @@ include('header.php');
 				</div>
 			</li><!-- #list1 -->
 			<li>
-				<div class="title expander"><a href="#"><span>Textiles and Fashion Design and Marketing</span></a><br /><span class="bodycopy">Wednesday 19 September and Wednesday 10 October, 11am (Lime Grove)</span></div>
+				<div class="title expander"><a href="#"><span>Textiles and Fashion Design and Marketing</span></a><br /><span class="bodycopy"><strike>Wednesday 19 September (Lime Grove) and Wednesday 10 October, 11am (John Prince's St)</strike></span> *FULLY BOOKED*</div>
 
 				<div id="list2" class="sublist_content bodycopy">
 					<ul class="inner">
@@ -41,11 +41,14 @@ include('header.php');
 						<li>FdA Fashion Design and Marketing (1pm both dates)</li>
 					</ul>
 
-					<form action="booking.php" method="get">    
+					<!--<form action="booking.php" method="get">    
 					<input type="hidden" value="tm" name="openday">	
 					<p><input type="submit" value="Select" /></p>
-					</form>
+					</form>-->
+					
+					<p><strong>Please note the 10 October open day will now take place at our John Prince's Street site.</strong></p>
 				</div>
+				
 			</li><!-- #list2 -->
 			<li>
 				<div class="title expander"><a href="#"><span>Cordwainers Footwear/Accessories and Fashion Jewellery</span></a><br /><span class="bodycopy">Thursday 4 October and Wednesday 17 October, 11am (Golden Lane)</span></div>
@@ -82,7 +85,7 @@ include('header.php');
 				</div>
 			</li><!-- #list4 -->
 			<li>
-				<div class="title expander"><a href="#"><span><strike>Fashion Management and Fashion Business</span></a><br /><span class="bodycopy">Wednesday 26 September and Saturday 13 October, 11am (High Holborn)</span></strike> *FULLY BOOKED* </div>
+				<div class="title expander"><a href="#"><span>Fashion Management and Fashion Business</span></a><br /><span class="bodycopy"><strike>Wednesday 26 September and Saturday 13 October, 11am (High Holborn)</strike></span> *FULLY BOOKED* </div>
 
 				<div id="list5" class="sublist_content bodycopy">
 					<ul class="inner">

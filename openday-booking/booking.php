@@ -41,8 +41,8 @@ include('header.php');
 	      <option value="fd-6oct">Saturday 6 October</option> -->
 		<?php 	break;
 		    case "tm": ?>
-	      <option value="tm-19sep">Wednesday 19 September</option>
-	      <option value="tm-10oct">Wednesday 10 October</option>
+	      <!--<option value="tm-19sep">Wednesday 19 September</option>
+	      <option value="tm-10oct">Wednesday 10 October</option>-->
 		<?php 	break;
 		    case "cf": ?>
 		  <option value="cf-4oct">Thursday 4 October</option>
