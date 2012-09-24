@@ -51,7 +51,7 @@ include('header.php');
 				
 			</li><!-- #list2 -->
 			<li>
-				<div class="title expander"><a href="#"><span>Cordwainers Footwear/Accessories and Fashion Jewellery</span></a><br /><span class="bodycopy">Thursday 4 October and Wednesday 17 October, 11am (Golden Lane)</span></div>
+				<div class="title expander"><a href="#"><span>Cordwainers Footwear/Accessories and Fashion Jewellery</span></a><br /><span class="bodycopy">Thursday 4 October, 11am (Golden Lane) <strike>and Wednesday 17 October *FULLY BOOKED*</strike></span></div>
 
 				<div id="list3" class="sublist_content bodycopy">
 					<ul class="inner">
@@ -62,10 +62,10 @@ include('header.php');
 						<li>BA (Hons) Fashion Jewellery (1pm both dates)</li>
 					</ul>
 
-					<form action="booking.php" method="get">    
+<!--					<form action="booking.php" method="get">    
 					<input type="hidden" value="cf" name="openday">	
 					<p><input type="submit" value="Select" /></p>
-					</form>
+					</form> -->
 				</div>
 			</li><!-- #list3 -->
 			<li>
@@ -122,7 +122,7 @@ include('header.php');
 				</div>
 			</li><!-- #list6 -->
 			<li>
-				<div class="title expander"><a href="#"><span>Performance Design</span></a><br /><span class="bodycopy">Saturday 22 September and Saturday 20 October, 11am (Lime Grove)</span></div>
+				<div class="title expander"><a href="#"><span>Performance Design</span></a><br /><span class="bodycopy"><strike>Saturday 20 October, 11am (Lime Grove)</strike> *FULLY BOOKED*</span></div>
 
 				<div id="list7" class="sublist_content bodycopy">
 					<ul class="inner">
@@ -133,10 +133,10 @@ include('header.php');
 						<li>BA (Hons) Make Up and Prosthetics for Performance (3pm both dates)</li>
 					</ul>
 
-					<form action="booking.php" method="get">    
+<!--					<form action="booking.php" method="get">    
 					<input type="hidden" value="pd" name="openday">	
 					<p><input type="submit" value="Select" /></p>
-					</form>
+					</form> -->
 				</div>
 			</li><!-- #list7 -->
 			<li>

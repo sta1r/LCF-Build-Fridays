@@ -32,12 +32,12 @@
 			$opendaylocation = 'Golden Lane';
 			$opendayextras = '';
 	break;
-	case "cf-17oct":
+/*	case "cf-17oct":
 	  $opendaytitle = 'Cordwainers Footwear/Accessories and Fashion Jewellery'; 
 			$opendaydatestring = 'Wednesday 17 October';
 			$opendaylocation = 'Golden Lane';
 			$opendayextras = '';
-	break;
+	break; */
 /*	case "ta-31oct":
 	  $opendaytitle = 'Tailoring'; 
 			$opendaydatestring = 'Wednesday 31 October';
@@ -68,12 +68,12 @@
 		$opendaylocation = 'Lime Grove';
 		$opendayextras = '';
  	break;
-	case "pd-20oct":
+/*	case "pd-20oct":
   $opendaytitle = 'Performance Design'; 
 		$opendaydatestring = 'Saturday 20 October';
 		$opendaylocation = 'Lime Grove';
 		$opendayextras = '';
- 	break;
+ 	break; 8/
 /*	case "mc-29sep":
   $opendaytitle = 'Fashion Media and Communications'; 
 		$opendaydatestring = 'Saturday 29 September';
