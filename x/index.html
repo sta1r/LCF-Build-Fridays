@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://twitter.github.com/bootstrap/examples/hero.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Platform X | Joan Smith Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+
+
+
+	<!-- Drag/drop styles -->
+	<link  rel="stylesheet" href="css/drag_style.css"  type="text/css" />
+	<link rel="stylesheet" href="css/postit_style.css">
+	<link rel="stylesheet" href="css/sliding.css">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="http://twitter.github.com/bootstrap/assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+
+	
+
+  </head>
+
+  <body>
+	
+	<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="/">Platform X</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="index.html">Me</a></li>
+              <li><a href="dmitri.html">People</a></li>
+              <li><a href="#">Things</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main user biographical info -->
+		<div class="row">
+			<div class="span4">
+				<h1><span id="name">Joan Smith</span></h1>
+				<div class="row">
+					<hr />
+					<div class="span2">
+						<img src="img/joansmith.jpg">
+					</div>
+					<div class="span2">
+						<img src="img/london.jpeg">
+					</div>
+				</div>
+			</div>
+			
+			<div class="span8" id="calloutBox">
+				<div class="hero-unit">
+					<p><span id="personalStatement">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac risus ac neque bibendum pharetra. Vivamus dapibus tempor lorem, quis molestie nunc viverra quis. Morbi sed ipsum dui, non posuere lorem. Sed dapibus libero vitae metus ullamcorper suscipit. In pharetra fermentum tortor. Sed tristique interdum enim vel auctor. Donec eu leo eu eros fermentum dictum at sit amet diam. </span></p>
+				</div>						
+			</div>
+		</div>
+		
+		<div class="row" id="pinboard">
+					<hr />
+			<aside class="span8">
+				<h2>Your Pinboard</h2>
+
+				<dl id="dropzone" class="dropzone floatfix" ondragenter="dragEnterHandler(event)" ondragover="dragOverHandler(event)" ondrop="dropHandler(event)">
+				</dl>
+
+				<p>Drag items that interest you from the left column onto your pinboard above</p>
+				<a id="checkout" href="#">Save your profile</a>
+				<div id="tooltip">Tool tip text (default)</div> <!-- my own tooltip, initially not displayed -->
+			</aside>
+
+			<section id="content" class="span4"> <!-- this is the list of 'opportunities' (events etc) -->
+				<ul id="items" ondragstart="dragStartHandler(event)">
+					<li id="event01" draggable="true" data-value="EVENT" event-date="26/09/2012" event-img="img/pinboard/event1.jpeg">
+						<span class="list_item_title">Catwalk Special</span>
+						<div class="qitem">
+							<img class="sliding_img" src="img/pinboard/event1.jpeg">
+							<p class="list_item_info">Some more information about this amazing event, Catwalk Special which is the first time LCF will be hosting two separate blah blah blah blha blah blah blah</p>
+							<img class="list_item_thumb" src="img/pinboard/event1.jpeg">
+						</div>
+					</li>
+					<li id="event02" draggable="true" data-value="PLACEMENT" event-date="02/11/2012" event-img="img/pinboard/work-place.jpeg">
+						<span class="list_item_title">Placement Superdry!</span>
+						<div class="qitem">
+							<img class="sliding_img" src="img/pinboard/work-place.jpeg">
+							<p class="list_item_info">An exciting new opportunity to work with Superdry.  Prospective applicants should check out the website and then get an email over pronto to...yadda yadda yadda yadda</p>
+							<img class="list_item_thumb" src="img/pinboard/work-place.jpeg">
+						</div>
+					</li>
+					<li id="event03" draggable="true" data-value="SPECIAL" event-date="13/09/2012" event-img="img/pinboard/decoded.png">
+						<span class="list_item_title">Learn to code</span>
+						<div class="qitem">
+							<img class="sliding_img" src="img/pinboard/decoded.png">
+							<p class="list_item_info">Interest in learning how to code? Decoded's award-winning course promises to teach everyone, no matter what their level of knowledge coming in, to code in a day!  Contact your tutor if you are blah blah blah blha blah blah blah</p>
+							<img class="list_item_thumb" src="img/pinboard/decoded.png">
+						</div>
+
+					</li>
+					<li id="event04" draggable="true" data-value="TUTORIAL" event-date="07/08/2012" event-img="img/pinboard/tutorial.jpeg">
+						<span class="list_item_title">Industry Tutorial Day</span>
+						<div class="qitem">
+							<img class="sliding_img" src="img/pinboard/tutorial.jpeg">
+							<p class="list_item_info">This is an excellent opportunity to get some extra information on all sorts of blah blah blah blha blah blah blah</p>
+							<img class="list_item_thumb" src="img/pinboard/tutorial.jpeg">
+						</div>
+					</li>
+					<li id="event05" draggable="true" data-value="EVENT" event-date="19/02/2012" event-img="img/pinboard/LCFM.jpeg">
+						<span class="list_item_title">LCFM Special Event</span>
+						<div class="qitem">
+							<img class="sliding_img" src="img/pinboard/LCFM.jpeg">
+							<p class="list_item_info">It's that time of year again and so LCF have got something truly spectacular lined up. This is a rare opportunity for both staff and students to blah blah blah blha blah blah blah</p>
+							<img class="list_item_thumb" src="img/pinboard/LCFM.jpeg">
+						</div>
+					</li>
+				</ul>
+			</section>
+		</div> <!-- End row-->
+		
+	<div class="fb-comments" data-href="http://decoded.co/your-app/16-07-12/lcf" data-num-posts="6" data-width="470"></div>
+		
+      <!-- Example row of columns -->
+
+
+      <hr>
+
+      <footer>
+        <p>© Company 2012</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+<!--	<script type="text/javascript" src="js/script.js"></script> -->
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/postit_script.js"></script>
+	<script src="js/dragdrop.js"></script>
+	<script src="js/sliding.js"></script>
+  
+
+</body></html>
