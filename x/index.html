@@ -60,9 +60,9 @@
       <!-- Main user biographical info -->
 		<div class="row">
 			<div class="span4">
-				<h1><span id="name">Joan Smith</span></h1>
+				<h1><span id="name">Francesca Smith</span></h1>
 				<div class="row">
-					<hr />
+					<hr class="span4">
 					<div class="span2">
 						<img src="img/joansmith.jpg">
 					</div>
@@ -74,25 +74,28 @@
 			
 			<div class="span8" id="calloutBox">
 				<div class="hero-unit">
-					<p><span id="personalStatement">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac risus ac neque bibendum pharetra. Vivamus dapibus tempor lorem, quis molestie nunc viverra quis. Morbi sed ipsum dui, non posuere lorem. Sed dapibus libero vitae metus ullamcorper suscipit. In pharetra fermentum tortor. Sed tristique interdum enim vel auctor. Donec eu leo eu eros fermentum dictum at sit amet diam. </span></p>
+					<p>Francesca Smith's work explores the capabilities and juxtaposition of combining hard materials with soft textiles within a fashion jewellery context.</p>
+					<p>She explores a variety of materials from woods to fabrics, to metals to plastics. Exploring the possibilities of applying alternative materials to a fashion jewellery context.</p>
 				</div>						
 			</div>
 		</div>
 		
-		<div class="row" id="pinboard">
-					<hr />
-			<aside class="span8">
-				<h2>Your Pinboard</h2>
+		<div class="row">
+			<hr class="span12">
+			<section id="pinboard" class="span8">
+				<div id="pinboard-bg">
+					<h2>Your Pinboard</h2>
 
-				<dl id="dropzone" class="dropzone floatfix" ondragenter="dragEnterHandler(event)" ondragover="dragOverHandler(event)" ondrop="dropHandler(event)">
-				</dl>
+					<dl id="dropzone" class="dropzone floatfix" ondragenter="dragEnterHandler(event)" ondragover="dragOverHandler(event)" ondrop="dropHandler(event)">
+					</dl>
 
-				<p>Drag items that interest you from the left column onto your pinboard above</p>
-				<a id="checkout" href="#">Save your profile</a>
-				<div id="tooltip">Tool tip text (default)</div> <!-- my own tooltip, initially not displayed -->
-			</aside>
+					<p>Drag items that interest you from the left column onto your pinboard above</p>
+					<a id="checkout" href="#">Save your profile</a>
+					<div id="tooltip">Tool tip text (default)</div> <!-- my own tooltip, initially not displayed -->
+				</div>	
+			</section>
 
-			<section id="content" class="span4"> <!-- this is the list of 'opportunities' (events etc) -->
+			<section id="content-feed" class="span4"> <!-- this is the list of 'opportunities' (events etc) -->
 				<ul id="items" ondragstart="dragStartHandler(event)">
 					<li id="event01" draggable="true" data-value="EVENT" event-date="26/09/2012" event-img="img/pinboard/event1.jpeg">
 						<span class="list_item_title">Catwalk Special</span>
