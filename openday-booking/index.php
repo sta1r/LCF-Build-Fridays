@@ -51,7 +51,7 @@ include('header.php');
 				
 			</li><!-- #list2 -->
 			<li>
-				<div class="title expander"><a href="#"><span>Cordwainers Footwear/Accessories and Fashion Jewellery</span></a><br /><span class="bodycopy">Thursday 4 October, 11am (Golden Lane) <strike>and Wednesday 17 October</strike></span></div>
+				<div class="title expander"><a href="#"><span>Cordwainers Footwear/Accessories and Fashion Jewellery</span></a><br /><span class="bodycopy"><strike>Thursday 4 October, 11am (Golden Lane) and Wednesday 17 October</strike> *FULLY BOOKED*</span></div>
 
 				<div id="list3" class="sublist_content bodycopy">
 					<ul class="inner">
@@ -62,10 +62,10 @@ include('header.php');
 						<li>BA (Hons) Fashion Jewellery (1pm both dates)</li>
 					</ul>
 
-					<form action="booking.php" method="get">    
+<!--					<form action="booking.php" method="get">    
 					<input type="hidden" value="cf" name="openday">	
 					<p><input type="submit" value="Select" /></p>
-					</form>
+					</form> -->
 				</div>
 			</li><!-- #list3 -->
 			<li>

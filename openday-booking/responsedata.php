@@ -26,13 +26,13 @@
 			$opendaylocation = 'Lime Grove';
 			$opendayextras = '';
 	break;
-	case "cf-4oct":
+/*	case "cf-4oct":
 	  $opendaytitle = 'Cordwainers Footwear/Accessories and Fashion Jewellery'; 
 			$opendaydatestring = 'Thursday 4 October';
 			$opendaylocation = 'Golden Lane';
 			$opendayextras = '';
 	break;
-/*	case "cf-17oct":
+	case "cf-17oct":
 	  $opendaytitle = 'Cordwainers Footwear/Accessories and Fashion Jewellery'; 
 			$opendaydatestring = 'Wednesday 17 October';
 			$opendaylocation = 'Golden Lane';
