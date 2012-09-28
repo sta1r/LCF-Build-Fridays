@@ -35,10 +35,10 @@ include('header.php');
 
 				<div id="list2" class="sublist_content bodycopy">
 					<ul class="inner">
-						<li>FdA Fashion Design Technology (Knitwear and Surface Textiles) (11am both dates)</li>
-						<li>BA (Hons) Fashion Design Technology: Fashion Textiles (11am both dates)</li>
+						<li>FdA Fashion Design and Marketing (11am both dates)</li>
 						<li>Becoming an LCF Student (12pm both dates)</li>
-						<li>FdA Fashion Design and Marketing (1pm both dates)</li>
+						<li>FdA Fashion Design Technology (Knitwear and Surface Textiles) (1pm both dates)</li>
+						<li>BA (Hons) Fashion Design Technology: Fashion Textiles (1pm both dates)</li>			
 					</ul>
 
 					<!--<form action="booking.php" method="get">    
