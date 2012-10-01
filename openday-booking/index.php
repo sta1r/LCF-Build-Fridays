@@ -127,10 +127,10 @@ include('header.php');
 				<div id="list7" class="sublist_content bodycopy">
 					<ul class="inner">
 						<li>BA (Hons) Technical Effects for Performance (11am both dates)</li>
-						<li>Becoming an LCF Student (12pm both dates)</li>
-						<li>BA (Hons) Costume for Performance (1pm both dates)</li>
-						<li>FdA Hair and Make Up for Film and TV (2pm both dates)</li>
-						<li>BA (Hons) Make Up and Prosthetics for Performance (3pm both dates)</li>
+						<li>BA (Hons) Make Up and Prosthetics for Performance (12pm both dates)</li>
+						<li>FdA Hair and Make Up for Film and TV (1pm both dates)</li>
+						<li>BA (Hons) Costume for Performance (2pm both dates)</li>
+						<li>Becoming an LCF Student (3pm both dates)</li>
 					</ul>
 
 <!--					<form action="booking.php" method="get">    
