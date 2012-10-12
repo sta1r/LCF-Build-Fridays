@@ -75,9 +75,9 @@ $(document).ready(function(){
 						+ '<td>' + job.region + '</td>'
 						+ '<td>' + job.salary + '</td>'
 						+ '<td>' + dt.getDate() + ' ' + months[dt.getMonth()] + '</td>'
-						+ '<td><button class="btn btn-info">View detail</button></td>'
-						+ '<td><button class="btn">Save job</button></td>'
-						+ '<td><button class="btn btn-primary">Apply</button></td>'
+						+ '<td><button class="btn btn-info btn-small">View detail</button></td>'
+						+ '<td><button class="btn btn-small">Save job</button></td>'
+						+ '<td><button class="btn btn-primary btn-small">Apply</button></td>'
 						+ '</tr>';
 
 						//console.log(data[i]);
@@ -144,7 +144,7 @@ $(document).ready(function(){
 				}
 
 				// do the loop
-				string = '<li class="profile row add-bottom"><div class="profile-image span3"><a href="' + profileUrl + '" title="View ' + studentName + ' on Showtime"><img src="' + smlThumb + '"></a></div><div class="profile-desc span8"><p>' + item.title + '</p><p><i class="icon-heart"></i> Likes: <strong>6</strong></p></div><div class="span1 relative"><div class="edit-control"><a class="btn btn-primary">Edit</a></div></div></li>';	
+				string = '<li class="profile row add-bottom"><div class="profile-image span3"><a href="' + profileUrl + '" title="View ' + studentName + ' on Showtime"><img src="' + smlThumb + '"></a></div><div class="profile-desc span8"><p>' + item.title + '</p><p><i class="icon-heart"></i> Likes: <strong>6</strong></p></div><div class="span1 relative"><div class="edit-control"><a class="btn btn-primary btn-small">Edit</a></div></div></li>';	
 
 				outputNode.append(string);
 
