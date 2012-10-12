@@ -1,49 +1,49 @@
 $(document).ready(function(){
 	
-		// Populate the 'static' areas of our template
-		if ($('#populateWithJson').length > 0) {	
+	// Populate the 'static' areas of our template
+	if ($('#populateWithJson').length > 0) {	
 
-			$('span#name').html(dmitri.pupilName);
-			$('span#nationality').html(dmitri.nationality);
-			$('span#courseBA').html(dmitri.courseBA);
-			$('span#gradYearBA').html(dmitri.gradYearBA);
-			$('span#courseMA').html(dmitri.courseMA);
-			$('span#gradYearMA').html(dmitri.gradYearMA);
-			$('span#currentRole').html(dmitri.currentRole);
-			$('span#currentJob').html(dmitri.currentJob);
-			$('span#currentJobStartdate').html(dmitri.currentJobStartdate);
-			$('span#currentJobStatus').html(dmitri.currentJobStatus);
-			$('span#currentJobLocation').html(dmitri.currentJobLocation);
-			$('span#currentJobLevel').html(dmitri.currentJobLevel);
-			$('span#personalStatement').html(dmitri.personalStatement);
+		$('span#name').html(dmitri.pupilName);
+		$('span#nationality').html(dmitri.nationality);
+		$('span#courseBA').html(dmitri.courseBA);
+		$('span#gradYearBA').html(dmitri.gradYearBA);
+		$('span#courseMA').html(dmitri.courseMA);
+		$('span#gradYearMA').html(dmitri.gradYearMA);
+		$('span#currentRole').html(dmitri.currentRole);
+		$('span#currentJob').html(dmitri.currentJob);
+		$('span#currentJobStartdate').html(dmitri.currentJobStartdate);
+		$('span#currentJobStatus').html(dmitri.currentJobStatus);
+		$('span#currentJobLocation').html(dmitri.currentJobLocation);
+		$('span#currentJobLevel').html(dmitri.currentJobLevel);
+		$('span#personalStatement').html(dmitri.personalStatement);
+
+		// Loop through points of interest, build up our object DIV, and output to document... 	
+
+		// Before loop starts, open a row
+
+		for (var key in dmitri.pointsOfInterest) {
+
+			var obj = dmitri.pointsOfInterest[key];
 	
-			// Loop through points of interest, build up our object DIV, and output to document... 	
+			var objHTML = '<div class="pointOfInterest'+key+'" style="border:1px solid red;margin-bottom:20px">';
 	
-			// Before loop starts, open a row
+			// Get a specific value
+			var objHTML = objHTML + dmitri.pointsOfInterest[key].image;
 	
-			for (var key in dmitri.pointsOfInterest) {
-	
-				var obj = dmitri.pointsOfInterest[key];
-		
-				var objHTML = '<div class="pointOfInterest'+key+'" style="border:1px solid red;margin-bottom:20px">';
-		
-				// Get a specific value
-				var objHTML = objHTML + dmitri.pointsOfInterest[key].image;
-		
-				// Loops through anonymously
-				for (var property in obj) {
-					objHTML = objHTML + '<p>'+obj[property]+'</p>';
-				}
-			
-				objHTML = objHTML + '</div>';
-		
-				$('.inner').append(objHTML);
-		
+			// Loops through anonymously
+			for (var property in obj) {
+				objHTML = objHTML + '<p>'+obj[property]+'</p>';
 			}
-			
-		}	
 		
-		// RSS FEEDS
+			objHTML = objHTML + '</div>';
+	
+			$('.inner').append(objHTML);
+	
+		}
+		
+	}	
+		
+	// RSS FEEDS
     if ($('#network-feed').length > 0){
       $.getScript('js/jquery.rss.js', function() {
               //console.log('Application is starting.');
@@ -55,101 +55,108 @@ $(document).ready(function(){
       });
     };
 
-		// JOBS FEED
-		if ($('#jobs-list').length > 0){
-			$.getJSON('http://my.lcffirstmove.co.uk/jobs.json?callback=?', function( data ) {
+	// JOBS FEED
+	if ($('#jobs-list').length > 0){
+		$.getJSON('http://my.lcffirstmove.co.uk/jobs.json?callback=?', function( data ) {
 
-					var output = '<table class="table table-striped"><thead><tr><th>Title</th><th>Location</th><th>Salary</th><th>Closing date</th></tr></thead><tbody>';
-					var count = 10;
-					var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+				var output = '<table class="table table-striped"><thead><tr><th>Title</th><th>Location</th><th>Salary</th><th>Closing date</th></tr></thead><tbody>';
+				var count = 5;
+				var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-					$.each(data, function(i, item) {
+				$.each(data, function(i, item) {
 
-						if (i < count) {
-							var job = data[i];
-							var job_date = job.closes_on;
-							var dt = new Date(job_date);
+					if (i < count) {
+						var job = data[i];
+						var job_date = job.closes_on;
+						var dt = new Date(job_date);
 
-							output += '<tr>' 
-							+ '<td>' + job.job_title + '</td>' 
-							+ '<td>' + job.region + '</td>'
-							+ '<td>' + job.salary + '</td>'
-							+ '<td>' + dt.getDate() + ' ' + months[dt.getMonth()] + '</td>'
-							+ '</tr>';
+						output += '<tr>' 
+						+ '<td>' + job.job_title + '</td>' 
+						+ '<td>' + job.region + '</td>'
+						+ '<td>' + job.salary + '</td>'
+						+ '<td>' + dt.getDate() + ' ' + months[dt.getMonth()] + '</td>'
+						+ '<td><button class="btn btn-info">View detail</button></td>'
+						+ '<td><button class="btn">Save job</button></td>'
+						+ '<td><button class="btn btn-primary">Apply</button></td>'
+						+ '</tr>';
 
-							//console.log(data[i]);
-						}
-
-					});
-
-					output += '</tbody></table>';
-
-					$('#jobs-list').html(output);
-			});
-		}
-		
-    
-		// TABS 
-		$('#myTab a').click(function (e) {
-		  e.preventDefault();
-		  $(this).tab('show');
-		});
-		
-		// SHOWTIME JSON
-		if ($('#showtime-json').length){
-			var feedUrl = $('#showtime-json').data('url');
-			var limit = $('#showtime-json').data('limit');
-
-			$.getJSON( feedUrl + '&limit=' + limit + '&callback=?', function(data) {
-
-				$('.loader').hide();
-				var container = $('#showtime-json');
-				var outputNode = container.find('ul');
-				var count = 0;
-				var string = '';
-
-				if (data.data.Student) { // this is a single Showtime profile
-					var profileUrl = data.data.Student.Student.profileurl;
-					var studentName = data.data.Student.Student.firstName + ' ' + data.data.Student.Student.lastName;
-					var media = data.data.Student.Media;
-				} 
-
-				if (data.data.Profiles) { // this is a group of objects in Showtime
-					var media = data.data.Profiles;
-				}
-
-				$.each(media, function(i, item) {
-					count++;
-					
-					//console.log(item);
-					
-					// define smlThumb
-					if (item.profile) {
-						smlThumb = item.profile;
-					} else {
-						// for video and publication types, use a different field	
-						if (item.type == 'video' || item.type == 'publication') {
-							smlThumb = item.thumb;
-						} else {
-							smlThumb = item.thumb.split('gallery');
-							smlThumb = smlThumb[0] + 'profile.jpg';
-						}
+						//console.log(data[i]);
 					}
-
-					if (item.profileName) { //group
-						profileUrl = 'http://showtime.arts.ac.uk/' + item.profileName;
-						studentName = item.fullName;
-					}
-
-					// do the loop
-					string = '<li class="profile row"><div class="profile-image span3"><a href="' + profileUrl + '" title="View ' + studentName + ' on Showtime"><img src="' + smlThumb + '"></a></div><div class="profile-desc span9"><p>' + item.title + '</p><p><a class="btn btn-action">Edit</a></p></div></li>';	
-
-					outputNode.append(string);
-
 				});
 
+				output += '</tbody></table>';
+
+				$('#jobs-list').html(output);
+				//console.log(output);
+		});
+	}
+		    
+	// TABS 
+	$('#myTab a').click(function (e) {
+	  e.preventDefault();
+	  $(this).tab('show');
+	});
+	
+	// SHOWTIME JSON
+	if ($('#showtime-json').length){
+		var feedUrl = $('#showtime-json').data('url');
+		var limit = $('#showtime-json').data('limit');
+
+		$.getJSON( feedUrl + '&limit=' + limit + '&callback=?', function(data) {
+
+			$('.loader').hide();
+			var container = $('#showtime-json');
+			var outputNode = container.find('ul');
+			var count = 0;
+			var string = '';
+
+			if (data.data.Student) { // this is a single Showtime profile
+				var profileUrl = data.data.Student.Student.profileurl;
+				var studentName = data.data.Student.Student.firstName + ' ' + data.data.Student.Student.lastName;
+				var media = data.data.Student.Media;
+			} 
+
+			if (data.data.Profiles) { // this is a group of objects in Showtime
+				var media = data.data.Profiles;
+			}
+
+			$.each(media, function(i, item) {
+				count++;
+				
+				//console.log(item);
+				
+				// define smlThumb
+				if (item.profile) {
+					smlThumb = item.profile;
+				} else {
+					// for video and publication types, use a different field	
+					if (item.type == 'video' || item.type == 'publication') {
+						smlThumb = item.thumb;
+					} else {
+						smlThumb = item.thumb.split('gallery');
+						smlThumb = smlThumb[0] + 'profile.jpg';
+					}
+				}
+
+				if (item.profileName) { //group
+					profileUrl = 'http://showtime.arts.ac.uk/' + item.profileName;
+					studentName = item.fullName;
+				}
+
+				// do the loop
+				string = '<li class="profile row add-bottom"><div class="profile-image span3"><a href="' + profileUrl + '" title="View ' + studentName + ' on Showtime"><img src="' + smlThumb + '"></a></div><div class="profile-desc span8"><p>' + item.title + '</p><p><i class="icon-heart"></i> Likes: <strong>6</strong></p></div><div class="span1 relative"><div class="edit-control"><a class="btn btn-primary">Edit</a></div></div></li>';	
+
+				outputNode.append(string);
+
 			});
-		}
+
+		});
+	}
+	
+	// EXPLANATORY POPOVERS
+	/*$('#example').popover({
+		html: 
+	});*/
 		
 		
 });
