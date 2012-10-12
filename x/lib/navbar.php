@@ -6,20 +6,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand" href="/">Platform X</a>
-      <div class="nav-collapse">
-        <ul class="nav">
-          <li class="active"><a href="index.html">Profile admin - visual</a></li>
-			 <li><a href="index.html">Profile - non-visual</a></li>
-          <li><a href="dmitri.html">People</a></li>
-          <li><a href="#">Things</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
-				<div class="nav-collapse pull-right">
-					<ul class="nav">
-          <li><a href="#">Logout</a></li>
-        </ul>
-				</div>
+		      <a class="brand" href="/">Platform X</a>
+		        <ul class="nav">
+		          <li class="active"><a href="index.html">Profile admin - visual</a></li>
+					 		<li><a href="index.html">Profile - non-visual</a></li>
+		        </ul>
+						<div class="pull-right account-status">
+							<p><small>You are signed in as <a href="#">Francesca Smith</a> - do you want to <a href="#">sign out</a>?</small></p>
+						</div>
+
     </div>
   </div>
 </div>
