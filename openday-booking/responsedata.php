@@ -13,7 +13,7 @@
 		$opendaydatestring = 'Saturday 6 October';
 		$opendaylocation = 'John Prince\'s Street';
 		$opendayextras = '';
- 	break; */
+ 	break; 
 	case "tm-19sep":
 	  $opendaytitle = 'Textiles and Fashion Design and Marketing'; 
 			$opendaydatestring = 'Wednesday 19 September';
@@ -32,18 +32,18 @@
 			$opendaylocation = 'Golden Lane';
 			$opendayextras = '';
 	break;
-/*	case "cf-17oct":
+	case "cf-17oct":
 	  $opendaytitle = 'Cordwainers Footwear/Accessories and Fashion Jewellery'; 
 			$opendaydatestring = 'Wednesday 17 October';
 			$opendaylocation = 'Golden Lane';
 			$opendayextras = '';
-	break; */
-/*	case "ta-31oct":
+	break; 
+	case "ta-31oct":
 	  $opendaytitle = 'Tailoring'; 
 			$opendaydatestring = 'Wednesday 31 October';
 			$opendaylocation = 'Mare Street';
 			$opendayextras = '';
-	break; */
+	break; 
 	case "mb-26sep":
 	  $opendaytitle = 'Fashion Management and Fashion Business'; 
 			$opendaydatestring = 'Wednesday 26 September';
@@ -68,13 +68,13 @@
 		$opendaylocation = 'Lime Grove';
 		$opendayextras = '';
  	break;
-/*	case "pd-20oct":
+	case "pd-20oct":
   $opendaytitle = 'Performance Design'; 
 		$opendaydatestring = 'Saturday 20 October';
 		$opendaylocation = 'Lime Grove';
 		$opendayextras = '';
- 	break; 8/
-/*	case "mc-29sep":
+ 	break; 
+	case "mc-29sep":
   $opendaytitle = 'Fashion Media and Communications'; 
 		$opendaydatestring = 'Saturday 29 September';
 		$opendaylocation = 'Lime Grove';
