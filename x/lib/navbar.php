@@ -8,8 +8,10 @@
       </a>
 		      <a class="brand" href="/">Platform X</a>
 		        <ul class="nav">
-		          <li class="active"><a href="index.html">Profile admin - visual</a></li>
-					 		<li><a href="index.html">Profile - non-visual</a></li>
+		          <li><a href="dashboard.php">Profile admin</a></li>
+							<li><a href="profile.php">Profile view</a></li>
+					 		<!--<li><a href="#">Profile admin - non-visual</a></li>-->
+							<li><a href="index.php">View all LCF</a></li>
 		        </ul>
 						<div class="pull-right account-status">
 							<p><small>You are signed in as <a href="#">Francesca Smith</a> - do you want to <a href="#">sign out</a>?</small></p>

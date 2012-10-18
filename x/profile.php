@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+<!-- saved from url=(0054)http://twitter.github.com/bootstrap/examples/hero.html -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Platform X | Francesca Smith Profile</title>
+    <title>Platform X | Dimitri Stavrou</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -14,6 +15,8 @@
         padding-bottom: 40px;
       }
     </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -21,172 +24,157 @@
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="">
+    <link rel="shortcut icon" href="http://twitter.github.com/bootstrap/assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
 
 	
 
   </head>
 
-<body>
+  <body id="populateWithJson">
+	
+		<?php include('lib/navbar.php'); ?>
 
-<?php include('lib/navbar.php'); ?>
+    <div class="container">
 
-	<div class="container-fluid">
-		<div class="row-fluid">
-			<!-- Main user biographical info -->
-			<header class="span12">
-				<div class="row-fluid add-bottom">
+      <!-- Main user biographical info -->
+		<div class="row">
+			<div class="span4">
+				<h1><span id="name"></span></h1>
+				<div class="row">
+					<hr />
 					<div class="span2">
-						<img src="img/joansmith.jpg">
+						<img src="img/dimitriPortrait.jpg">
 					</div>
-					<div class="span4">
-						<h1><span id="name">Francesca Smith</span></h1>
-					</div>
-					<div class="span3 offset3 alignright">
-						<a href="#" class="btn btn-large btn-success">Upload</a>
-						<a href="#" class="btn btn-large btn-info">View your profile</a>
+					<div class="span2">
+						<img src="img/london.jpeg">
 					</div>
 				</div>
-			</header>
+			</div>
+			
+			<div class="span8" id="calloutBox">
+				<div class="hero-unit">
+					<p><span id="personalStatement"></span></p>
+				</div>						
+			</div>
+		</div>
+
+		
+		<div class="row">
+			<div class="span12">
+				<img src="img/timeline.png" id="timeline">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="span4">
+				<h2><span id="gradYearBA"></span></h2>
+				<p><span id="courseBA"></span></p>
+			
+			</div>
+			<div class="span4">
+				<h2><span id="gradYearMA"></span></h2>
+				<p><span id="courseMA"></span></p>
+			</div>
+			<div class="span4">
+				<h2><span id="currentJobStartdate"></span></h2>
+				<span id="currentRole"></span> (<span id="currentJobStatus"></span>)<br />
+				<span id="currentJob"></span><br />
+			</div>
+
 		</div>	
-		<div class="row-fluid">	
-			<section class="span12">
-   
-				<ul class="nav nav-tabs" id="myTab">
-					<li class="active"><a href="#dashboard">Dashboard</a></li>
-				  <li><a href="#profile">Profile</a></li>
-				  <li><a href="#media">Media</a></li>
-				  <li><a href="#jobs">Jobs</a></li>
-				  <li><a href="#projects">Projects</a></li>
-					<li><a href="#network">Network</a></li>
-				  <li><a href="#settings">Settings</a></li>
-				</ul>
 
-				<div class="tab-content">
-					<div class="tab-pane" id="dashboard">
-						<div class="row-fluid">
-							<div class="span5">
-								<h3>Welcome!</h3>
-								<img src="img/editd-graph.png">
-								<ul>
-									<li>Your daily visitors since 1 July 2012</li>
-								</ul>	
-							</div>
-							<div class="span3">
-								<h4>Vital signs</h4>
-								<p><i class="icon-eye-open"></i> Your profile has been viewed <strong>17</strong> times</p>
-								<p><i class="icon-thumbs-up"></i> Your work has been liked <strong>6</strong> times</p>
-								<p><i class="icon-envelope"></i> Your have received <strong>2</strong> enquiries</p>
-							</div>
-							<aside class="span3 offset1">
-								<div class="well">
-									<h4>Understanding your dashboard</h4>
-									<ul>
-										<li>What to do when you receive enquiries</li>
-										<li>How to improve your profile to receive more visitors</li>
-									</ul>	
-								</div>	
-							</aside>
-						</div>
-					</div><!-- .tab-pane -->
-					
-					<?php include('elements/tab-profile.php'); ?>
+      <div class="row">
+		<hr />
+        <div class="span4 show">
+			<div class="thumbnail">
+          <h2>BA Runway 2008</h2>
+			<img src="img/barunway.jpeg">
+			 <p>Presentation of Graduate collections to press and fashion industry at the Royal Academy of Arts. </p>
+			<br />
+								<img src="img/show.png" width="50">
+			</div>
+        </div>
+        <div class="span4 show">
+			<div class="thumbnail">
+          <h2>MA Runway 2009</h2>
+			<img src="img/marunway.jpeg">
+           <p>Presentation of Post-Graduate collections to press and fashion industry at the Raphael Gallery, Victoria &amp; Albert Museum. </p>
+		<br />
+					<img src="img/show.png" width="50">
+			</div>
+       </div>
+       <div class="span4 award">
+			<div class="thumbnail">
+         <h2>MA Fashion Award, 2009</h2>
+			<img src="img/bfa.jpeg">
+         <p>British designers and creatives are renowned for their ability to set the global fashion agenda. Each year the British Fashion Awards celebrates their creativity and success. Established in 1989, the British Fashion Awards was born from the British Fashion Council’s then five-year-old Designer of the Year Award. For more than 20 years, the British Fashion Awards has been celebrating the contributions of British designers, creatives and models to the international fashion scene. Dimitri was 1 of 5 designers to receive the prestigous award.</p>
+<br />
+					<img src="img/award.png" width="50">
+			</div>
+       </div>
+      </div>
 
-				  <div class="tab-pane" id="media">
-				  	<h3>Your media</h3>
-				 			<div class="row-fluid">
-								<div class="span8">
-									<div id="showtime-json" data-limit="50" data-url="http://showtime.arts.ac.uk/francescasmith.json">
-										<div class="loader"></div>
-										<ul class="thumb-list no-bullet"></ul>
-									</div>
-								</div>
-								<aside class="span3 offset1">
-									<div class="well">
-										<h4>Media FAQs</h4>
-										<ul>
-											<li>Why is my image not showing?</li>
-											<li>The colours in my image are wrong, how do I fix this?</li>
-											<li>How do I upload video?</li>
-										</ul>	
-									</div>	
-								</aside>	
-				 		</div>
-				  </div><!-- .tab-pane -->
-				
-				  <div class="tab-pane active" id="jobs">
-						<h3>Jobs</h3>
-					
-						<div class="row-fluid">
-							<div class="span8">
-								<h5>Latest jobs</h5>
-				  			<div id="jobs-list"></div>
-				
-								<h5>Latest placements offered</h5>
-								<div id="placements-list">
-									<table class="table table-striped"><thead><tr><th>Title</th><th>Location</th><th>Payment</th><th>Duration</th></tr></thead><tbody><tr><td>Abercrombie & Fitch (design)</td><td>Greater London</td><td>Unpaid</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small">Save placement</button></td><td><button class="btn btn-primary btn-small">Apply</button></td></tr><tr><td>Brand Assistant</td><td>Greater London</td><td>Store vouchers</td><td>2 weeks</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small">Save placement</button></td><td><button class="btn btn-primary btn-small">Apply</button></td></tr><tr><td>Fashion Design Assistant </td><td>Others</td><td>Negotiable</td><td>6 weeks</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small">Save placement</button></td><td><button class="btn btn-primary btn-small">Apply</button></td></tr><tr><td>Print Design Assistant </td><td>Others</td><td>Negotiable</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small">Save placement</button></td><td><button class="btn btn-primary btn-small">Apply</button></td></tr><tr><td>Debenhams (retail)</td><td>Greater London</td><td>Expenses paid</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small">Save placement</button></td><td><button class="btn btn-primary btn-small">Apply</button></td></tr></tbody></table> 
-								</div>
-								<p>Add jobs applied for, badges for attending events and placements - friends confirm they attended?</p>
-				  		</div>
-							<aside class="span3 offset1">
-								<div class="well">
-									<h4>Your saved jobs</h4>
-									<p><i class="icon-star"></i> <a href="#">Designer at Mr Porter</a></p>
-									<p><i class="icon-star"></i> <a href="#">Office assistant at Debenhams</a></p>
-								</div>	
-							</aside>	
-				
-						</div>
-					</div><!-- .tab-pane -->
-						
-				  <div class="tab-pane" id="projects">...</div>
-					<div class="tab-pane" id="network">
-						<div id="network-feed"></div>
+      <div class="row">
+				<hr />
+				<div class="span4 award">
+						<div class="thumbnail">
+					<h2>Deutchbank Award, 2010</h2>
+					<img src="img/deutchbank.png">
+		           <p>Presentation of Post-Graduate collections to press and fashion industry at the Raphael Gallery, Victoria &amp; Albert Museum. </p>
+		<br />
+					<img src="img/award.png" width="50">
 					</div>
-				  <div class="tab-pane" id="settings">
-						<h3>Settings</h3>
-				  	<ul>
-							<li>Connect to LinkedIn</li>
-							<li>Connect to Facebook</li>	
-						</ul>	
-				  </div>
-				</div><!-- .tab-content -->
+		       </div>
+		
+				<div class="span4 press">
+						<div class="thumbnail">
+		          <h2>Editorial, VOGUE.com, 2010</h2>
+					<img src="img/vogue.jpeg">
+		          <p>Dimitri won Collection of the Year, the first menswear collection to do so, with his unique take on men’s tailoring. It included half-suits mixed with mesh-draped panels which had a sporty feel about them in a vibrant palette of pink, green and blue.</p>
+		<br />
+							<img src="img/press.png" width="50">
+					</div>
+		        </div>
+        <div class="span4 press">
+			<div class="thumbnail">
+          <h2>Editorial, Drapers, 2011</h2>
+			<img src="img/drapers.jpeg">
+           <p>Featured as one of the top menswear designer graduates to watch. Drapers highlighted London as the hot spot for design pools. Full feature can be found on line. </p>
+<br />
+					<img src="img/press.png" width="50">
+			</div>
+        </div>
 
-			</section>
-			
-			
-		</div><!-- .row-fluid -->
+      </div>
 
-    <hr>
+<!-- 		<div class="inner">
 
-    <footer class="row-fluid">
-		<div class="span4">
-			<ul class="nav">
-         <li><a href="#">Privacy Policy</a></li>
-         <li><a href="#">Terms &amp; Conditions</a></li>
-       </ul>
 		</div>
-		<div class="span4">
-			<ul class="nav">
-         <li><a href="#">Help</a></li>
-         <li><a href="#">Guidelines and IP</a></li>
-       </ul>
-		</div>
-      <p class="pull-right">© London College of Fashion 2012</p>
-    </footer>
+		-->
+		
+	<div class="fb-comments" data-href="http://decoded.co/your-app/16-07-12/lcf/dmitri.html" data-num-posts="6" data-width="470"></div>
+		
+      <!-- Example row of columns -->
 
-  </div> <!-- /container-fluid -->
+
+      <hr>
+
+      <footer>
+        <p>© Company 2012</p>
+      </footer>
+
+    </div> <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
-		<script src="js/jquery-ui.js"></script>
-		<script src="js/jquery.easing.1.3.js"></script>
-		<script src="js/postit_script.js"></script>
-		<script src="js/dragdrop.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
   
 
 </body></html>
