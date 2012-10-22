@@ -63,7 +63,7 @@
 				</ul>
 
 				<div class="tab-content">
-					<div class="tab-pane" id="dashboard">
+					<div class="tab-pane active" id="dashboard">
 						<div class="row-fluid">
 							<div class="span5">
 								<h3>Welcome!</h3>
@@ -114,7 +114,7 @@
 				 		</div>
 				  </div><!-- .tab-pane -->
 				
-				  <div class="tab-pane active" id="jobs">
+				  <div class="tab-pane" id="jobs">
 						<h3>Jobs</h3>
 					
 						<div class="row-fluid">
@@ -144,11 +144,18 @@
 						<div id="network-feed"></div>
 					</div>
 				  <div class="tab-pane" id="settings">
+						<div class="span6">
 						<h3>Settings</h3>
-				  	<ul>
-							<li>Connect to LinkedIn</li>
-							<li>Connect to Facebook</li>	
-						</ul>	
+				  	<h5>Connect to LinkedIn</h5>
+						
+						<p>We can use LinkedIn as follows:</p>
+						<ul>
+							<li>A new member can log in with LinkedIn i.e. they use their login credentials from LinkedIn and do not need to create a new password. In this case they would still have a record in our database including (as a minimum) an email address, and perhaps their 'class of' year at LCF.</li>
+							<li>When completing a profile, a user can use her LinkedIn profile API data as suggested content for her Platform X account. She would have the option to save or amend this data. The user's member ID is stored, so potentially we can have a 'refresh your profile' button that updates Platform X info from the LinkedIn API. <a href="https://developer.linkedin.com/forum/using-api-profile-data-suggestions-3rd-party-profile-data">Further reading</a>.</li>
+						</ul>		
+							
+						<h5>Connect to Facebook</h5>	
+						</div>
 				  </div>
 				</div><!-- .tab-content -->
 
