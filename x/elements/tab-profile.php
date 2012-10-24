@@ -1,5 +1,7 @@
-<div class="tab-pane" id="profile">
+<div class="tab-pane relative" id="profile">
 	<h3>Your profile</h3>
+	
+	<div id="linkedin-badge"><a href="http://uk.linkedin.com/in/alastairmucklow"><img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Alastair Mucklow's profile on LinkedIn"></a></div>
 	
 	<div class="row-fluid">
 		<div class="span8">
@@ -19,6 +21,30 @@
 			<div class="edit-control"><a class="btn btn-primary btn-small">Edit</a></div>
 			</div>
 			<hr>
+			<div class="relative">
+				<h4>Skills</h4>
+				<form>
+				  <!--<legend>Legend</legend>-->
+				  <span class="help-block">Example block-level help text here.</span>
+				  <label class="checkbox">
+				    <input type="checkbox" checked> Jewellery design
+					</label>
+					<label class="checkbox">
+						<input type="checkbox" checked> Pattern cutting
+					</label>
+					<label class="checkbox">	
+						<input type="checkbox"> Menswear
+					</label>	
+					<label class="checkbox">
+						<input type="checkbox"> Tailoring	
+				  </label>
+				  <button type="submit" class="btn">Submit</button>
+				</form>
+				<div class="edit-control"><a class="btn btn-primary btn-small">Edit</a></div>
+				
+			</div>
+			<hr>	
+			
 			<div class="relative">
 			<h4>Work and placement experience</h4>
 			<table class="table table-striped">
@@ -74,6 +100,17 @@
 					<li>Prompts to fill out all required information</li>
 					<li>Tips on properly crediting photographers</li>
 				</ul>	
+			</div>
+			
+			<div class="well">
+				<h4>Connect</h4>
+				<p>Your skills match the following profiles:</p>
+				<ul>
+					<li><a href="#">Dmitri Stavrou</a></li>
+					<li><a href="#">Oliver Ruuger</a></li>
+					<li><a href="#">Christine Kihl</a></li>
+				</ul>	
+				<p>Visit these links to learn more and network.</p> 
 			</div>	
 		</aside>
 		
