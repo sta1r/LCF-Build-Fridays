@@ -57,7 +57,7 @@
 				  <li><a href="#profile">Profile</a></li>
 				  <li><a href="#media">Media</a></li>
 				  <li><a href="#jobs">Jobs</a></li>
-				  <li><a href="#projects">Projects</a></li>
+				  <li><a href="#projects">Placements</a></li>
 					<li><a href="#network">Network</a></li>
 				  <li><a href="#settings">Settings</a></li>
 				</ul>
@@ -122,24 +122,41 @@
 								<h5>Latest jobs</h5>
 				  			<div id="jobs-list"></div>
 				
-								<h5>Latest placements offered</h5>
-								<div id="placements-list">
-									<table class="table table-striped"><thead><tr><th>Title</th><th>Location</th><th>Payment</th><th>Duration</th></tr></thead><tbody><tr><td>Abercrombie & Fitch (design)</td><td>Greater London</td><td>Unpaid</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small">Save placement</button></td><td><button class="btn btn-primary btn-small">Apply</button></td></tr><tr><td>Brand Assistant</td><td>Greater London</td><td>Store vouchers</td><td>2 weeks</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small">Save placement</button></td><td><button class="btn btn-primary btn-small">Apply</button></td></tr><tr><td>Fashion Design Assistant </td><td>Others</td><td>Negotiable</td><td>6 weeks</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small">Save placement</button></td><td><button class="btn btn-primary btn-small">Apply</button></td></tr><tr><td>Print Design Assistant </td><td>Others</td><td>Negotiable</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small">Save placement</button></td><td><button class="btn btn-primary btn-small">Apply</button></td></tr><tr><td>Debenhams (retail)</td><td>Greater London</td><td>Expenses paid</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small">Save placement</button></td><td><button class="btn btn-primary btn-small">Apply</button></td></tr></tbody></table> 
-								</div>
-								<p>Add jobs applied for, badges for attending events and placements - friends confirm they attended?</p>
+								
+								<!--<p>Add jobs applied for, badges for attending events and placements - friends confirm they attended?</p>-->
 				  		</div>
 							<aside class="span3 offset1">
 								<div class="well">
 									<h4>Your saved jobs</h4>
-									<p><i class="icon-star"></i> <a href="#">Designer at Mr Porter</a></p>
-									<p><i class="icon-star"></i> <a href="#">Office assistant at Debenhams</a></p>
+									<p><i class="icon-star"></i> <a href="#">Designer at Mr Porter</a> <button class="btn btn-mini">Remove</button></p>
+									<p><i class="icon-star"></i> <a href="#">Office assistant at Debenhams</a> <button class="btn btn-mini">Remove</button></p>
 								</div>	
 							</aside>	
 				
 						</div>
 					</div><!-- .tab-pane -->
 						
-				  <div class="tab-pane" id="projects">...</div>
+				  <div class="tab-pane" id="projects">
+				  	<h3>Placements</h3>
+						
+						<div class="row-fluid">
+							<div class="span8">
+						
+							<h5>Currently available</h5>
+							<div id="placements-list">
+								<table class="table table-striped"><thead><tr><th>Title</th><th>Location</th><th>Payment</th><th>Duration</th></tr></thead><tbody><tr><td>Abercrombie & Fitch (design)</td><td>Greater London</td><td>Unpaid</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr><tr><td>Brand Assistant</td><td>Greater London</td><td>Store vouchers</td><td>2 weeks</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr><tr><td>Fashion Design Assistant </td><td>Others</td><td>Negotiable</td><td>6 weeks</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr><tr><td>Print Design Assistant </td><td>Others</td><td>Negotiable</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr><tr><td>Debenhams (retail)</td><td>Greater London</td><td>Expenses paid</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr></tbody></table> 
+						</div>
+						</div>
+						<aside class="span3 offset1">
+							<div class="well">
+								<h4>You are interested in:</h4>
+								<p><i class="icon-star"></i> <a href="#">Designer at Mr Porter</a> <button class="btn btn-mini">Remove</button></p>
+								<p><i class="icon-star"></i> <a href="#">Office assistant at Debenhams</a> <button class="btn btn-mini">Remove</button></p>
+							</div>	
+						</aside>
+						</div>
+					</div><!-- .tab-pane -->
+					
 					<div class="tab-pane" id="network">
 						<div id="network-feed"></div>
 					</div>
@@ -151,10 +168,8 @@
 						<p>We can use LinkedIn as follows:</p>
 						<ul>
 							<li>A new member can log in with LinkedIn i.e. they use their login credentials from LinkedIn and do not need to create a new password. In this case they would still have a record in our database including (as a minimum) an email address, and perhaps their 'class of' year at LCF.</li>
-							<li>When completing a profile, a user can use her LinkedIn profile API data as suggested content for her Platform X account. She would have the option to save or amend this data. The user's member ID is stored, so potentially we can have a 'refresh your profile' button that updates Platform X info from the LinkedIn API. <a href="https://developer.linkedin.com/forum/using-api-profile-data-suggestions-3rd-party-profile-data">Further reading</a>.</li>
+							<li>When completing a profile, a user can use her LinkedIn <a href="https://developer.linkedin.com/documents/profile-api">profile API data</a> as suggested content for her Platform X account. She would have the option to save or amend this data. The user's member ID is stored, so potentially we can have a 'refresh your profile' button that updates Platform X info from the LinkedIn API. <a href="https://developer.linkedin.com/forum/using-api-profile-data-suggestions-3rd-party-profile-data">Further reading</a>.</li>
 						</ul>		
-							
-						<h5>Connect to Facebook</h5>	
 						</div>
 				  </div>
 				</div><!-- .tab-content -->
