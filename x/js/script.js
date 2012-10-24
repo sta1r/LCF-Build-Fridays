@@ -76,7 +76,7 @@ $(document).ready(function(){
 						+ '<td>' + job.salary + '</td>'
 						+ '<td>' + dt.getDate() + ' ' + months[dt.getMonth()] + '</td>'
 						+ '<td><button class="btn btn-info btn-small">View detail</button></td>'
-						+ '<td><button class="btn btn-small">Save job</button></td>'
+						+ '<td><button class="btn btn-small" data-role="save-item">Save</button></td>'
 						+ '<td><button class="btn btn-primary btn-small">Apply</button></td>'
 						+ '</tr>';
 
@@ -88,9 +88,22 @@ $(document).ready(function(){
 
 				$('#jobs-list').html(output);
 				//console.log(output);
+				
+				// SAVE A THING
+				$('[data-role="save-item"]').click(function(e) {
+					_this = $(this);
+					_container = _this.parent().parent();
+					_container.toggleClass('saved');
+					if (_container.is('.saved')) {
+						_this.text('Saved');
+					} else {
+						_this.text('Save');
+					}
+				});
+				
 		});
 	}
-		    
+			    
 	// TABS 
 	$('#myTab a').click(function (e) {
 	  e.preventDefault();
