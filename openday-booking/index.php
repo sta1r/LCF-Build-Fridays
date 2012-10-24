@@ -69,8 +69,8 @@ include('header.php');
 					<input type="hidden" value="cf" name="openday">	
 					<p><input type="submit" value="Select" /></p>
 					</form> -->
-				</div>
-			</li><!-- #list3 -->
+<!--				</div>
+			</li> --> <!-- #list3 -->
 			<li>
 				<div class="title expander"><a href="#"><span>Tailoring</span></a><br /><span class="bodycopy"><strike>Wednesday 31 October, 1pm (Mare Street)</strike> *FULLY BOOKED*</span></div>
 
@@ -140,8 +140,8 @@ include('header.php');
 					<input type="hidden" value="pd" name="openday">	
 					<p><input type="submit" value="Select" /></p>
 					</form> -->
-				</div>
-			</li><!-- #list7 -->
+<!--				</div>
+			</li> --> <!-- #list7 -->
 			<li>
 				<div class="title expander"><a href="#"><span>Fashion Media and Communications</span></a><br /><span class="bodycopy"><strike>Saturday 27 October, 10.30am (Lime Grove)</strike> *FULLY BOOKED*</span></div>
 
