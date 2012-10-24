@@ -53,7 +53,7 @@ include('header.php');
 				
 			</li> --> <!-- #list2 -->
 
-			<li>
+<!--			<li>
 				<div class="title expander"><a href="#"><span>Cordwainers Footwear/Accessories and Fashion Jewellery</span></a><br /><span class="bodycopy"><strike>Wednesday 17 October</strike> *FULLY BOOKED*</span></div>
 
 				<div id="list3" class="sublist_content bodycopy">
@@ -64,7 +64,7 @@ include('header.php');
 						<li>BA (Hons) Cordwainers Accessories (1pm)</li>
 						<li>BA (Hons) Fashion Jewellery (1pm)</li>
 					</ul>
-
+-->
 <!--					<form action="booking.php" method="get">    
 					<input type="hidden" value="cf" name="openday">	
 					<p><input type="submit" value="Select" /></p>
@@ -124,7 +124,7 @@ include('header.php');
 					</form>
 				</div>
 			</li> --> <!-- #list6 -->
-			<li>
+<!--			<li>
 				<div class="title expander"><a href="#"><span>Performance Design</span></a><br /><span class="bodycopy"><strike>Saturday 20 October, 11am (Lime Grove)</strike> *FULLY BOOKED*</span></div>
 
 				<div id="list7" class="sublist_content bodycopy">
@@ -135,7 +135,7 @@ include('header.php');
 						<li>FdA Hair and Make Up for Film and TV (2pm both dates)</li>
 						<li>BA (Hons) Make Up and Prosthetics for Performance (3pm both dates)</li>
 					</ul>
-
+-->
 <!--					<form action="booking.php" method="get">    
 					<input type="hidden" value="pd" name="openday">	
 					<p><input type="submit" value="Select" /></p>
