@@ -23,51 +23,78 @@
 			<hr>
 			<div class="relative">
 				<h4>Skills</h4>
-				<form>
-				  <!--<legend>Legend</legend>-->
-				  <span class="help-block">Example block-level help text here.</span>
-				  <label class="checkbox">
-				    <input type="checkbox" checked> Jewellery design
-					</label>
-					<label class="checkbox">
-						<input type="checkbox" checked> Pattern cutting
-					</label>
-					<label class="checkbox">	
-						<input type="checkbox"> Menswear
-					</label>	
-					<label class="checkbox">
-						<input type="checkbox"> Tailoring	
-				  </label>
-				  <button type="submit" class="btn">Submit</button>
-				</form>
-				<div class="edit-control"><a class="btn btn-primary btn-small">Edit</a></div>
-				
+				<div class="row-fluid">
+					<div class="span4">
+						<form>
+						  <legend>Personal</legend>
+						  <!--<span class="help-block">Example block-level help text here.</span>-->
+						  <label class="checkbox">
+						    <input type="checkbox" checked> Time management
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" checked> Creative
+							</label>
+							<label class="checkbox">	
+								<input type="checkbox"> Analytical
+							</label>	
+							<label class="checkbox">
+								<input type="checkbox"> Multi-tasking	
+						  </label>
+						  <button type="submit" class="btn btn-small">Save</button>
+						</form>
+					</div>	
+					<div class="span4">
+						<form>
+						  <legend>Technical</legend>
+						  <!--<span class="help-block">Example block-level help text here.</span>-->
+						  <label class="checkbox">
+						    <input type="checkbox" checked> Jewellery design
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" checked> Pattern cutting
+							</label>
+							<label class="checkbox">	
+								<input type="checkbox"> Menswear
+							</label>	
+							<label class="checkbox">
+								<input type="checkbox"> Tailoring	
+						  </label>
+						  <button type="submit" class="btn btn-small">Save</button>
+						</form>
+					</div>
+					<div class="span4">
+						<form>
+						  <legend>IT</legend>
+						  <!--<span class="help-block">Example block-level help text here.</span>-->
+						  <label class="checkbox">
+						    <input type="checkbox" checked> Word: basic word processing
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" checked> Excel: basic spreadsheets
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" checked> Excel: charts
+							</label>
+							<label class="checkbox">	
+								<input type="checkbox"> Excel: formulae
+							</label>	
+							<label class="checkbox">
+								<input type="checkbox"> Excel: pivot tables	
+						  </label>
+							<label class="checkbox">
+								<input type="checkbox"> Photoshop: layers	
+						  </label>
+							<label class="checkbox">
+								<input type="checkbox" checked> Illustrator: vector graphics	
+						  </label>
+						  <button type="submit" class="btn btn-small">Save</button>
+						</form>
+					</div>
+					
+				</div>
 			</div>
 			<hr>	
 			
-			<div class="relative">
-			<h4>Work and placement experience</h4>
-			<table class="table table-striped">
-				<thead>
-					<tr>
-						<th>Title</th>
-						<th>Date</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Abercrombie & Fitch (design)</td>
-						<td>July 2012</td>
-					</tr>
-					<tr>
-						<td>Debenhams retail</td>
-						<td>Christmas 2011</td>
-					</tr>
-				</tbody>
-			</table> 
-			<div class="edit-control"><a class="btn btn-primary btn-small">Edit</a></div>
-			</div>
-			<hr>
 			<div class="relative">
 			<h4>Events attended</h4>	
 			<table class="table table-striped">
@@ -106,9 +133,9 @@
 				<h4>Connect</h4>
 				<p>Your skills match the following profiles:</p>
 				<ul>
-					<li><a href="#">Dmitri Stavrou</a></li>
-					<li><a href="#">Oliver Ruuger</a></li>
-					<li><a href="#">Christine Kihl</a></li>
+					<li><a href="profile.php">Dmitri Stavrou</a></li>
+					<li><a href="profile.php">Oliver Ruuger</a></li>
+					<li><a href="profile.php">Christine Kihl</a></li>
 				</ul>	
 				<p>Visit these links to learn more and network.</p> 
 			</div>	
