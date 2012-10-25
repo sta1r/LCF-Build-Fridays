@@ -63,7 +63,7 @@
 				</ul>
 
 				<div class="tab-content">
-					<div class="tab-pane active" id="dashboard">
+					<div class="tab-pane" id="dashboard">
 						<div class="row-fluid">
 							<div class="span5">
 								<h3>Welcome!</h3>
@@ -114,23 +114,46 @@
 				 		</div>
 				  </div><!-- .tab-pane -->
 				
-				  <div class="tab-pane" id="jobs">
+				  <div class="tab-pane active" id="jobs">
 						<h3>Jobs</h3>
 					
 						<div class="row-fluid">
 							<div class="span8">
-								<h5>Latest jobs</h5>
+								<h5>Latest jobs posted by LCF</h5>
 				  			<div id="jobs-list"></div>
-				
+								<hr>
+								<h5>Applying with LinkedIn demo</h5>
+								<table class="table table-striped"><thead><tr><th>Title</th><th>Location</th><th>Salary</th><th>Closing date</th></tr></thead><tbody><tr><td>Visual Merchandising Assistant</td><td>Greater London</td><td>Negotiable</td><td>26 Oct</td><td><button class="btn btn-small">Apply</button></td><td><script src="http://platform.linkedin.com/in.js" type="text/javascript">
+									api_key: 05pwccbxmpxu
+								</script>
+								<script type="IN/Apply" 
+									data-companyId="14685" 
+									data-jobId="12345"
+									data-jobtitle="Visual Merchandising Assistant" 
+									data-joblocation="London" 
+									data-themecolor="#FF9900" 
+									data-phone="required" 
+									data-email="a.mucklow@fashion.arts.ac.uk"
+									data-showText="false"
+									data-size="medium">
+								</script></td></tr></tbody></table> 
 								
-								<!--<p>Add jobs applied for, badges for attending events and placements - friends confirm they attended?</p>-->
 				  		</div>
 							<aside class="span3 offset1">
 								<div class="well">
 									<h4>Your saved jobs</h4>
 									<p><i class="icon-star"></i> <a href="#">Designer at Mr Porter</a> <button class="btn btn-mini">Remove</button></p>
 									<p><i class="icon-star"></i> <a href="#">Office assistant at Debenhams</a> <button class="btn btn-mini">Remove</button></p>
-								</div>	
+								</div>
+								
+								<div class="well">
+									<p>Can also source:</p>
+									<ul>
+										<li>Latest suggested jobs from LinkedIn</li>
+										<li>Your bookmarked jobs on LinkedIn</li>
+										<li>Potentially, jobs data lives on LinkedIn and not here?</li>
+									</ul>
+								</div>		
 							</aside>	
 				
 						</div>
@@ -141,7 +164,31 @@
 						
 						<div class="row-fluid">
 							<div class="span8">
-						
+							
+								<div class="relative">
+								<h5>Your placements</h5>
+								<table class="table table-striped">
+									<thead>
+										<tr>
+											<th>Title</th>
+											<th>Date</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Abercrombie & Fitch (design)</td>
+											<td>July 2012</td>
+										</tr>
+										<tr>
+											<td>Debenhams retail</td>
+											<td>Christmas 2011</td>
+										</tr>
+									</tbody>
+								</table> 
+								<div class="edit-control"><a class="btn btn-primary btn-small">Edit</a></div>
+								</div>
+								<hr>
+								
 							<h5>Currently available</h5>
 							<div id="placements-list">
 								<table class="table table-striped"><thead><tr><th>Title</th><th>Location</th><th>Payment</th><th>Duration</th></tr></thead><tbody><tr><td>Abercrombie & Fitch (design)</td><td>Greater London</td><td>Unpaid</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr><tr><td>Brand Assistant</td><td>Greater London</td><td>Store vouchers</td><td>2 weeks</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr><tr><td>Fashion Design Assistant </td><td>Others</td><td>Negotiable</td><td>6 weeks</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr><tr><td>Print Design Assistant </td><td>Others</td><td>Negotiable</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr><tr><td>Debenhams (retail)</td><td>Greater London</td><td>Expenses paid</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr></tbody></table> 
