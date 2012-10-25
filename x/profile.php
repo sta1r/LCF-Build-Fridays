@@ -42,19 +42,18 @@
 
       <!-- Main user biographical info -->
 		<div class="row">
-			<div class="span4">
+			<div class="span12 relative">
 				<h1><span id="name"></span></h1>
-				<div class="row">
-					<hr />
-					<div class="span2">
-						<img src="img/dimitriPortrait.jpg">
-					</div>
-					<div class="span2">
-						<img src="img/london.jpeg">
-					</div>
-				</div>
+				<div id="linkedin-badge"><a href="http://uk.linkedin.com/in/alastairmucklow"><img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Alastair Mucklow's profile on LinkedIn"></a></div>
+				<hr>
+			</div>	
+
+			<div class="span2">
+				<img src="img/dimitriPortrait.jpg">
 			</div>
-			
+			<div class="span2">
+				<img src="img/london.jpeg">
+			</div>
 			<div class="span8" id="calloutBox">
 				<div class="hero-unit">
 					<p><span id="personalStatement"></span></p>
