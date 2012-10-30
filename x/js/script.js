@@ -170,6 +170,24 @@ $(document).ready(function(){
 	/*$('#example').popover({
 		html: 
 	});*/
+	
+	// PUSH STUDENTS INTO TABLE ROWS
+	if ($('#students-list').length) {
+		
+		var output = '<table class="table table-striped"><thead><tr><th>Name</th><th>Course</th><th>Interested in</th><th>Flag</th><th>Complete?</th></tr></thead><tbody>';
+		
+		for (i = 0; i < 10; i++) {
+			
+			output += '<tr><td>Dave Jones</td><td>BA Fashion Management</td><td>Retail Assistant, Burberry</td><td><i class="icon-flag"></i></td><td><label class="checkbox"><input type="checkbox"></label></td></tr>';
+			
+		}
+		
+		output += '</table>';
+		
+		$('#students-list').html(output);
+		
+		
+	}
 		
 		
 });
