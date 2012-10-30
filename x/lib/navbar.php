@@ -8,9 +8,10 @@
       </a>
 		      <a class="brand" href="/">Platform X</a>
 		        <ul class="nav">
-		          <li><a href="dashboard.php">Profile admin</a></li>
+		          <li><a href="dashboard.php">Student dashboard</a></li>
 							<li><a href="profile.php">Profile view</a></li>
 					 		<!--<li><a href="#">Profile admin - non-visual</a></li>-->
+							<li><a href="admin.php">Admin view</a></li>
 							<li><a href="index.php">View all LCF</a></li>
 		        </ul>
 						<div class="pull-right account-status">

@@ -63,7 +63,7 @@
 				</ul>
 
 				<div class="tab-content">
-					<div class="tab-pane" id="dashboard">
+					<div class="tab-pane active" id="dashboard">
 						<div class="row-fluid">
 							<div class="span5">
 								<h3>Welcome!</h3>
@@ -114,7 +114,7 @@
 				 		</div>
 				  </div><!-- .tab-pane -->
 				
-				  <div class="tab-pane active" id="jobs">
+				  <div class="tab-pane" id="jobs">
 						<h3>Jobs</h3>
 					
 						<div class="row-fluid">
