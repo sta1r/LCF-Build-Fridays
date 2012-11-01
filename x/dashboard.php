@@ -170,18 +170,27 @@
 								<table class="table table-striped">
 									<thead>
 										<tr>
-											<th>Title</th>
+											<th>Status</th>
+											<th>Company</th>
+											<th>Role</th>
 											<th>Date</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
-											<td>Abercrombie & Fitch (design)</td>
-											<td>July 2012</td>
+											<td><span class="label label-warning">Pending</span></td>
+											<td>Abercrombie & Fitch</td>
+											<td>Design intern</td>
+											<td>July 2013</td>
+											<td><button class="btn btn-info btn-small">View / edit activity log</button></td>
 										</tr>
 										<tr>
-											<td>Debenhams retail</td>
+											<td><span class="label label-success">Complete</span></td>
+											<td>Debenhams</td>
+											<td>Retail assistant</td>
 											<td>Christmas 2011</td>
+											<td><button class="btn btn-info btn-small">View / edit activity log</button></td>
+											
 										</tr>
 									</tbody>
 								</table> 
@@ -189,7 +198,7 @@
 								</div>
 								<hr>
 								
-							<h5>Currently available</h5>
+							<h5>New placements currently available</h5>
 							<div id="placements-list">
 								<table class="table table-striped"><thead><tr><th>Title</th><th>Location</th><th>Payment</th><th>Duration</th></tr></thead><tbody><tr><td>Abercrombie & Fitch (design)</td><td>Greater London</td><td>Unpaid</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr><tr><td>Brand Assistant</td><td>Greater London</td><td>Store vouchers</td><td>2 weeks</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr><tr><td>Fashion Design Assistant </td><td>Others</td><td>Negotiable</td><td>6 weeks</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr><tr><td>Print Design Assistant </td><td>Others</td><td>Negotiable</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr><tr><td>Debenhams (retail)</td><td>Greater London</td><td>Expenses paid</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr></tbody></table> 
 						</div>
@@ -200,6 +209,14 @@
 								<p><i class="icon-star"></i> <a href="#">Designer at Mr Porter</a> <button class="btn btn-mini">Remove</button></p>
 								<p><i class="icon-star"></i> <a href="#">Office assistant at Debenhams</a> <button class="btn btn-mini">Remove</button></p>
 							</div>	
+							<div class="well">
+								<h4>Activity logs for placements</h4>
+								<ul>
+									<li>Periodic PBS check-ins</li>
+									<li>Student learns through reflection on experiences</li>
+									<li>Placement diaries can be referred back to as the student progresses</li>
+								</ul>
+							</div>
 						</aside>
 						</div>
 					</div><!-- .tab-pane -->

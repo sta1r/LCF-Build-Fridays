@@ -40,8 +40,7 @@
 						<h1>Platform X admin</h1>
 					</div>
 					<div class="span3 offset5 alignright">
-						<a href="#" class="btn btn-info">Export</a>
-						<a href="#" class="btn btn-info">Bulk email</a>
+						
 					</div>
 				</div>
 			</header>
@@ -52,6 +51,7 @@
 				<ul class="nav nav-tabs" id="myTab">
 					<li class="active"><a href="#dashboard">Dashboard</a></li>
 				  <li><a href="#students">Students</a></li>
+				  <li><a href="#placements">Placements</a></li>
 				  <li><a href="#settings">Settings</a></li>
 				</ul>
 
@@ -75,7 +75,9 @@
 									<li><strong>5</strong> students applied for jobs</li>
 									<li><strong>3</strong> new jobs are in your moderation queue</li>
 								</ul>		
-							</div>	
+							</div>
+							
+
 						
 						</div>
 					</div><!-- .tab-pane -->
@@ -83,7 +85,7 @@
 				  <div class="tab-pane" id="students">
 						<h3>Students</h3>
 					
-						<div id="control-bar" class="row-fluid">
+						<div class="control-bar row-fluid">
 							<div class="span10">
 								<div class="well clearfix">
 									<div class="control pull-left">
@@ -91,15 +93,36 @@
 										<div class="btn-group">
 										  <button class="btn">Name</button>
 										  <button class="btn">Course</button>
+											<button class="btn">Last logged in</button>
 										</div>
 									</div>	
 									<div class="control pull-left">
 										<p>Filter by:</p>
 										<div class="btn-group">
-										  <button class="btn">Year 1</button>
-										  <button class="btn">Year 2</button>
-										  <button class="btn">Year 3</button>
+										  <button class="btn">Filter</button>
+										  <button class="btn dropdown-toggle" data-toggle="dropdown">
+										    <span class="caret"></span>
+										  </button>
+										  <ul class="dropdown-menu">
+										    <li><a href="#">Year 1</a></li>
+												<li><a href="#">Year 2</a></li>
+												<li><a href="#">Year 3</a></li>
+												<li class="divider"></li>
+												<li><a href="#">Alumni</a></li>	
+										  </ul>
 										</div>
+									</div>
+									<div class="control pull-left">
+										<p>Profile search:</p>
+										<form class="form-search">
+										  <input type="text" class="input-medium search-query">
+										  <button type="submit" class="btn">Search</button>
+										</form>
+									</div>
+									<div class="control pull-right">
+										<p>With selection:</p>
+										<a href="#" class="btn btn-info">Export</a>
+										<a href="#" class="btn btn-info">Bulk email</a>
 									</div>	
 								</div>
 							</div>
@@ -108,66 +131,52 @@
 							<div class="span10">
 				  			<div id="students-list"></div>
 								
-								<div class="pagination">
-								  <ul>
-								    <li class="disabled"><a href="#">Prev</a></li>
-								    <li class="active"><a href="#">1</a></li>
-										<li><a href="#">2</a></li>
-										<li><a href="#">3</a></li>
-										<li><a href="#">4</a></li>
-										<li><a href="#">5</a></li>
-										<li><a href="#">Next</a></li>
-								    
-								  </ul>
-								</div>
+								<?php include('elements/pagination.php'); ?>
+								
 				  		</div>
 							
 				
 						</div>
 					</div><!-- .tab-pane -->
 						
-				  <div class="tab-pane" id="projects">
+				  <div class="tab-pane" id="placements">
 				  	<h3>Placements</h3>
+						<div class="control-bar row-fluid">
+							<div class="span10">
+								<div class="well clearfix">
+									<div class="control pull-left">
+										<label>Sort by:</label>
+										
+									</div>	
+									<div class="control pull-left">
+										<div class="btn-group">
+										  <button class="btn">Company</button>
+										  <button class="btn">Role</button>
+											<button class="btn">Interest</button>
+										</div>
+									</div>	
+									<div class="control pull-left">
+										<form class="form-search inline-form">
+										  <input type="text" class="input-medium search-query">
+										  <button type="submit" class="btn">Search</button>
+										</form>
+									</div>
+									<div class="control pull-right">
+										<button class="btn btn-primary">Add new</button>
+									  
+									</div>	
+								</div>
+							</div>
+						</div>
 						
 						<div class="row-fluid">
-							<div class="span8">
+							<div class="span10">
 							
-								<div class="relative">
-								<h5>Your placements</h5>
-								<table class="table table-striped">
-									<thead>
-										<tr>
-											<th>Title</th>
-											<th>Date</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Abercrombie & Fitch (design)</td>
-											<td>July 2012</td>
-										</tr>
-										<tr>
-											<td>Debenhams retail</td>
-											<td>Christmas 2011</td>
-										</tr>
-									</tbody>
-								</table> 
-								<div class="edit-control"><a class="btn btn-primary btn-small">Edit</a></div>
-								</div>
-								<hr>
-								
-							<h5>Currently available</h5>
-							<div id="placements-list">
-								<table class="table table-striped"><thead><tr><th>Title</th><th>Location</th><th>Payment</th><th>Duration</th></tr></thead><tbody><tr><td>Abercrombie & Fitch (design)</td><td>Greater London</td><td>Unpaid</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr><tr><td>Brand Assistant</td><td>Greater London</td><td>Store vouchers</td><td>2 weeks</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr><tr><td>Fashion Design Assistant </td><td>Others</td><td>Negotiable</td><td>6 weeks</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr><tr><td>Print Design Assistant </td><td>Others</td><td>Negotiable</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr><tr><td>Debenhams (retail)</td><td>Greater London</td><td>Expenses paid</td><td>1 month</td><td><button class="btn btn-info btn-small">View detail</button></td><td><button class="btn btn-small" data-role="save-item">Save</button></td><td><button class="btn btn-primary btn-small">Register interest</button></td></tr></tbody></table> 
+								<div id="admin-placements-list"></div>
+							
+								<?php include('elements/pagination.php'); ?>
+							
 						</div>
-						</div>
-						<aside class="span3 offset1">
-							<div class="well">
-								<h4>You are interested in:</h4>
-								<p><i class="icon-star"></i> <a href="#">Designer at Mr Porter</a> <button class="btn btn-mini">Remove</button></p>
-								<p><i class="icon-star"></i> <a href="#">Office assistant at Debenhams</a> <button class="btn btn-mini">Remove</button></p>
-							</div>	
-						</aside>
 						</div>
 					</div><!-- .tab-pane -->
 					
