@@ -171,14 +171,14 @@ $(document).ready(function(){
 		html: 
 	});*/
 	
-	// PUSH STUDENTS INTO TABLE ROWS
+	// PUSH DUMMY STUDENTS INTO TABLE ROWS
 	if ($('#students-list').length) {
 		
-		var output = '<table class="table table-striped"><thead><tr><th>Name</th><th>Course</th><th>Interested in</th><th>Flag</th><th>Complete?</th></tr></thead><tbody>';
+		var output = '<table class="table table-striped"><thead><tr><th>Flag</th><th>Name</th><th>Course</th><th>Email address</th><th>Complete?</th><th>Actions</th></tr></thead><tbody>';
 		
 		for (i = 0; i < 10; i++) {
 			
-			output += '<tr><td>Dave Jones</td><td>BA Fashion Management</td><td>Retail Assistant, Burberry</td><td><i class="icon-flag"></i></td><td><label class="checkbox"><input type="checkbox"></label></td></tr>';
+			output += '<tr><td><i class="icon-flag"></i></td><td>Dave Jones</td><td>BA Fashion Management</td><td><a href="mailto:davatron4000@hotmail.com">davatron4000@hotmail.com</a></td><td><label class="checkbox"><input type="checkbox"></label></td><td><button class="btn btn-action btn-small">View profile</button></td><td><button class="btn btn-action btn-small">Set goals</button></td></tr>';
 			
 		}
 		
@@ -188,6 +188,28 @@ $(document).ready(function(){
 		
 		
 	}
+	
+	// PUSH DUMMY PLACEMENTS INTO TABLE ROWS
+	if ($('#admin-placements-list').length) {
+		
+		var output = '<table class="table table-striped"><thead><tr><th>Status</th><th>Date posted</th><th>Company</th><th>Role</th><th>Duration</th><th>Students interested</th></tr></thead><tbody>';
+		
+		for (i = 0; i < 10; i++) {
+			
+			output += '<tr><td><span class="label label-success">Live</span></td><td>10 October 2012</td><td>Debenhams</td><td>Retail assistant</td><td>6-8 weeks</td><td><span class="badge badge-info">16</span></td>';
+			
+			// Actions and buttons
+			output += '<td><div class="btn-group"><a class="btn btn-small dropdown-toggle" data-toggle="dropdown" href="#">Status <span class="caret"></span></a><ul class="dropdown-menu"><li><a href="#">Draft</a></li><li><a href="#">Private</a></li></ul></div></td><td><button class="btn btn-small btn-info">View detail</button></td><td><button class="btn btn-small btn-danger" data-role="delete-item">Delete</button></td></tr>';
+			
+		}
+		
+		output += '</table>';
+		
+		$('#admin-placements-list').html(output);
+		
+		
+	}
+	
 		
 		
 });
