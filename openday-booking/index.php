@@ -71,7 +71,7 @@ include('header.php');
 					</form> -->
 <!--				</div>
 			</li> --> <!-- #list3 -->
-			<li>
+<!--			<li>
 				<div class="title expander"><a href="#"><span>Tailoring</span></a><br /><span class="bodycopy"><strike>Wednesday 31 October, 1pm (Mare Street)</strike> *FULLY BOOKED*</span></div>
 
 				<div id="list4" class="sublist_content bodycopy">
@@ -79,14 +79,14 @@ include('header.php');
 						<li>Becoming an LCF Student (1pm)</li>
 						<li>FdA Tailoring</li>
 						<li>BA (Hons) Bespoke Tailoring (2pm)</li>
-					</ul>
+					</ul> -->
 
 			<!--		<form action="booking.php" method="get">    
 					<input type="hidden" value="ta" name="openday">	
 					<p><input type="submit" value="Select" /></p>
 					</form> -->
-				</div>
-			</li><!-- #list4 -->
+<!--				</div>
+			</li> --><!-- #list4 -->
 <!--			<li>
 				<div class="title expander"><a href="#"><span>Fashion Management and Fashion Business</span></a><br /><span class="bodycopy"><strike>Wednesday 26 September and Saturday 13 October, 11am (High Holborn)</strike></span> *FULLY BOOKED* </div>
 
@@ -142,7 +142,7 @@ include('header.php');
 					</form> -->
 <!--				</div>
 			</li> --> <!-- #list7 -->
-			<li>
+<!--			<li>
 				<div class="title expander"><a href="#"><span>Fashion Media and Communications</span></a><br /><span class="bodycopy"><strike>Saturday 27 October, 10.30am (Lime Grove)</strike> *FULLY BOOKED*</span></div>
 
 				<div id="list8" class="sublist_content bodycopy">
@@ -156,13 +156,13 @@ include('header.php');
 						<li>BA (Hons) Creative Direction for Fashion (3pm)</li>
 						<li>BA (Hons) Fashion Illustration (4pm)</li>
 					</ul>
-
+-->
 				<!--	<form action="booking.php" method="get">    
 					<input type="hidden" value="mc" name="openday">	
 					<p><input type="submit" value="Select" /></p>
 					</form>  -->
-				</div>
-			</li><!-- #list8 -->
+<!--				</div>
+			</li> --><!-- #list8 -->
 			<li>
 				<div class="title expander"><a href="#"><span>Part Time Degrees</span></a><br /><span class="bodycopy">Wednesday 28 November (6pm), Wednesday 13 February (6pm) and Saturday 11 May (10.30am) (John Prince’s Street)</span></div>
 
