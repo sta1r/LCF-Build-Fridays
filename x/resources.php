@@ -9,7 +9,7 @@ include('lib/navbar.php');
 			<header class="span12">
 				<div class="row-fluid add-bottom">
 					<div class="span4">
-						<h1>Platform X admin</h1>
+						<h1>Platform X resources</h1>
 					</div>
 					<div class="span3 offset5 alignright">
 						
@@ -21,36 +21,68 @@ include('lib/navbar.php');
 			<section class="span12">
    
 				<ul class="nav nav-tabs" id="myTab">
-					<li class="active"><a href="#dashboard">Dashboard</a></li>
-				  <li><a href="#students">Students</a></li>
-				  <li><a href="#placements">Placements</a></li>
-				  <li><a href="#settings">Settings</a></li>
+					<li class="active"><a href="#dashboard">Latest</a></li>
+				  <li><a href="#">Saved</a></li>
 				</ul>
 
 				<div class="tab-content">
-					<div class="tab-pane active" id="dashboard">
-						<div class="row-fluid">
-							<div class="span4">
-								
-								<h4><i class="icon-tasks"></i> Quick stats (since you last logged in)</h4>
-								<ul>
-									<li><strong>264</strong> unique visitors</li>
-									<li><strong>62</strong> likes</li>
-									<li><strong>12</strong> enquiries logged</li>
-								</ul>	
-							</div>
-							
-							<div class="span4">
-								<h4><i class="icon-envelope"></i> In-tray</h4>
-								<ul>
-									<li><strong>12</strong> students registered interest in placements</li>
-									<li><strong>5</strong> students applied for jobs</li>
-									<li><strong>3</strong> new jobs are in your moderation queue</li>
-								</ul>		
-							</div>
-							
+					<div class="tab-pane active" id="latest">
 
-						
+						<div class="row-fluid">
+							<h3>Screencasts</h3>
+						</div>
+						<div class="row-fluid">
+							
+							<div class="span3">
+								<img src="img/cv-grab.jpg">
+								<h5>Crafting the perfect CV</h5>
+							</div>
+							<div class="span3">
+								<img src="img/cv-grab.jpg">
+								<h5>Excel: mastering the pivot table</h5>
+							</div>
+							<div class="span3">
+								<img src="img/cv-grab.jpg">
+								<h5>Harness the power of social media</h5>
+							</div>
+						</div>
+						<hr>
+						<div class="row-fluid">
+							<h3>Presenting yourself online</h3>
+						</div>
+						<div class="row-fluid">
+							
+							<div class="span4">
+								<img src="img/ted-grab.jpg">
+								<h5>Starting your own fashion label</h5>
+							</div>
+							<div class="span4">
+								<img src="img/ted-grab2.jpg">
+								<h5>Unravelling the supply chain</h5>
+							</div>
+							<div class="span4">
+								<img src="img/ted-grab.jpg">
+								<h5>Selling your work online</h5>
+							</div>
+						</div>
+						<hr>
+						<div class="row-fluid">
+							<h3>Business and entrepreneurship</h3>
+						</div>
+						<div class="row-fluid">
+							
+							<div class="span4">
+								<img src="img/ted-grab2.jpg">
+								<h5>Starting your own fashion label</h5>
+							</div>
+							<div class="span4">
+								<img src="img/ted-grab.jpg">
+								<h5>Unravelling the supply chain</h5>
+							</div>
+							<div class="span4">
+								<img src="img/ted-grab2.jpg">
+								<h5>Selling your work online</h5>
+							</div>
 						</div>
 					</div><!-- .tab-pane -->
 									

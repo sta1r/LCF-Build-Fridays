@@ -1,35 +1,7 @@
-<!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <title>Platform X | Francesca Smith Profile</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Le styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="">
-
-	
-
-  </head>
-
-<body>
-
-<?php include('lib/navbar.php'); ?>
+<?php 
+include('lib/header.php');
+include('lib/navbar.php'); 
+?>
 
 	<div class="container-fluid">
 		<div class="row-fluid">
@@ -58,7 +30,7 @@
 				  <li><a href="#media">Media</a></li>
 				  <li><a href="#jobs">Jobs</a></li>
 				  <li><a href="#projects">Placements</a></li>
-					<li><a href="#network">Network</a></li>
+					<!--<li><a href="#network">Network</a></li>-->
 				  <li><a href="#settings">Settings</a></li>
 				</ul>
 
@@ -221,9 +193,10 @@
 						</div>
 					</div><!-- .tab-pane -->
 					
-					<div class="tab-pane" id="network">
+					<!--<div class="tab-pane" id="network">
 						<div id="network-feed"></div>
-					</div>
+					</div>-->
+					
 				  <div class="tab-pane" id="settings">
 						<div class="span6">
 						<h3>Settings</h3>
