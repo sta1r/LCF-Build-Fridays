@@ -56,11 +56,11 @@ include('header.php');
 		  <option value="mb-13oct">Saturday 13 October</option>-->
 		<?php 	break;
 		    case "cs": ?>
-		  <option value="cs-12oct">Friday 12 October</option>
+<!--		  <option value="cs-12oct">Friday 12 October</option> -->
 		<?php 	break;
 		    case "pd": ?>
-		  <option value="pd-22sep">Saturday 22 September</option>
-<!--		  <option value="pd-20oct">Saturday 20 October</option> -->
+<!--		  <option value="pd-22sep">Saturday 22 September</option>
+		  <option value="pd-20oct">Saturday 20 October</option> -->
 		<?php 	break;
 		    case "mc": ?>
 		<!--  <option value="mc-29sep">Saturday 29 September</option> -->

@@ -11,7 +11,7 @@ include('header.php');
 			<p>Please choose your area of interest from the list below and click 'Select' to book your place. Our postgraduate dates will be advertised shortly.</p>
 
 		 <ul class="list-folding">
-			<li>
+<!--			<li>
 				<div class="title expander"><a href="#"><span>Fashion Design</span></a><br /><span class="bodycopy"><strike>Saturday 15 September and Saturday 6 October, 11am (John Prince’s Street)</strike> *FULLY BOOKED*</span></div>
 
 				<div id="list1" class="sublist_content bodycopy">
@@ -24,13 +24,14 @@ include('header.php');
 					</ul>
 					<p>Tours will be available at our Curtain Road site after the presentation.</p>
 
-			<!--		<form action="booking.php" method="get">    
+					<form action="booking.php" method="get">    
 					<input type="hidden" value="fd" name="openday">	
 					<p><input type="submit" value="Select" /></p>
-					</form> -->
+					</form>
 				</div>
-			</li><!-- #list1 -->
-			<li>
+			</li> --> <!-- #list1 --> 
+
+<!--			<li>
 				<div class="title expander"><a href="#"><span>Textiles and Fashion Design and Marketing</span></a><br /><span class="bodycopy"><strike>Wednesday 19 September (Lime Grove) and Wednesday 10 October, 11am (John Prince's St)</strike></span> *FULLY BOOKED*</div>
 
 				<div id="list2" class="sublist_content bodycopy">
@@ -41,34 +42,37 @@ include('header.php');
 						<li>BA (Hons) Fashion Design Technology: Fashion Textiles (1pm both dates)</li>			
 					</ul>
 
-					<!--<form action="booking.php" method="get">    
+				 	<form action="booking.php" method="get">   
 					<input type="hidden" value="tm" name="openday">	
 					<p><input type="submit" value="Select" /></p>
-					</form>-->
-					
+					</form>
+-->
+<!--					
 					<p><strong>Please note the 10 October open day will now take place at our John Prince's Street site.</strong></p>
 				</div>
 				
-			</li><!-- #list2 -->
-			<li>
-				<div class="title expander"><a href="#"><span>Cordwainers Footwear/Accessories and Fashion Jewellery</span></a><br /><span class="bodycopy"><strike>Thursday 4 October, 11am (Golden Lane) and Wednesday 17 October</strike> *FULLY BOOKED*</span></div>
+
+			</li>-->
+<!--			<li>
+				<div class="title expander"><a href="#"><span>Cordwainers Footwear/Accessories and Fashion Jewellery</span></a><br /><span class="bodycopy"><strike>Wednesday 17 October</strike> *FULLY BOOKED*</span></div>
+>>>>>>> Charlotte
 
 				<div id="list3" class="sublist_content bodycopy">
 					<ul class="inner">
-						<li>FdA Cordwainers Footwear (11am both dates)</li>
-						<li>BA(Hons) Cordwainers Footwear (11am both dates)</li>
-						<li>Becoming an LCF Student (12pm both dates)</li>
-						<li>BA (Hons) Cordwainers Accessories (1pm both dates)</li>
-						<li>BA (Hons) Fashion Jewellery (1pm both dates)</li>
+						<li>FdA Cordwainers Footwear (11am)</li>
+						<li>BA(Hons) Cordwainers Footwear (11am)</li>
+						<li>Becoming an LCF Student (12pm)</li>
+						<li>BA (Hons) Cordwainers Accessories (1pm)</li>
+						<li>BA (Hons) Fashion Jewellery (1pm)</li>
 					</ul>
-
+-->
 <!--					<form action="booking.php" method="get">    
 					<input type="hidden" value="cf" name="openday">	
 					<p><input type="submit" value="Select" /></p>
 					</form> -->
-				</div>
-			</li><!-- #list3 -->
-			<li>
+<!--				</div>
+			</li> --> <!-- #list3 -->
+<!--			<li>
 				<div class="title expander"><a href="#"><span>Tailoring</span></a><br /><span class="bodycopy"><strike>Wednesday 31 October, 1pm (Mare Street)</strike> *FULLY BOOKED*</span></div>
 
 				<div id="list4" class="sublist_content bodycopy">
@@ -76,15 +80,15 @@ include('header.php');
 						<li>Becoming an LCF Student (1pm)</li>
 						<li>FdA Tailoring</li>
 						<li>BA (Hons) Bespoke Tailoring (2pm)</li>
-					</ul>
+					</ul> -->
 
 			<!--		<form action="booking.php" method="get">    
 					<input type="hidden" value="ta" name="openday">	
 					<p><input type="submit" value="Select" /></p>
 					</form> -->
-				</div>
-			</li><!-- #list4 -->
-			<li>
+<!--				</div>
+			</li> --><!-- #list4 -->
+<!--			<li>
 				<div class="title expander"><a href="#"><span>Fashion Management and Fashion Business</span></a><br /><span class="bodycopy"><strike>Wednesday 26 September and Saturday 13 October, 11am (High Holborn)</strike></span> *FULLY BOOKED* </div>
 
 				<div id="list5" class="sublist_content bodycopy">
@@ -98,13 +102,13 @@ include('header.php');
 					</ul>
 					<p>Please note FdA Fashion Retail Branding and Visual Merchandising sessions will be held at John Prince’s Street site after the Introductory session at High Holborn. Students will be shown how to get there on the day</p>
 
-					<!--<form action="booking.php" method="get">    
+					<form action="booking.php" method="get">    
 					<input type="hidden" value="mb" name="openday">	
 					<p><input type="submit" value="Select" /></p>
-					</form>-->
+					</form>
 				</div>
-			</li><!-- #list5 -->
-			<li>
+			</li> --> <!-- #list5 -->
+<!--			<li>
 				<div class="title expander"><a href="#"><span>Cosmetic Science and Beauty and Spa Management</span></a><br /><span class="bodycopy">Friday 12 October, 11am (John Prince’s Street)</span></div>
 
 				<div id="list6" class="sublist_content bodycopy">
@@ -120,8 +124,8 @@ include('header.php');
 					<p><input type="submit" value="Select" /></p>
 					</form>
 				</div>
-			</li><!-- #list6 -->
-			<li>
+			</li> --> <!-- #list6 -->
+<!--			<li>
 				<div class="title expander"><a href="#"><span>Performance Design</span></a><br /><span class="bodycopy"><strike>Saturday 20 October, 11am (Lime Grove)</strike> *FULLY BOOKED*</span></div>
 
 				<div id="list7" class="sublist_content bodycopy">
@@ -132,34 +136,34 @@ include('header.php');
 						<li>BA (Hons) Costume for Performance (2pm both dates)</li>
 						<li>Becoming an LCF Student (3pm both dates)</li>
 					</ul>
-
+-->
 <!--					<form action="booking.php" method="get">    
 					<input type="hidden" value="pd" name="openday">	
 					<p><input type="submit" value="Select" /></p>
 					</form> -->
-				</div>
-			</li><!-- #list7 -->
-			<li>
-				<div class="title expander"><a href="#"><span>Fashion Media and Communications</span></a><br /><span class="bodycopy"><strike>Saturday 29 September and Saturday 27 October, 10.30am (Lime Grove)</strike> *FULLY BOOKED*</span></div>
+<!--				</div>
+			</li> --> <!-- #list7 -->
+<!--			<li>
+				<div class="title expander"><a href="#"><span>Fashion Media and Communications</span></a><br /><span class="bodycopy"><strike>Saturday 27 October, 10.30am (Lime Grove)</strike> *FULLY BOOKED*</span></div>
 
 				<div id="list8" class="sublist_content bodycopy">
 					<ul class="inner">
-						<li>BA (Hons) Fashion Public Relations (10.30am both dates)</li>
-						<li>BA (Hons) Fashion Journalism (10.30am both dates)</li>
-						<li>Becoming an LCF Student (11.30am both dates)</li>
-						<li>FdA Hair and Make Up for Fashion (12pm both dates)</li>
-						<li>BA (Hons) Fashion Photography (1pm both dates)</li>
-						<li>FdA Fashion Styling and Photography (2pm both dates)</li>
-						<li>BA (Hons) Creative Direction for Fashion (3pm both dates)</li>
-						<li>BA (Hons) Fashion Illustration (4pm both dates)</li>
+						<li>BA (Hons) Fashion Public Relations (10.30am)</li>
+						<li>BA (Hons) Fashion Journalism (10.30am)</li>
+						<li>Becoming an LCF Student (11.30am)</li>
+						<li>FdA Hair and Make Up for Fashion (12pm)</li>
+						<li>BA (Hons) Fashion Photography (1pm)</li>
+						<li>FdA Fashion Styling and Photography (2pm)</li>
+						<li>BA (Hons) Creative Direction for Fashion (3pm)</li>
+						<li>BA (Hons) Fashion Illustration (4pm)</li>
 					</ul>
-
+-->
 				<!--	<form action="booking.php" method="get">    
 					<input type="hidden" value="mc" name="openday">	
 					<p><input type="submit" value="Select" /></p>
 					</form>  -->
-				</div>
-			</li><!-- #list8 -->
+<!--				</div>
+			</li> --><!-- #list8 -->
 			<li>
 				<div class="title expander"><a href="#"><span>Part Time Degrees</span></a><br /><span class="bodycopy">Wednesday 28 November (6pm), Wednesday 13 February (6pm) and Saturday 11 May (10.30am) (John Prince’s Street)</span></div>
 
