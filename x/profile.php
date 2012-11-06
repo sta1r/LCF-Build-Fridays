@@ -16,7 +16,7 @@
       }
     </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
-<link href="css/custom.css" rel="stylesheet">
+		<link href="css/custom.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -34,54 +34,26 @@
 
   </head>
 
-  <body>
+  <body id="populateWithJson">
 	
-	<div id="fb-root"></div>
-			<script>(function(d, s, id) {
-	var js, fjs = d.getElementsByTagName(s)[0];
-	if (d.getElementById(id)) return;
-	js = d.createElement(s); js.id = id;
-	js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
-	fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="index.html">Platform X</a>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li><a href="index.html">Me</a></li>
-              <li class="active"><a href="dmitri.html">People</a></li>
-              <li><a href="#">Things</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-    </div>
+		<?php include('lib/navbar.php'); ?>
 
     <div class="container">
 
       <!-- Main user biographical info -->
 		<div class="row">
-			<div class="span4">
+			<div class="span12 relative">
 				<h1><span id="name"></span></h1>
-				<div class="row">
-					<hr />
-					<div class="span2">
-						<img src="img/dimitriPortrait.jpg">
-					</div>
-					<div class="span2">
-						<img src="img/london.jpeg">
-					</div>
-				</div>
+				<div id="linkedin-badge"><a href="http://uk.linkedin.com/in/alastairmucklow"><img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Alastair Mucklow's profile on LinkedIn"></a></div>
+				<hr>
+			</div>	
+
+			<div class="span2">
+				<img src="img/dimitriPortrait.jpg">
 			</div>
-			
+			<div class="span2">
+				<img src="img/london.jpeg">
+			</div>
 			<div class="span8" id="calloutBox">
 				<div class="hero-unit">
 					<p><span id="personalStatement"></span></p>

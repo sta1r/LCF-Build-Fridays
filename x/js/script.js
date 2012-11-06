@@ -1,44 +1,217 @@
 $(document).ready(function(){
 	
 	// Populate the 'static' areas of our template
-		
-	$('span#name').html(dmitri.pupilName);
-	$('span#nationality').html(dmitri.nationality);
-	$('span#courseBA').html(dmitri.courseBA);
-	$('span#gradYearBA').html(dmitri.gradYearBA);
-	$('span#courseMA').html(dmitri.courseMA);
-	$('span#gradYearMA').html(dmitri.gradYearMA);
-	$('span#currentRole').html(dmitri.currentRole);
-	$('span#currentJob').html(dmitri.currentJob);
-	$('span#currentJobStartdate').html(dmitri.currentJobStartdate);
-	$('span#currentJobStatus').html(dmitri.currentJobStatus);
-	$('span#currentJobLocation').html(dmitri.currentJobLocation);
-	$('span#currentJobLevel').html(dmitri.currentJobLevel);
-	$('span#personalStatement').html(dmitri.personalStatement);
+	if ($('#populateWithJson').length > 0) {	
+
+		$('span#name').html(dmitri.pupilName);
+		$('span#nationality').html(dmitri.nationality);
+		$('span#courseBA').html(dmitri.courseBA);
+		$('span#gradYearBA').html(dmitri.gradYearBA);
+		$('span#courseMA').html(dmitri.courseMA);
+		$('span#gradYearMA').html(dmitri.gradYearMA);
+		$('span#currentRole').html(dmitri.currentRole);
+		$('span#currentJob').html(dmitri.currentJob);
+		$('span#currentJobStartdate').html(dmitri.currentJobStartdate);
+		$('span#currentJobStatus').html(dmitri.currentJobStatus);
+		$('span#currentJobLocation').html(dmitri.currentJobLocation);
+		$('span#currentJobLevel').html(dmitri.currentJobLevel);
+		$('span#personalStatement').html(dmitri.personalStatement);
+
+		// Loop through points of interest, build up our object DIV, and output to document... 	
+
+		// Before loop starts, open a row
+
+		for (var key in dmitri.pointsOfInterest) {
+
+			var obj = dmitri.pointsOfInterest[key];
 	
-	// Loop through points of interest, build up our object DIV, and output to document... 	
+			var objHTML = '<div class="pointOfInterest'+key+'" style="border:1px solid red;margin-bottom:20px">';
 	
-	// Before loop starts, open a row
+			// Get a specific value
+			var objHTML = objHTML + dmitri.pointsOfInterest[key].image;
 	
-	for (var key in dmitri.pointsOfInterest) {
-	
-		var obj = dmitri.pointsOfInterest[key];
-		
-		var objHTML = '<div class="pointOfInterest'+key+'" style="border:1px solid red;margin-bottom:20px">';
-		
-		// Get a specific value
-		var objHTML = objHTML + dmitri.pointsOfInterest[key].image;
-		
-		// Loops through anonymously
-		for (var property in obj) {
-			objHTML = objHTML + '<p>'+obj[property]+'</p>';
+			// Loops through anonymously
+			for (var property in obj) {
+				objHTML = objHTML + '<p>'+obj[property]+'</p>';
 			}
-			
-		objHTML = objHTML + '</div>';
 		
-		$('.inner').append(objHTML);
-		
+			objHTML = objHTML + '</div>';
+	
+			$('.inner').append(objHTML);
+	
 		}
+		
+	}	
+		
+	// RSS FEEDS
+    if ($('#network-feed').length > 0){
+      $.getScript('js/jquery.rss.js', function() {
+              //console.log('Application is starting.');
+									$('#network-feed').rss("http://www.linkedin.com/rss/nus?key=SXrxQroRDDNr7nlJs1ZULy5Z5ptnnAQsBNTtoUJzXTKndhmyABoGmBhIWZTHA14s9v", {
+          limit: 10,
+					layoutTemplate: '<h3>Network updates on LinkedIn</h3><ul>{entries}</ul>',
+          entryTemplate: '<li><div class="date">{date}</div><div class="link"><a href="{url}">{title}</a></div></li>'
+          })
+      });
+    };
+
+	// JOBS FEED
+	if ($('#jobs-list').length > 0){
+		$.getJSON('http://my.lcffirstmove.co.uk/jobs.json?callback=?', function( data ) {
+
+				var output = '<table class="table table-striped"><thead><tr><th>Title</th><th>Location</th><th>Salary</th><th>Closing date</th></tr></thead><tbody>';
+				var count = 5;
+				var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+				$.each(data, function(i, item) {
+
+					if (i < count) {
+						var job = data[i];
+						var job_date = job.closes_on;
+						var dt = new Date(job_date);
+
+						output += '<tr>' 
+						+ '<td>' + job.job_title + '</td>' 
+						+ '<td>' + job.region + '</td>'
+						+ '<td>' + job.salary + '</td>'
+						+ '<td>' + dt.getDate() + ' ' + months[dt.getMonth()] + '</td>'
+						+ '<td><button class="btn btn-info btn-small">View detail</button></td>'
+						+ '<td><button class="btn btn-small" data-role="save-item">Save</button></td>'
+						+ '<td><button class="btn btn-primary btn-small">Apply</button></td>'
+						+ '</tr>';
+
+						//console.log(data[i]);
+					}
+				});
+
+				output += '</tbody></table>';
+
+				$('#jobs-list').html(output);
+				//console.log(output);
+				
+				// SAVE A THING
+				$('[data-role="save-item"]').click(function(e) {
+					_this = $(this);
+					_container = _this.parent().parent();
+					_container.toggleClass('saved');
+					if (_container.is('.saved')) {
+						_this.text('Saved');
+					} else {
+						_this.text('Save');
+					}
+				});
+				
+		});
+	}
+			    
+	// TABS 
+	$('#myTab a').click(function (e) {
+	  e.preventDefault();
+	  $(this).tab('show');
+	});
+	
+	// SHOWTIME JSON
+	if ($('#showtime-json').length){
+		var feedUrl = $('#showtime-json').data('url');
+		var limit = $('#showtime-json').data('limit');
+
+		$.getJSON( feedUrl + '&limit=' + limit + '&callback=?', function(data) {
+
+			$('.loader').hide();
+			var container = $('#showtime-json');
+			var outputNode = container.find('ul');
+			var count = 0;
+			var string = '';
+
+			if (data.data.Student) { // this is a single Showtime profile
+				var profileUrl = data.data.Student.Student.profileurl;
+				var studentName = data.data.Student.Student.firstName + ' ' + data.data.Student.Student.lastName;
+				var media = data.data.Student.Media;
+			} 
+
+			if (data.data.Profiles) { // this is a group of objects in Showtime
+				var media = data.data.Profiles;
+			}
+
+			$.each(media, function(i, item) {
+				count++;
+				
+				//console.log(item);
+				
+				// define smlThumb
+				if (item.profile) {
+					smlThumb = item.profile;
+				} else {
+					// for video and publication types, use a different field	
+					if (item.type == 'video' || item.type == 'publication') {
+						smlThumb = item.thumb;
+					} else {
+						smlThumb = item.thumb.split('gallery');
+						smlThumb = smlThumb[0] + 'profile.jpg';
+					}
+				}
+
+				if (item.profileName) { //group
+					profileUrl = 'http://showtime.arts.ac.uk/' + item.profileName;
+					studentName = item.fullName;
+				}
+
+				// do the loop
+				string = '<li class="profile row add-bottom"><div class="profile-image span3"><a href="' + profileUrl + '" title="View ' + studentName + ' on Showtime"><img src="' + smlThumb + '"></a></div><div class="profile-desc span8"><p>' + item.title + '</p><p><i class="icon-heart"></i> Likes: <strong>6</strong></p></div><div class="span1 relative"><div class="edit-control"><a class="btn btn-primary btn-small">Edit</a></div></div></li>';	
+
+				outputNode.append(string);
+
+			});
+
+		});
+	}
+	
+	// EXPLANATORY POPOVERS
+	/*$('#example').popover({
+		html: 
+	});*/
+	
+	// PUSH DUMMY STUDENTS INTO TABLE ROWS
+	if ($('#students-list').length) {
+		
+		var output = '<table class="table table-striped"><thead><tr><th>Flag</th><th>Name</th><th>Course</th><th>Email address</th><th>Complete?</th><th>Actions</th></tr></thead><tbody>';
+		
+		for (i = 0; i < 10; i++) {
+			
+			output += '<tr><td><i class="icon-flag"></i></td><td>Dave Jones</td><td>BA Fashion Management</td><td><a href="mailto:davatron4000@hotmail.com">davatron4000@hotmail.com</a></td><td><label class="checkbox"><input type="checkbox"></label></td><td><button class="btn btn-action btn-small">View profile</button></td><td><button class="btn btn-action btn-small">Set goals</button></td></tr>';
+			
+		}
+		
+		output += '</table>';
+		
+		$('#students-list').html(output);
+		
+		
+	}
+	
+	// PUSH DUMMY PLACEMENTS INTO TABLE ROWS
+	if ($('#admin-placements-list').length) {
+		
+		var output = '<table class="table table-striped"><thead><tr><th>Status</th><th>Date posted</th><th>Company</th><th>Role</th><th>Duration</th><th>Students interested</th></tr></thead><tbody>';
+		
+		for (i = 0; i < 10; i++) {
+			
+			output += '<tr><td><span class="label label-success">Live</span></td><td>10 October 2012</td><td>Debenhams</td><td>Retail assistant</td><td>6-8 weeks</td><td><span class="badge badge-info">16</span></td>';
+			
+			// Actions and buttons
+			output += '<td><div class="btn-group"><a class="btn btn-small dropdown-toggle" data-toggle="dropdown" href="#">Status <span class="caret"></span></a><ul class="dropdown-menu"><li><a href="#">Draft</a></li><li><a href="#">Private</a></li></ul></div></td><td><button class="btn btn-small btn-info">View detail</button></td><td><button class="btn btn-small btn-danger" data-role="delete-item">Delete</button></td></tr>';
+			
+		}
+		
+		output += '</table>';
+		
+		$('#admin-placements-list').html(output);
+		
+		
+	}
+	
+		
+		
 });
 
 // We want to use external JSON, but having difficulties at the moment. So for now, we will define our data here:	
