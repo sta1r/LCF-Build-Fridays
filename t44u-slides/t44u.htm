@@ -24,8 +24,8 @@
 </head>
 <body class="list">
 	<header class="caption">
-		<h1>Shower Presentation Template</h1>
-		<p>Vadim Makeev, Opera Software</p>
+		<h1>Responsive Bootstrap</h1>
+		<p>Howard Panton &amp; Alastair Mucklow, University of the Arts London</p>
 	</header>
 	<div class="slide cover" id="Cover"><div>
 		<section>
@@ -36,29 +36,29 @@
 			<!--<img src="pictures/cover.jpg" alt="">-->
 		</section>
 	</div></div>
-	<div class="slide" id="Intro"><div>
-		<section>
-			<header>
-				<h2>UAL Bootstrap</h2>
-			</header>
-			<ul>
-				<li>UAL has been ‘on T4’ since summer 2011</li>
-				<li>The past year has seen lots of new template development</li>
-				<li>Moving from <a target="_blank" href="http://www.fashion.arts.ac.uk/research/degrees/">old style</a> to <a target="_blank" href="http://www.fashion.arts.ac.uk/alumni/">new style</a></li>
-			</ul>					
-		</section>
-	</div></div>
 	<div class="slide" id="Context"><div>
 		<section>
 			<header>
 				<h2>A tiny bit of context</h2>
 			</header>
 			<ul>
-				<li>The University and its Colleges have agreed upon an endorsed model for their web environment.</li>
-				<li>i.e. a core website with a consistent global design theme, which can be customised locally within certain limitations.</li>
-				<li>This approach requires a robust core framework for front-end design that can be modularised and extended throughout the system.</li>
-			</ul>	
-				
+				<li>UAL has been ‘on T4’ since summer 2011</li>
+				<li>Transitional period - complete redevelopment on the horizon</li>
+				<li>Moving from 6(7?) sites to 1 site</li>
+				<li>i.e. a core website with a consistent global design theme, which can be customised locally (with certain limitations).</li>
+			</ul>					
+		</section>
+	</div></div>
+	<div class="slide" id="NewApproach"><div>
+		<section>
+			<header>
+				<h2>New Approach</h2>
+			</header>
+			<ul>
+				<li>Requirement for a robust core framework for front-end design that can be modularised and extended throughout the system.</li>
+				<li>New technologies, trends, challenges: mobile, HTML5</li>
+				<li>Recent template development has progressed from <a target="_blank" href="http://www.fashion.arts.ac.uk/research/degrees/">old style</a> to <a target="_blank" href="http://www.fashion.arts.ac.uk/alumni/">new style</a></li>
+			</ul>		
 		</section>
 	</div></div>
 	<div class="slide" id="Problem"><div>
@@ -68,8 +68,8 @@
 			</header>
 			<ul>
 				<li>Existing HTML + CSS is mix of legacy code, verbose CSS, no HTML5, weird grid system.</li>
-				<li>When building new templates in Site Manager, it’s not always possible (or desirable) to predict all potential use cases for a template - and once you’ve created a template you can’t change the name or the fieldset unless you start over again. 
-				</li>
+				<li>When building new templates in Site Manager, it’s not always possible to predict all potential use cases for a template.</li>
+				<li>Once templates are adopted, it is difficult to switch and ‘rationalise’.</li>
 			</ul>
 		</section>
 	</div></div>
@@ -79,16 +79,22 @@
 				<h2>Solution</h2>
 			</header>
 			<ul>
-				<li>A more modular approach to templating</li>
-				<li>Create templates for irreducible components of an HTML page, and build up from there as patterns emerge</li>
+				<li>A more modular approach to templating.</li>
+				<li>Create templates for irreducible components of an HTML page, and build up from there as patterns emerge.</li>
 			</ul>
 		</section>
 	</div></div>
-	<div class="slide cover w" id="FitToWidth"><div>
+	<div class="slide cover w" id="SiteManager-grab1"><div>
 		<section>
 			<img src="pictures/site-manager1.jpg" alt="">
 		</section>
 	</div></div>
+	<div class="slide cover" id="SiteManager-grab2"><div>
+		<section>
+			<img src="pictures/site-manager3.jpg" alt="">
+		</section>
+	</div></div>
+	
 	<div class="slide" id="UALBootstrap"><div>
 		<section>
 			<header>
@@ -113,10 +119,39 @@
 				<li>Use a single style for everything!</li>
 				<li>One <code>bootstrap.css</code> file to update in the Media Library</li>
 				<li>CSS and Javascript are referenced using <code>Related Content Branch</code></li>
-				<li>Commonly-used structural components (containers, rows etc) are mirrored into new pages to provide a scaffold for content</li>
+				<li>Commonly-used structural components (containers, rows etc) are mirrored into new sections to provide a scaffold for content</li>
 			</ul>	
 		</section>
 	</div></div>
+	<div class="slide" id="Responsive"><div>
+		<section>
+			<header>
+				<h2>Responsive Design</h2>
+			</header>
+			<pre>
+				<code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code>
+				<code>&lt;link href="assets/css/bootstrap-responsive.css" rel="stylesheet"&gt;</code>
+			</pre>
+			<p class="note">Media queries baked into Bootstrap.</p>
+		</section>
+	</div></div>
+	<div class="slide" id="ResponsiveUtilities"><div>
+		<section>
+			<header>
+				<h2>Responsive Design</h2>
+			</header>
+			<pre>
+				<code>&lt;div class="<mark>hidden-phone</mark>"&gt;</code>
+			</pre>
+			<p class="note">Tailor content using responsive utility classes.</p>
+		</section>
+	</div></div>
+	<div class="slide cover w" id="Responsive-grab"><div>
+		<section>
+			<img src="pictures/site-manager2.jpg" alt="">
+		</section>
+	</div></div>
+	
 	<div class="slide" id="Advantages"><div>
 		<section>
 			<header>
@@ -126,7 +161,7 @@
 				<li>Rapid prototyping both locally and in Site Manager</li>
 				<li>No need to commit to a template class while designs are still fluid</li>
 				<li>New CSS can reskin existing HTML without modifying the page structure</li>
-				<li>Paves the way for responsive design (media queries baked into Bootstrap)</li>
+				<li>Easy to add new classes to elements on a per-section basis</li>
 			</ul>
 		</section>
 	</div></div>
@@ -141,7 +176,7 @@
 			</ul>
 		</section>
 	</div></div>
-	<div class="slide" id="WildWest"><div>
+<!--	<div class="slide" id="WildWest"><div>
 		<section>
 			<header>
 				<h2>Wild West</h2>
@@ -153,9 +188,12 @@
 				<code>Container C open add-bottom</code>
 			</pre>
 		</section>
-	</div></div>
-	<div class="slide" id="WildWest2"><div>
+	</div></div>-->
+	<div class="slide" id="Disadvantages2"><div>
 		<section>
+			<header>
+				<h2>Disadvantages</h2>
+			</header>
 			<ul>
 				<li>Templates (with minor variations) tend to proliferate without governance e.g. 
 					<ol>
@@ -165,7 +203,6 @@
 					</ol>
 				</li>
 			</ul>
-			<p class="note">Once templates are adopted it is difficult to switch and ‘rationalise’. This is a general point not exclusive to a bootstrap approach.</p>
 		</section>
 	</div></div>
 <!--	<div class="slide" id="CodeNotes"><div>
