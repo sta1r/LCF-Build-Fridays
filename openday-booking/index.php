@@ -165,7 +165,7 @@ include('header.php');
 <!--				</div>
 			</li> --><!-- #list8 -->
 			<li>
-				<div class="title expander"><a href="#"><span>Part Time Degrees</span></a><br /><span class="bodycopy">Wednesday 28 November (6pm), Wednesday 13 February (6pm) and Saturday 11 May (10.30am) (John Prince’s Street)</span></div>
+				<div class="title expander"><a href="#"><span>Part Time Degrees</span></a><br /><span class="bodycopy">Wednesday 28 November (6pm) (High Holborn), Wednesday 27 February (6pm) and Saturday 11 May (10.30am) (John Prince’s Street)</span></div>
 
 				<div id="list9" class="sublist_content bodycopy">
 					<ul class="inner">
