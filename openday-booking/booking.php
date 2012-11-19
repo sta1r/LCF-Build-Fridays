@@ -36,36 +36,7 @@ include('header.php');
 			$bSubmit=true;
 			switch ($area)
 		{
-		    case "fd": ?>
-<!--	      <option value="fd-15sep">Saturday 15 September</option> 
-	      <option value="fd-6oct">Saturday 6 October</option> -->
-		<?php 	break;
-		    case "tm": ?>
-	      <!--<option value="tm-19sep">Wednesday 19 September</option>
-	      <option value="tm-10oct">Wednesday 10 October</option>-->
-		<?php 	break;
-		    case "cf": ?>
-<!--		  <option value="cf-4oct">Thursday 4 October</option>
-		  <option value="cf-17oct">Wednesday 17 October</option> -->
-		<?php 	break;
-		    case "ta": ?>
-<!--		  <option value="ta-31oct">Wednesday 31 October</option> -->
-		<?php 	break;
-		    case "mb": ?>
-		  <!--<option value="mb-26sep">Wednesday 26 September</option>
-		  <option value="mb-13oct">Saturday 13 October</option>-->
-		<?php 	break;
-		    case "cs": ?>
-<!--		  <option value="cs-12oct">Friday 12 October</option> -->
-		<?php 	break;
-		    case "pd": ?>
-<!--		  <option value="pd-22sep">Saturday 22 September</option>
-		  <option value="pd-20oct">Saturday 20 October</option> -->
-		<?php 	break;
-		    case "mc": ?>
-		<!--  <option value="mc-29sep">Saturday 29 September</option> -->
-		<!--    <option value="mc-27oct">Saturday 27 October</option> -->
-		<?php 	break;
+
 		    case "pt": ?>
 		  <option value="pt-28nov">Wednesday 28 November</option>
 		  <option value="pt-13feb">Wednesday 27 February</option>
