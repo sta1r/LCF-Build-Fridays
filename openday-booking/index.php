@@ -8,7 +8,7 @@ include('header.php');
 
 		<div id="inner-right">
 
-			<p>Please choose your area of interest from the list below and click 'Select' to book your place. Our postgraduate dates will be advertised shortly.</p>
+			<p>Please choose your area of interest from the list below and click 'Select' to book your place.</p>
 
 		 <ul class="list-folding">
 
