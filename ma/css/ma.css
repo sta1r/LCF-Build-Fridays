@@ -1,8 +1,10 @@
 a.logo:hover, a.logo:focus, a.lightbox:hover, a.lightbox:focus { border: none; background: none; }
 
+/*
 .column {
 	text-align: center;
 }
+*/
 
 /* SHOWTIME FEED */
 .profile-text {
@@ -87,9 +89,14 @@ a img {
 /* ----------------------------------------- */
 
 body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+/*
 	font-family: 'Baskerville', Georgia, sans-serif; 
 	font-size: 13px;
 	line-height: 1.4em;
+*/
 }
 
 h1, h2, h3, h5, h5, h6 { 
@@ -103,7 +110,7 @@ h1, h2, h3, h5, h5, h6 {
 
 h1 { font-size: 2.5em; line-height: 1; margin-bottom: 0.5em; }
 h2 { font-size: 1.2em; margin-bottom: 2em; letter-spacing: -0.5px; text-transform: uppercase; }
-h3 { font-size: 1.2em; line-height: 1; margin-bottom: 1em; text-transform: uppercase;}
+h3 { font-size: 1.2em; line-height: 1.2em; margin-bottom: 1em; text-transform: uppercase;}
 h4 { font-size: 1em; line-height: 1.25; margin-bottom: 1em; }
 h5 { font-size: 1em; margin-bottom: 1.5em; }
 h6 { font-size: 1em; }
@@ -120,7 +127,6 @@ img         { margin: 0 0 0; }
 hr	{ 
 	border-color: #000;
 	width: 50px;
-	margin: 0 auto;
 }
 
 ul, ol      { margin: 0 0 1.5em 0; }
@@ -179,6 +185,7 @@ table .last { padding-right: 0; }
 .top        { margin-top:0; padding-top:0; }
 .bottom     { margin-bottom:0; padding-bottom:0; }
 
+.add-top	{ margin-top:1.2em;}
 
 /* Scrollable */
 .scroll {
