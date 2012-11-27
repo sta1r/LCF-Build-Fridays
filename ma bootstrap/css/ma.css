@@ -18,11 +18,6 @@ footer ul {
 	float: left;
 }
 
-footer ul li {
-	display: inline;
-	margin-right: 10px;
-}
-
 #lcf-logo {
 	text-align: right;
 }
@@ -37,9 +32,43 @@ footer ul li {
 	padding: 35px 0;
 }
 
-header { 
-	border-bottom: 2px solid #333;
-	padding: 40px 0 30px;
+#header-border {
+	border-top: 10px solid #231f20;
+}
+
+#mark-container {
+	background-color: #231f20;
+	min-height: 250px;
+	margin-bottom: 20px;
+}
+
+#mark {
+	width: 150px;
+	margin: 40px auto 0;
+}
+
+.border-top {
+	border-top: 2px solid #231f20;
+}
+
+.border-bottom {
+	border-bottom: 2px solid #231f20;
+}
+
+#description h3 {
+	text-align: center;
+	padding: 2em 7.5em 1em 7.5em;
+}
+
+#link-row {
+	border-bottom: 4px solid #231f20;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+ul#link-list li {
+	display: inline;
 }
 
 footer {
@@ -87,11 +116,6 @@ body {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 12px;
 	line-height: 1.5em;
-	position: absolute;
-}
-
-#wrapper {
-    position: absolute;
 }
 
 h1, h2, h3, h5, h5, h6 { 
@@ -103,7 +127,7 @@ h1, h2, h3, h5, h5, h6 {
 /* Headings
 -------------------------------------------------------------- */
 
-h1 { font-size: 2.5em; line-height: 1; margin-bottom: 0.5em; }
+h1 { font-size: 1.8em; font-weight: bold; line-height: 1; margin-bottom: 50px; margin-top: 50px; text-align: center;}
 h2 { font-size: 1.2em; margin-bottom: 2em; letter-spacing: -0.5px; text-transform: bold; }
 h3 { font-size: 1.2em; line-height: 1.2em; margin-bottom: 1em; }
 h4 { font-size: 1em; line-height: 1.25; margin-bottom: 1em; }
@@ -180,7 +204,7 @@ table .last { padding-right: 0; }
 .top        { margin-top:0; padding-top:0; }
 .bottom     { margin-bottom:0; padding-bottom:0; }
 
-.add-top	{ margin-top:1em;}
+.add-top	{ margin-top:3em;}
 
 /* Scrollable */
 .scroll {
