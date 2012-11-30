@@ -55,7 +55,7 @@ footer ul {
 	border-bottom: 2px solid #231f20;
 }
 
-#description h3 {
+#description p {
 	text-align: center;
 	padding: 2em 7.5em 1em 7.5em;
 }
@@ -117,12 +117,6 @@ a img {
 /* TYPOGRAPHY */
 /* ----------------------------------------- */
 
-body {
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 12px;
-	line-height: 1.5em;
-}
-
 h1, h2, h3, h5, h5, h6 { 
 	font-weight:normal; 
 } /* This helps to identify headings at the initial build stage, so I thought it'd be useful to have it */
@@ -133,8 +127,8 @@ h1, h2, h3, h5, h5, h6 {
 -------------------------------------------------------------- */
 
 h1 { font-size: 1.8em; font-weight: bold; line-height: 1; margin-bottom: 50px; margin-top: 50px; text-align: center;}
-h2 { font-size: 1.2em; margin-bottom: 2em; letter-spacing: -0.5px; text-transform: bold; }
-h3 { font-size: 1.2em; line-height: 1.2em; margin-bottom: 1em; }
+h2 { font-size: 1.1em; margin-bottom: 2em; letter-spacing: -0.5px; font-weight: bold; }
+h3 { font-size: 1.1em; line-height: 1.2em; margin-bottom: 1em; }
 h4 { font-size: 1em; line-height: 1.25; margin-bottom: 1em; }
 h5 { font-size: 1em; margin-bottom: 1.5em; }
 h6 { font-size: 1em; }
