@@ -47,6 +47,10 @@ footer ul {
 	margin: 40px auto 0;
 }
 
+#mark-img {
+	display: none;	
+}
+
 .border-top {
 	border-top: 2px solid #231f20;
 }
@@ -68,7 +72,7 @@ footer ul {
 }
 
 a h3, a h2 {
-	color:#333;
+	color:#000;
 	font-style: normal;
 }
 
