@@ -64,14 +64,16 @@
 				<div class="row">
 					<div class="span12" id="mark-container">
 						<div id="mark">
-							<img src="img/mark-white150.png" alt="London College of Fashion: MA 2013 logo" />
+							<div id="mark-img">
+								<img src="img/mark-white150.png" alt="London College of Fashion: MA 2013 logo" />
+							</div>
 						</div>	
 					</div>
 				</div>
 				
 		<div class="row">
 			<div class="span12 border-top border-bottom" id="description">
-				<h3>London College of Fashion’s Graduate School will be showcasing the work of more than 200 students throughout a festival of events running during December 2012 and February 2013, covering the subject areas of design, media and management, including work from all its postgraduate courses.</h3>
+				<p>London College of Fashion’s Graduate School will be showcasing the work of more than 200 students throughout a festival of events running during December 2012 and February 2013, covering the subject areas of design, media and management, including work from all its postgraduate courses.</p>
 			</div>
 		</div>
 
@@ -249,6 +251,20 @@
 	
 	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>	
 	<script src="js/bootstrap-collapse.js" type="text/javascript" charset="utf-8"></script>
+	<script>$(function () {
+	    var $element = $('#mark-img');
+	    setInterval(function () {
+	        $element.fadeIn(3500, function () {
+	            $element.fadeOut(3500, function () {
+
+	            });
+	        });
+	    }, 100);
+	});
+	</script>
+	
+
+	
 	
 </body>
 </html>

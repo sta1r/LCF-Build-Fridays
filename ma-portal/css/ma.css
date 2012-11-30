@@ -47,6 +47,10 @@ footer ul {
 	margin: 40px auto 0;
 }
 
+#mark-img {
+	display: none;	
+}
+
 .border-top {
 	border-top: 2px solid #231f20;
 }
@@ -55,7 +59,10 @@ footer ul {
 	border-bottom: 2px solid #231f20;
 }
 
-#description h3 {
+#description p {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	margin-bottom: 1em;
 	text-align: center;
 	padding: 2em 7.5em 1em 7.5em;
 }
@@ -68,7 +75,7 @@ footer ul {
 }
 
 a h3, a h2 {
-	color:#333;
+	color:#000;
 	font-style: normal;
 }
 
