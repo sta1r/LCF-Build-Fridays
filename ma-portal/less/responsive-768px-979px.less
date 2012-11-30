@@ -1,0 +1,33 @@
+//
+// Responsive: Tablet to desktop
+// --------------------------------------------------
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+  // Fixed grid
+  #grid > .core(@gridColumnWidth768, @gridGutterWidth768);
+
+  // Fluid grid
+  #grid > .fluid(@fluidGridColumnWidth768, @fluidGridGutterWidth768);
+
+  // Input grid
+  #grid > .input(@gridColumnWidth768, @gridGutterWidth768);
+
+  // No need to reset .thumbnails here since it's the same @gridGutterWidth
+
+
+
+  // Charlotte
+
+#header-border h1 {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#description h3 {
+	padding: 1.5em 4em 1em 4em;
+}
+
+
+}
