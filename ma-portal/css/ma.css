@@ -67,6 +67,11 @@ footer ul {
 	text-align: center;
 }
 
+a h3, a h2 {
+	color:#333;
+	font-style: normal;
+}
+
 ul#link-list li {
 	display: inline;
 }
@@ -144,8 +149,7 @@ p img       { /* float: left;*/ margin: 0 1.5em 1.5em 0; padding: 0; }
 p img.top   { margin-top: 0; } /* Use this if the image is at the top of the <p>. */
 img         { margin: 0 0 0; }
 hr	{ 
-	border-color: #000;
-	width: 50px;
+	border: 1px solid #231F20;
 }
 
 ul, ol      { margin: 0 0 1.5em 0; }
