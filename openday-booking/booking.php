@@ -38,7 +38,6 @@ include('header.php');
 		{
 
 		    case "pt": ?>
-		  <option value="pt-28nov">Wednesday 28 November</option>
 		  <option value="pt-13feb">Wednesday 27 February</option>
 		  <option value="pt-11may">Saturday 11 May</option>
 		<?php 	break;
