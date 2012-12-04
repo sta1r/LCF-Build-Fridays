@@ -29,14 +29,14 @@
 // Components: common
 @import "sprites.less";
 @import "dropdowns.less";
-@import "wells.less";
+//@import "wells.less";
 @import "component-animations.less";
 //@import "close.less";
 
 // Components: Buttons & Alerts
-@import "buttons.less";
-@import "button-groups.less";
-@import "alerts.less"; // Note: alerts share common CSS with buttons and thus have styles in buttons.less
+//@import "buttons.less";
+//@import "button-groups.less";
+//@import "alerts.less"; // Note: alerts share common CSS with buttons and thus have styles in buttons.less
 
 // Components: Nav
 @import "navs.less";
@@ -64,3 +64,26 @@
 
 // Utility classes
 @import "utilities.less"; // Has to be last to override when necessary
+
+// Responsive Utils
+@import "responsive-utilities.less";
+
+
+// MEDIA QUERIES
+// ------------------
+
+// Large desktops
+@import "responsive-1200px-min.less";
+
+// Tablets to regular desktops
+@import "responsive-768px-979px.less";
+
+// Phones to portrait tablets and narrow desktops
+@import "responsive-767px-max.less";
+
+
+// RESPONSIVE NAVBAR
+// ------------------
+
+// From 979px and below, show a button to toggle navbar contents
+@import "responsive-navbar.less";
