@@ -5,73 +5,69 @@
     <meta name="description" content="Wishing you a pure and prosperous 2012" />
     <title>Season's Greetings from London College of Fashion</title>
 
-	  <link rel="stylesheet" href="css/xmas.css">
-	  
-		<!--[if lt IE 9]>
-		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-  		
+  	<link rel="stylesheet" href="css/xmas.css">
+	<!--[if lt IE 9]>
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+		
+	<!-- Including SWFObject from Google -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
 
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-		<script type="text/javascript" src="swfobject.js"></script>
-		<script type="text/javascript">
-			swfobject.registerObject("myFlashContent", "9.0.0", "expressInstall.swf");
-		</script>
+	<script type="text/javascript">
+		var params = {
+				allowscriptaccess: "always",
+				menu: "false"
+			};
+	
+			var flashvars = {};
+			var attributes = {};
+	
+			if (swfobject.hasFlashPlayerVersion("9")) {
+				// SWFObject will load the .swf into a tag with the id of "main"
+				swfobject.embedSWF("Xmas_Ani.swf", "flash-wrapper", 710, 535, "9.0.0", false, flashvars, params, attributes);
+			}
+	</script>
+
+	<script type="text/javascript">
+		swfobject.registerObject("myFlashContent", "9.0.0", "expressInstall.swf");
+	</script>
 </head>
 
 <body class="xmas">
 	
 	<div id="container" class="container_24 clearfix">
 	    
-			<header class="grid_18 push_3">
-
-				<h1>Season's Greetings from<br> London College of Fashion</h1>
-				
+		<header class="grid_18 push_3">
+			<h1>Season's Greetings from<br> London College of Fashion</h1>	
 	    </header>
 
 	    <div id="main" class="grid_18 push_3">
-		
-		<!-- video embed goes here -->
-		
-			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="710" height="535" id="myFlashContent">
-				<param name="movie" value="Xmas_Ani.swf" />
-		<!--[if !IE]>-->
-				<object type="application/x-shockwave-flash" data="Xmas_Ani.swf" width="710" height="535">
-		<!--<![endif]-->
-				<a href="http://www.adobe.com/go/getflashplayer">
-					<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
-					</a>
-		<!--[if !IE]>-->
-				</object>
-		<!--<![endif]-->
-			</object>
-			
-			</div><!-- #main -->
-
+	    	<div id="flash-wrapper">
+				<!-- Contains the content to display if media does not display Flash, or Flash version is below 9.0.0 -->
+    			<img src="img/placeholder.jpg" width="710" height="535" alt="Happy Christmas from London College of Fashion" />
+    		</div>	
+		</div><!-- #main -->
 
 	    <footer class="grid_18 push_3">
-		
-				<p>This year marks 125 years of Cordwainers at London College of Fashion. Through a year of activity we will celebrate its history and continue to support the future of footwear and accessories design.</p>
-
+			<p>This year marks 125 years of Cordwainers at London College of Fashion. Through a year of activity we will celebrate its history and continue to support the future of footwear and accessories design.</p>
 			<p>Wishing you a happy and prosperous 2013.</p>
-			
-			</footer>
+		</footer>
 	    
-			<footer id="logo-panel" class="grid_18 push_3">
-				<div id="social" class="grid_12 alpha">
-					<div id="facebook">
-					<!-- Facebook -->
-					<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.fashion.arts.ac.uk/xmas&amp;layout=standard&amp;show_faces=true&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:24px;" allowTransparency="true"></iframe>
-					</div>
-					<div id="twitter">
-					<!-- Twitter -->
-					<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="LCFLondon">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-					</div>
+		<footer id="logo-panel" class="grid_18 push_3">
+			<div id="social" class="grid_12 alpha">
+				<div id="facebook">
+				<!-- Facebook -->
+				<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.fashion.arts.ac.uk/xmas&amp;layout=standard&amp;show_faces=true&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:24px;" allowTransparency="true"></iframe>
 				</div>
-				<div id="lcf-logo" class="grid_6 omega"><a class="logo" href="http://www.fashion.arts.ac.uk"><img src="img/lcf-logo.gif"></a></div>
-			</footer>
+				<div id="twitter">
+				<!-- Twitter -->
+				<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="LCFLondon">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+				</div>
+			</div>
+			<div id="lcf-logo" class="grid_6 omega"><a class="logo" href="http://www.fashion.arts.ac.uk"><img src="img/lcf-logo.gif"></a></div>
+		</footer>
 			
-	  </div> <!--! end of #container -->	
+	</div> <!--! end of #container -->	
 	
 </body>
 </html>
