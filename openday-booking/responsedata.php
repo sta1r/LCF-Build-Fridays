@@ -3,12 +3,6 @@
 	switch ($opendaydate[0])
 	{
 
-	case "pt-28nov":
-  $opendaytitle = 'Part Time Degrees'; 
-		$opendaydatestring = 'Wednesday 28 November, 6pm';
-		$opendaylocation = 'High Holborn';
-		$opendayextras = '';
- 	break;
 	case "pt-13feb":
   $opendaytitle = 'Part Time Degrees'; 
 		$opendaydatestring = 'Wednesday 27 February, 6pm';
