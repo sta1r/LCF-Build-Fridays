@@ -66,6 +66,8 @@ h1 { font-weight:normal; font-size: 2.5em; line-height: 1.3em; margin-bottom: 0.
 
 p { margin: 0 0 1.2em; font-size: 1.4em; line-height: 1.4em;}
 
+small { font-size: 0.9em; }
+
 a			{ color: #000; text-decoration: none; font-style: italic;} 
 a:link		{ color: #000; }
 a:visited 	{ color: #AAA; }
@@ -74,10 +76,6 @@ a:hover     { background: #000; color: #fff;}
 a.img:hover { background: none;}
 
 a.logo:hover, a.logo:focus, a.lightbox:hover, a.lightbox:focus { border: none; background: none; }
-
-#lcf-logo {
-	text-align: right;
-}
 
 #main {
 	padding: 0 0 20px;
@@ -88,8 +86,24 @@ header {
 }
 
 footer {
-	padding: 10px 0;
+	padding: 10px 0 100px;
 }
+
+#credit {
+  padding-top: 100px;
+  padding-bottom: 6px;
+}
+
+#logo-panel {
+  padding-top: 30px;
+  border-top: 2px solid #333;
+}
+
+#lcf-logo { width: 200px; float: left; border-right: 2px solid #333; }
+
+#cord-logo { margin: 0 20px; float: left; }
+
+#social { float: right; margin-top: 45px; }
 
 #facebook, #twitter {
 	float: left;
