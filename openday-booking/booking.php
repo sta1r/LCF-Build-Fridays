@@ -6,7 +6,7 @@ $title = "Booking Form";
 
 // detect special courses
 $specialCourses = 'foo';
-if ($area == 'pg-fb' || $area == 'pg-fmc' || $area == 'pg-fdt' || $area == 'pt') { $specialCourses = 1; }
+if ($area == 'bm' || $area == 'dtmc' || $area == 'pg-fdt' || $area == 'pt') { $specialCourses = 1; }
 
 include('header.php');
 ?>
@@ -34,8 +34,7 @@ include('header.php');
 			<option class="select" value="">Please Select...</option>
 			<?php
 			$bSubmit=true;
-			switch ($area)
-		{
+			switch ($area) {
 
 		    case "pt": ?>
 		  <option value="pt-13feb">Wednesday 27 February</option>
@@ -45,6 +44,12 @@ include('header.php');
 		  <option value="fe-6feb">Wednesday 6 February</option>
 		  <option value="fe-27feb">Wednesday 27 February</option>
 		<?php 	break;
+			case "bm": ?>
+		  <option value="bm-5feb">Tuesday 5th February</option>
+		<?php 	break;
+			case "dtmc": ?>
+		  <option value="dtmc-18feb">Monday 18th February</option>
+		<?php 	break;	
 		}
 			?>
 			</select>
@@ -83,7 +88,34 @@ include('header.php');
 				
 				<?php 
 				switch ($area)
-				{	 case "communications": ?>
+				{
+						case "bm": ?>
+				<input type=checkbox name="interest[]" value="MA Strategic Fashion Marketing" class="checkbox" validate="required:true, minlength:1">MA Strategic Fashion Marketing<br/>	
+				<input type=checkbox name="interest[]" value="MA Design Management for the Fashion Industries" class="checkbox" validate="required:true, minlength:1">MA Design Management for the Fashion Industries<br/>	
+				<input type=checkbox name="interest[]" value="MA Fashion Entrepreneurship" class="checkbox" validate="required:true, minlength:1">MA Fashion Entrepreneurship<br/>	
+				<input type=checkbox name="interest[]" value="MA Fashion Retail" class="checkbox" validate="required:true, minlength:1">MA Fashion Retail<br/>	
+				<input type=checkbox name="interest[]" value="Postgraduate Certificate Fashion: Buying and Merchandising" class="checkbox" validate="required:true, minlength:1">Postgraduate Certificate Fashion: Buying and Merchandising<br/>	
+				<input type=checkbox name="interest[]" value="Graduate Diploma in Fashion Management" class="checkbox" validate="required:true, minlength:1">Graduate Diploma in Fashion Management<br/>
+				<?php break;
+					case "dtmc": ?>
+				<input type=checkbox name="interest[]" value="MA Fashion Artefact" class="checkbox" validate="required:true, minlength:1">MA Fashion Artefact<br/>	
+				<input type=checkbox name="interest[]" value="MA Fashion Footwear" class="checkbox" validate="required:true, minlength:1">MA Fashion Footwear<br/>	
+				<input type=checkbox name="interest[]" value="MA Fashion Design Technology, Menswear" class="checkbox" validate="required:true, minlength:1">MA Fashion Design Technology, Menswear<br/>	
+				<input type=checkbox name="interest[]" value="MA Fashion Design Technology, Womenswear" class="checkbox" validate="required:true, minlength:1">MA Fashion Design Technology, Womenswear<br/>	
+				<input type=checkbox name="interest[]" value="MA Fashion and the Environment" class="checkbox" validate="required:true, minlength:1">MA Fashion and the Environment<br/>	
+				<input type=checkbox name="interest[]" value="MA Costume Design for Performance" class="checkbox" validate="required:true, minlength:1">MA Costume Design for Performance<br/>	
+				<input type=checkbox name="interest[]" value="Graduate Diploma in Fashion Design Technology" class="checkbox" validate="required:true, minlength:1">Graduate Diploma in Fashion Design Technology<br/>	
+				<input type=checkbox name="interest[]" value="MA Fashion Media Production" class="checkbox" validate="required:true, minlength:1">MA Fashion Media Production<br/>	
+				<input type=checkbox name="interest[]" value="MA History and Culture of Fashion" class="checkbox" validate="required:true, minlength:1">MA History and Culture of Fashion<br/>	
+				<input type=checkbox name="interest[]" value="MA Fashion Curation" class="checkbox" validate="required:true, minlength:1">MA Fashion Curation<br/>	
+				<input type=checkbox name="interest[]" value="MA Fashion and Film" class="checkbox" validate="required:true, minlength:1">MA Fashion and Film<br/>	
+				<input type=checkbox name="interest[]" value="MA Fashion Photography" class="checkbox" validate="required:true, minlength:1">MA Fashion Photography<br/>	
+				<input type=checkbox name="interest[]" value="MA Fashion Journalism" class="checkbox" validate="required:true, minlength:1">MA Fashion Journalism<br/>	
+				<input type=checkbox name="interest[]" value="Postgraduate Certificate Fashion: Fashion and Lifestyle Journalism" class="checkbox" validate="required:true, minlength:1">Postgraduate Certificate Fashion: Fashion and Lifestyle Journalism<br/>	
+				<input type=checkbox name="interest[]" value="Graduate Diploma in Fashion Media Styling" class="checkbox" validate="required:true, minlength:1">Graduate Diploma in Fashion Media Styling<br/>	
+				<input type=checkbox name="interest[]" value="MA Collaborative Performance" class="checkbox" validate="required:true, minlength:1">MA Collaborative Performance<br/>
+				<?php break;				
+						 case "communications": ?>
 				<input type=checkbox name="interest[]" value="BA (Hons) Fashion Journalism" class="checkbox" validate="required:true, minlength:1">BA (Hons) Fashion Journalism<br/>
 				<input type=checkbox name="interest[]" value="BA (Hons) Fashion Public Relations" class="checkbox">BA (Hons) Fashion Public Relations<br/>
 				<input type=checkbox name="interest[]" value="BA (Hons) Fashion Photography" class="checkbox">BA (Hons) Fashion Photography<br/>
