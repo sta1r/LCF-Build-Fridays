@@ -131,7 +131,7 @@ mysql_close($db);
 // construct the email
 $subject = 'LCF Open Days - '.$first_name.' '.$last_name.' - Your Booking';
 // send the email
-//mail($email, $subject, $message, $headers);
+mail($email, $subject, $message, $headers);
 ?>
 
 <?php } // end if good data conditional ?>
