@@ -93,9 +93,10 @@
 					
 				</div>
 			</div>
-			<hr>	
+				
 			
-			<div class="relative">
+<!--	<hr>
+		<div class="relative">
 			<h4>Events attended</h4>	
 			<table class="table table-striped">
 				<thead>
@@ -116,7 +117,7 @@
 				</tbody>
 			</table> 
 			<div class="edit-control"><a class="btn btn-primary btn-small">Edit</a></div>
-			</div>
+			</div>-->
 		</div>
 		<aside class="span3 offset1">
 			<div class="well">
