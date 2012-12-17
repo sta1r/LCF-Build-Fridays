@@ -244,6 +244,12 @@ BODY {
 	transform:translate(-50%, -50%);
 	}
 
+.align-bottom {
+	position: absolute;
+	bottom: 0;
+	left: 80px;
+	}
+
 /* List
 ---------------------------------------- */
 .list {

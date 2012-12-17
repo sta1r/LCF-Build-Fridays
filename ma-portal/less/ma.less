@@ -1,0 +1,325 @@
+a.logo:hover, a.logo:focus, a.lightbox:hover, a.lightbox:focus { border: none; background: none; }
+
+
+/* SHOWTIME FEED */
+.profile-text {
+	float: right;
+	width: 160px;
+}
+
+.profile-image {
+	float: left;
+	width: 51px;
+	margin: 3px 4px 0 0;
+}
+
+/* FOOTER */
+footer ul {
+	float: left;
+}
+
+#lcf-logo {
+	text-align: right;
+}
+
+#main {
+	padding: 35px 0;
+}
+
+#header-border {
+	border-top: 10px solid #231f20;
+}
+
+#mark-container {
+	background-color: #231f20;
+	min-height: 250px;
+	margin-bottom: 20px;
+}
+
+#mark {
+	width: 150px;
+	margin: 40px auto 0;
+}
+
+#mark-img {
+	display: none;	
+}
+
+.border-top {
+	border-top: 2px solid #231f20;
+}
+
+.border-bottom {
+	border-bottom: 2px solid #231f20;
+}
+
+#description p, #description h3 {
+	text-align: center;
+	padding: 2em 7.5em 1em 7.5em;
+}
+
+#link-row {
+	border-bottom: 4px solid #231f20;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+a h3, a h2 {
+	color:#000;
+	font-style: normal;
+}
+
+ul#link-list li {
+	display: inline;
+}
+
+footer {
+	padding: 10px 0 30px;
+	color: #AAA;
+}
+
+a img {
+	border: 0 none;
+}
+
+.column img {
+	margin-bottom: 25px;
+}
+
+.feed li {
+	margin-bottom: 6px;
+}
+
+.live-box, .live-box:visited {
+	font-style: normal;
+	color: #000;
+}
+
+.live-box:hover {
+	color: #fff;
+}
+
+.live-box h2 {
+	margin-bottom: 1em;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.live-box:hover h2 {
+	border-color: #fff;
+}
+
+
+
+/* TYPOGRAPHY */
+/* ----------------------------------------- */
+
+h1, h2, h3, h5, h5, h6 { 
+	font-weight:normal; 
+} /* This helps to identify headings at the initial build stage, so I thought it'd be useful to have it */
+
+.alert { background:red; color:white } /* 'alert' has a basic style, since it's useful to have it standing out for testing purposes.
+
+/* Headings
+-------------------------------------------------------------- */
+
+h1 { font-size: 1.8em; font-weight: bold; line-height: 1; margin-bottom: 50px; margin-top: 50px; text-align: center;}
+h2 { font-size: 1.1em; margin-bottom: 2em; letter-spacing: -0.5px; font-weight: bold; }
+h3 { font-size: 1.1em; line-height: 1.2em; margin-bottom: 1em; }
+h4 { font-size: 1em; line-height: 1.25; margin-bottom: 1em; }
+h5 { font-size: 1em; margin-bottom: 1.5em; }
+h6 { font-size: 1em; }
+
+h3 span { text-transform: none;}
+/* Text elements
+-------------------------------------------------------------- */
+
+p           { margin: 0 0 1.5em;}
+p.last      { margin-bottom: 0; }
+p img       { /* float: left;*/ margin: 0 1.5em 1.5em 0; padding: 0; }
+p img.top   { margin-top: 0; } /* Use this if the image is at the top of the <p>. */
+img         { margin: 0 0 0; }
+hr	{ 
+	border: 1px solid #231F20;
+}
+
+ul, ol      { margin: 0 0 1.5em 0; }
+ul li 		{ list-style-type: none; }
+#content ol li { list-style-type: decimal; }
+dl          { margin: 0 0 1.5em 0; }
+dl dt       { font-weight: bold; }
+dd          { margin-left: 1.5em;}
+
+abbr, 
+acronym     { border-bottom: 1px dotted #666; }
+address     { margin-top: 1.5em; font-style: italic; }
+del         { color:#666; }
+
+a			{ color: #AAA; text-decoration: none; font-style: italic;} 
+a:visited 	{ color: #AAA; }
+a:focus, 
+a:hover     { background: #000; color: #fff;}
+a.img:hover { background: none;}
+
+
+/* Some default classes
+-------------------------------------------------------------- */
+
+.small      { font-size: .8em; margin-bottom: 1.875em; line-height: 1.875em; }
+.large      { font-size: 1.2em; line-height: 2.5em; margin-bottom: 1.25em; }
+.quiet      { color: #666; }
+
+.hide       { position: absolute; top: 0; left: -999em;}
+.highlight  { background:#ff0; }
+.added      { color:#060; }
+.removed    { color:#900; }
+
+.top        { margin-top:0; padding-top:0; }
+.bottom     { margin-bottom:0; padding-bottom:0; }
+
+.add-top	{ margin-top:3em;}
+
+/* Scrollable */
+.scroll {
+	position:relative;
+	overflow:hidden;
+	width: 230px;
+	height:390px;
+}
+
+.scroll .items {
+	width:20000em;
+	position:absolute;
+}
+
+.items div {
+	float:left;
+}
+
+.item p {
+	width: 230px;
+}
+
+.navi {
+	position: absolute;
+	left: 80px;
+	top: 377px;
+	width: 100%;
+	margin-bottom: 1.2em;
+}
+
+.navi a {
+	width:8px;
+	height:8px;
+	float:left;
+	margin:3px;
+	background: transparent url(../images/navigator.png) 0 0 no-repeat;
+	display:block;
+	font-size:1px;
+}
+
+/* mouseover state */
+.navi a:hover {
+	background-position:0 -8px;  
+}
+
+/* active state (current page state) */
+.navi a.active {
+	background-position:0 -16px;     
+}
+
+/* Live stream page */
+.live-stream #main {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#player {
+	background-color: #000;
+	height: 300px;
+	text-align: center;
+	padding: 80px 0;
+}
+
+#sidebar div {
+	float: left;
+	width: 100%;
+}
+
+#slate {
+	width: 700px;
+	margin: 0 auto;
+}
+
+#countdown {
+	color: #FFF;
+	text-align: center;
+	width: 510px;
+}
+
+header #countdown {
+	color: #000;
+}
+
+#date {
+	margin-bottom: 20px;
+}
+
+#ancillary {
+	padding: 60px 0 30px;
+}
+
+td.name {
+	padding-right: 20px;
+}
+
+td a {
+	padding: 2px;
+}
+
+#live-tweets {
+	font-size: 1.2em;
+}
+
+#tweet-key {
+	position: absolute;
+	top: 4px;
+	right: 0;
+}
+
+#live-tweets, .twittLI, .twittLI .tweet-image, .twittLI .tweet-body { float: left;}
+
+.twittList {
+	margin-right: 0;
+}
+
+.twittLI { 
+	margin: 0 0 16px;
+	padding: 6px;
+}
+
+.twittLI {
+	background-color: #eee;
+	border: 1px solid #ddd;
+}
+
+.twittLI .tweet-image {margin-right: 18px; width: 48px;}
+
+.tweet-image img {
+	padding: 2px;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+.twittLI .tweet-body {
+	width: 430px; 
+	line-height: 1.4em;
+}
+
+.profileLink {
+	font-style: normal;
+}
+
+span.time { color: #777;}
+.JRM { display: none;}
