@@ -146,8 +146,7 @@ table .last { padding-right: 0; }
 .scroll {
 	position:relative;
 	overflow:hidden;
-	width: 230px;
-	height:390px;
+	width: 270px;
 }
 
 .scroll .items {
@@ -160,7 +159,7 @@ table .last { padding-right: 0; }
 }
 
 .item p {
-	width: 230px;
+	width: 270px;
 }
 
 .navi {
