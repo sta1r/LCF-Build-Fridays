@@ -1,6 +1,6 @@
 <?php
 $root = $_SERVER['DOCUMENT_ROOT']; 
-if (strpos($root, 'Sites') || strpos($root, 'MAMP')) { // we are working locally
+if (strpos($root, 'MAMP')) { // we are working locally
 
 	if (!$db = mysql_connect('localhost', 'root', 'root')) {
 		echo 'Could not connect: ' . mysql_error();
