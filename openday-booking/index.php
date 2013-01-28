@@ -102,6 +102,34 @@ include('header.php');
 					</form>
 				</div>
 			</li><!-- #list12 -->
+			
+			<li>
+				<div class="title expander"><a href="#"><span>Graduate School: Pattern Design and Garment Technology / Creative Pattern Cutting</span></a><br /><span class="bodycopy">Thursday 7th March 2013 (6pm) (Mare Street)</span></div>
+
+				<div id="list13" class="sublist_content bodycopy">
+					<ul class="inner">
+						<li>PG Diploma Pattern Design and Garment Technology</li>
+						<li>PG Certificate Fashion: Creative Pattern Cutting for the Fashion Industry</li>
+					</ul>
+
+					<form action="booking.php" method="get">    
+					<input type="hidden" value="pdgt" name="openday">	
+					<p><input type="submit" value="Select" /></p>
+					</form>
+				</div>
+			</li><!-- #list13 -->
+			
+			<li>
+				<div class="title expander"><a href="#"><span>Research Degrees: Student Open Evening</span></a><br /><span class="bodycopy">Tuesday 12th February 2013 (4-6pm) (305, John Prince's Street)</span></div>
+
+				<div id="list14" class="sublist_content bodycopy">
+					<p>Please see the following event listing for more details and to RSVP:</p>
+					<ul class="inner">
+						<li><a href="http://newsevents.arts.ac.uk/event/lcf-research-degrees-student-open-evening/">LCF Research Degrees Student Open Evening</a></li>
+					</ul>
+
+				</div>
+			</li><!-- #list14 -->
 
 		</ul><!-- .list-folding -->
 		
