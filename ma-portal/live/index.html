@@ -2,8 +2,8 @@
 <html>
 <head>
 		<meta charset="UTF-8">
-		<meta name="description" content="London College of Fashion presents Poemtry - the 2012 MA Catwalk Show" />
-		<title>Poemtry - MA Catwalk Show 2012 - London College of Fashion</title>
+		<meta name="description" content="London College of Fashion presents the 2013 MA Catwalk Show" />
+		<title>MA Catwalk Show 2013 - London College of Fashion</title>
 
 		<link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap.css" />
 
@@ -23,31 +23,46 @@
 		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
 		</script>
+		<!-- We use Modernizr to facilitate HTML5 localstorage -->
+		<script src="../js/vendor/modernizr-2.5.3.min.js"></script>
   		
 </head>
 
 <body class="live-stream">
 	
-	<div id="container" class="container_24 clearfix">
-		
-	    <header class="grid_24">
-				<div class="grid_6 alpha">
-					<img src="../img/MA_12.jpg" alt="London College of Fashion: MA 2012 logo" />
-				</div>
-				<div class="grid_6">
-					<p><strong>Catwalk show broadcast</strong></p>
-					<!--<div id="countdown"><div id="ticker"></div></div>-->
-				</div>	
-				<div class="grid_12 omega">	
-					<p><strong>Date:</strong> Thursday 2 February, 20.00<br/>
-					<strong>Venue:</strong> The Raphael View gallery, Victoria and Albert Museum, London SW7</p>
-					<p><a href="../index.htm">Check the MA 2012 portal page for the full exhibition schedule</a></p>
-				</div>	
-	    </header>
+	<div id="mobile-nav" class="navbar navbar-inverse visible-phone">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
 
-			<div id="main" class="grid_24">
+				<div class="nav-collapse collapse">
+					<ul class="nav">
+						<li><a href="#catwalk">Catwalk</a></li>
+						<li><a href="#alumni">Alumni Event</a></li>
+						<li><a href="#exhibition">Exhibition</a></li>
+						<li><a href="#mgmt-break">Management Breakfast</a></li>
+						<li><a href="#pecha-kucha">Pecha Kucha / Fashion Film</a></li>
+						<li><a href="#showtime">Showtime</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	<div id="wrapper" class="container">
+	    <header class="row">
+			<div class="span12" id="header-border">
+				<h1>MA13</h1>
+			</div>
+		</header>
+
+		<div id="main" class="row">
 			
-				<div id="player" class="grid_24 alpha omega" style="height: 380px">
+				<div id="player" class="span12" style="height: 380px">
 					<div id="slate">
 						<div id="playerLayer">
 							<div style="display:none">
@@ -56,150 +71,184 @@
 
 							<script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
 
-							<object id="myExperience1432562471001" class="BrightcoveExperience">
-							  <param name="bgcolor" value="#FFFFFF" />
-							  <param name="width" value="640" />
-							  <param name="height" value="360" />
-							  <param name="playerID" value="1430473708001" />
-							  <param name="playerKey" value="AQ~~,AAAA5zSlXZE~,CbnIoavivfrI830XzfozyJ4xdEi1xCiu" />
-							  <param name="isVid" value="true" />
-							  <param name="isUI" value="true" />
-							  <param name="dynamicStreaming" value="true" />
-
-							  <param name="@videoPlayer" value="1432562471001" />
-							</object>
+							<iframe src='http://live.3xscreen.com/lcf/embed/' width='640' height='360' frameborder='0'></iframe>
 
 							<script type="text/javascript">brightcove.createExperiences();</script>						</div>
 					</div><!-- #slate -->	
 				</div><!-- #player -->
 	
-			</div><!-- #main -->
+		</div><!-- #main -->
 				
-			<div id="ancillary" class="grid_24">
+		<div id="ancillary" class="row">
 			
-				<div id="running-order" class="grid_10 alpha">
+			<div id="running-order" class="span6">
 				<h2>Catwalk Show Running Order</h2>
+				<ol>
+					<li>
+						<div class="name">Antonia Lloyd</div>
+						<div class="course">MA Fashion Design Technology (Menswear)</div>
+						<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/AntoniaLloyd">View gallery</a></div>
+					</li><hr>
+					<li>
+						<div class="name">Keiko Nishyama</div>
+						<div class="course">MA</div>
+						<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/">View gallery</a></div>
+					</li><hr>
+					<li>
+						<div class="name">Maddalena Mangialavori</div>
+						<div class="course">MA Fashion Design Technology (Womenswear)</div>
+						<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/maddalenamangialavori">View gallery</a></div>
+					</li><hr>
+					<li>
+						<div class="name">Min Wu</div>
+						<div class="course">MA Fashion Design Technology (Womenswear)</div>
+						<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/minwu">View gallery</a></div>
+					</li><hr>
+					<li>
+						<div class="name">Na Di</div>
+						<div class="course">MA Fashion Design Technology (Menswear)</div>
+						<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/NaDi">View gallery</a></div>
+					</li><hr>
+					<li>
+						<div class="name">Nadia Scullion</div>
+						<div class="course">MA Fashion Design Technology (Womenswear)</div>
+						<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/nadiascullion">View gallery</a></div>
+					</li><hr>
+					<li>
+						<div class="name">Sian Davies</div>
+						<div class="course">MA</div>
+						<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/">View gallery</a></div>
+					</li><hr>
+					<li>
+						<div class="name">Xin "Gina" Sun</div>
+						<div class="course">MA Fashion Design Technology (Menswear)</div>
+						<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/ginaxsun">View gallery</a></div>
+					</li><hr>
+					<li>
+						<div class="name">Yan Yu "Octo" Cheung</div>
+						<div class="course">MA Fashion Design Technology (Menswear)</div>
+						<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/octocheung">View gallery</a></div>
+					</li><hr>
+					<li>
+						<div class="name">Yi Xie</div>
+						<div class="course">MA</div>
+						<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/">View gallery</a></div>
+					</li><hr>
+			
+				</ol>
+				
+			</div> <!-- #running-order-->
+
+<!-- table running order	
 				<table>
 				 	<tr>
-						<td class="name">Xianfen Gu</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/XianfenGU">View gallery</a></td>
+						<td class="name">Antonia Lloyd</td>
+						<td><a target="_blank" href="http://showtime.arts.ac.uk/AntoniaLloyd">View gallery</a></td>
 					</tr>	
 					<tr>
-						<td class="name">Tina Elisabeth Reiter</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/tinaelisabethreiter">View gallery</a></td>
+						<td class="name">Keiko Nishyama</td>
+						<td><a target="_blank" href="http://showtime.arts.ac.uk/">View gallery</a></td>
 					</tr>
 					<tr>	
-				 		<td class="name">Arena Page</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/arenapage">View gallery</a></td>
+				 		<td class="name">Maddalena Mangialavori</td>
+						<td><a target="_blank" href="http://showtime.arts.ac.uk/maddalenamangialavori">View gallery</a></td>
 					</tr>
 					<tr>
-				 		<td class="name">Joseph Turvey</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/josephturvey">View gallery</a>
+				 		<td class="name">Min Wu</td>
+						<td><a target="_blank" href="http://showtime.arts.ac.uk/minwu">View gallery</a>
 					</tr>
 					<tr>
-						<td class="name">Seul Ki Uhm</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/UHE10315213">View gallery</a></td>
+						<td class="name">Na Di</td>
+						<td><a target="_blank" href="http://showtime.arts.ac.uk/NaDi">View gallery</a></td>
 					</tr>	
 				 	<tr>
-						<td class="name">Sum Yu Li</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/SumyuLi">View gallery</a></td>
+						<td class="name">Nadia Scullion</td>
+						<td><a target="_blank" href="http://showtime.arts.ac.uk/nadiascullion">View gallery</a></td>
 					</tr>	
 				 	<tr>
-						<td class="name">Ming-Pin Tien</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/Ming">View gallery</a></td>
+						<td class="name">Sian Davies</td>
+						<td><a target="_blank" href="http://showtime.arts.ac.uk/">View gallery</a></td>
 					</tr>	
 					<tr>
-						<td class="name">Wan Ying Lo</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/Viginlo">View gallery</a></td>
+						<td class="name">Xin "Gina" Sun</td>
+						<td><a target="_blank" href="http://showtime.arts.ac.uk/ginaxsun">View gallery</a></td>
 					</tr>	
 				 	<tr>
-						<td class="name">Mei Tang</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/MayTang">View gallery</a></td>
+						<td class="name">Yan Yu "Octo" Cheung</td>
+						<td><a target="_blank" href="http://showtime.arts.ac.uk/octocheung">View gallery</a></td>
 					</tr>
 					<tr>
-						<td class="name">Tsz Fung Kwok</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/Kaykwok">View gallery</a></td>
-					</tr>
-					<tr>	
-				 		<td class="name">Beatrice Newman</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/Korlekie">View gallery</a></td>
-					</tr>
-					<tr>
-				 		<td class="name">Yuanzhou Guo</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/YuanzhouGuo">View gallery</a></td>
-					</tr>
-					<tr>
-				 		<td class="name">Rahull Verma</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/rahullverma">View gallery</a>
-					</tr>
-					<tr>
-				 		<td class="name">Jie Liang</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/JIELIANG">View gallery</a>
-					</tr>
-					<tr>
-				 		<td class="name">Chika Ito</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/ChikaIto">View gallery</a></td>
-					</tr>
-					<tr>
-				 		<td class="name">Byung Mun Seo</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/byungmun">View gallery</a></td>
-					</tr>
-				 	<tr>
-						<td class="name">Melanie Anayiotos</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/melanieanayiotos">View gallery</a>
-					</tr>	
-				 	<tr>
-						<td class="name">Jennifer Murray</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/JenRally">View gallery</a>
-					</tr>
-					<tr>	
-				 		<td class="name">Hye Rim Hong</td>	
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/hyerimhong">View gallery</a></td>
-					</tr>
-					<tr>
-						<td class="name">Jianfeng Huang</td>		
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/geoffreyhuang">View gallery</a></td>			
-					</tr>
-					<tr>	
-				 		<td class="name">Charlotte Simpson</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/CharlotteSimpson">View gallery</a></td>			
-					</tr>
-				 	<tr>
-						<td class="name">Yao Zhang</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/YaoZhang">View gallery</a></td>				
-					</tr>	
-					<tr>
-						<td class="name">Hana Cha</td>
-						<td><a target="_blank" href="http://showtime.arts.ac.uk/hanacha">View gallery</a></td>				
+						<td class="name">Yi Xie</td>
+						<td><a target="_blank" href="http://showtime.arts.ac.uk/">View gallery</a></td>
 					</tr>
 				</table>
-				</div>
+-->			
 			
-				<div class="grid_13 prefix_1 omega">
+			<div class="span5 offset1" id="tweet-section">
 					<h2>Live Tweets</h2>
-					<div id="tweet-key"><strong>Use <a href="http://www.twitter.com/LCFLondon">@LCFLondon</a> - or #MA12</strong></div>
-					<div id="live-tweets"></div>
-				</div>
+					<div id="tweet-key">
+						<p>Use <a href="http://www.twitter.com/LCFLondon">@LCFLondon</a> or #MA13</p>
+					</div>
+					
+					<div id="live-tweets">
+					</div>
+			</div> <!-- #tweet-section -->
 				
- 			</div><!-- #ancillary -->
+ 		</div><!-- #ancillary -->
 
-    <footer class="grid_24">
-			<ul>
-				<li>&bull; <a href="http://www.fashion.arts.ac.uk/courses/graduate-school/" title="View postgraduate course information">Graduate School courses</a></li>
-				<!--<li>&bull; <a href="mailto:g.j.evans@fashion.arts.ac.uk">Contact the Events Office</a></li>-->
-			</ul>	
-		</footer>
-    
-		<footer id="logo-panel" class="grid_24">
-			<div id="lcf-logo" class="grid_5 prefix_19 alpha omega"><a class="logo" href="http://www.fashion.arts.ac.uk"><img src="../img/lcf-logo.gif"></a></div>
-		</footer>
+		<div class="row">
+					<div class="span12 border-top" id="link-row">
+						<ul id="link-list">
+							<span>
+							<li><a href="http://www.fashion.arts.ac.uk/graduate-school/" title="View postgraduate course information">Graduate School courses</a> </li>
+							<span>|</span>
+							<li><a href="mailto:g.j.evans@fashion.arts.ac.uk">Contact the Events Office</a></li>
+							</span>
+						</ul>
+					</div>
+				</div>
 
-</div> <!-- #container -->
-	
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-		<script src="../js/jquery.juitter.js"></script>
-		<script src="../js/jquery.countdown.pack.js"></script>
-		<script src="../js/system.js"></script>
-	
+			<footer id="logo-panel" class="row">
+		<!--			<div id="sponsor-logos" class="span9">
+						<img src="img/sponsors.gif">
+					</div>
+		-->
+					<div id="lcf-logo" class="span3 offset9">
+						<a class="logo" href="http://www.fashion.arts.ac.uk"><img src="../img/lcf-logo.jpg"></a>
+					</div>
+				</footer>
+
+	</div> <!-- .container -->
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>	
+		    <script src="js/bootstrap-collapse.js"></script>
+			<script>$(function () {
+			    var $element = $('#mark-img');
+			    setInterval(function () {
+			        $element.fadeIn(3500, function () {
+			            $element.fadeOut(3500, function () {
+
+			            });
+			        });
+			    }, 100);
+			});
+			</script>
+			<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+			<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script>					
+			<script src="../js/jquery.juitter.js"></script>
+			<script src="../js/jquery.countdown.pack.js"></script>
+			<!-- scripts concatenated and minified via build script -->
+		  <script src="../js/plugins.js"></script>
+		  <script src="../js/main.js"></script>
+		  <!-- end scripts -->
+
+			<script>
+		    var _gaq=[['_setAccount','UA-182294-6'],['_trackPageview']];
+		    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+		    s.parentNode.insertBefore(g,s)}(document,'script'));
+		  </script>
+
 </body>
 </html>
