@@ -60,10 +60,6 @@ include('header.php');
 						<li>Graduate Diploma in Fashion Management</li>
 					</ul>
 
-					<form action="booking.php" method="get">    
-					<input type="hidden" value="bm" name="openday">	
-					<p><input type="submit" value="Select" /></p>
-					</form>
 				</div>
 			</li><!-- #list11 -->
 			
