@@ -48,22 +48,6 @@ include('header.php');
 			</li><!-- #list9 -->
 			
 			<li>
-				<div class="title expander"><a href="#"><span>Graduate School: Business and Management</span></a><br /><span class="bodycopy">Tuesday 5th February (6pm) (High Holborn)</span></div>
-
-				<div id="list11" class="sublist_content bodycopy">
-					<ul class="inner">
-						<li>MA Strategic Fashion Marketing</li>
-						<li>MA Design Management for the Fashion Industries</li>
-						<li>MA Fashion Entrepreneurship</li>
-						<li>MA Fashion Retail</li>
-						<li>Postgraduate Certificate Fashion: Buying and Merchandising</li>
-						<li>Graduate Diploma in Fashion Management</li>
-					</ul>
-
-				</div>
-			</li><!-- #list11 -->
-			
-			<li>
 				<div class="title expander"><a href="#"><span>Graduate School: Design and Technology / <br/>Media and Communications</span></a><br /><span class="bodycopy">Monday 18th February (10am) (Victoria House Basement - exhibition venue)</span></div>
 
 				<div id="list12" class="sublist_content bodycopy">
