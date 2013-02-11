@@ -75,7 +75,18 @@
 
 		    <a href="#content" class="aa">Skip secondary navigation</a>
 
-				<ul id="nav-sub" class="nav"><li><a href="/">Home</a></li><li><a href="/about/">About Us</a></li><li><a href="/courses/">Courses</a></li><li><span class="currentbranch0"><a href="/prospective-students/">Prospective Students</a></span></li><li><a href="http://newsevents.arts.ac.uk/lcf/">News &amp; Events</a></li><li><a href="/showcase/">Showcase</a></li><li><a href="/research/">Research</a></li><li><a href="/international/">International</a></li><li><a href="/enterprise/">Enterprise</a></li><li><a href="/alumni/">Alumni</a></li></ul>
+				<ul id="nav-sub" class="nav">
+					<li><a href="/">Home</a></li>
+					<li><a href="/about/">About Us</a></li>
+					<li><a href="/courses/">Courses</a></li>
+					<li><span class="currentbranch0"><a href="/prospective-students/">Prospective Students</a></span></li>
+					<li><a href="http://blogs.fashion.arts.ac.uk/snapshot/">News</a></li>
+					<li><a href="http://newsevents.arts.ac.uk/lcf/">Events</a></li>
+					<li><a href="/showcase/">Showcase</a></li>
+					<li><a href="/research/">Research</a></li>
+					<li><a href="/international/">International</a></li>
+					<li><a href="/enterprise/">Enterprise</a></li>
+					<li><a href="/alumni/">Alumni</a></li></ul>
 				         <!-- navigation object : College Top Navigation Column 3 --><ul id="nav-popup" class="nav"><li><a href="/prospective-students/how-to-apply/">How to apply</a></li><li><span class="currentbranch0"><a href="/prospective-students/open-days/">Open Days</a></span></li><li><a href="/prospective-students/student-services/">Student Services</a></li><li><a href="/prospective-students/scholarships/">Scholarships</a></li><li><a href="/prospective-students/virtual-tours/">Virtual Tours</a></li><li><a href="/prospective-students/portfolio-advice/">Portfolio advice</a></li><li><a href="/prospective-students/mature-students/">Mature students</a></li><li><a href="/prospective-students/../student-stories/">Meet our students</a></li><li><a href="/prospective-students/../brochure/">LCF Brochures</a></li></ul>
 								
 				
