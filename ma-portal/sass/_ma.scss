@@ -30,14 +30,14 @@ footer ul {
 	padding: 35px 0;
 }
 
-#mark-container {
+#hero-container {
 	background-color: #231f20;
-	padding: 20px 0;
+	padding: 20px 0 10px;
 }
 
 #mark {
 	width: 150px;
-	margin: 0 auto;
+	margin: 0 auto 20px;
 }
 
 #mark-img {
@@ -233,12 +233,8 @@ a.img:hover { background: none;}
 
 #countdown {
 	color: #FFF;
+	text-transform: uppercase;
 	text-align: center;
-	width: 510px;
-}
-
-header #countdown {
-	color: #000;
 }
 
 #date {
@@ -292,11 +288,6 @@ span.time { color: #777;}
 /**/
 
 /* LIVE */
-#player {
-  background-color: #000;
-  text-align: center;
-  padding: 40px 0;
-}
 
 h2.column-head {
   border-bottom: 1px solid #eeeeee;
@@ -321,9 +312,7 @@ h2.column-head {
 /*  width: 300px; */
 }
 #running-order li .slink {
-  position: absolute;
-  top: 10px;
-  right: 0;
+  
 }
 #running-order hr {
   margin-left: -25px;

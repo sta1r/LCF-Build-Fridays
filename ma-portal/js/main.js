@@ -1,45 +1,6 @@
 /* Author: Alastair Mucklow, London College of Fashion */
 
 $(function() {
-
-		var target = window.location.hash;
-		// if a hash is present in the URL, scroll to that tile		
-    if(target) { $.scrollTo(target + '-tile', 200, { offset: -20 }); }
-		
-		// routing links to scroll between tiles		
-		$('.router').click(function(e) {
-			target = $(this).attr('href');
-			$.scrollTo( target + '-tile', 600, { offset: -20, queue: false } );
-			//if (!window.location.hash) { window.location.hash = target; }
-		});
-		
-		// course pop-out lists
-		$('.pop').click(function(e) {
-			_pop = $(this);
-			_pop.toggleClass('open').parent().next().toggle();
-			if (_pop.hasClass('open')) { 
-				_pop.html('[ - ]'); 
-			} else {
-				_pop.html('[+]');
-			}
-			e.preventDefault();
-		});
-		
-		// generic toggler
-		$('.toggle').click(function(e) {
-			_elem = $(this).data('id');
-			$('#' + _elem).toggle();
-			e.preventDefault();		
-		});
-		
-		// generic hoverer 
-		$('.hover').hover(function() {
-			_elem = $(this).data('id');
-			$('#' + _elem).fadeIn('fast');
-		}, function() {
-			$('#' + _elem).fadeOut('slow');
-		});
-
 		
 		// Check if the browser supports the video tag	
 		var v = document.createElement("video"); 
@@ -47,11 +8,11 @@ $(function() {
 				$('.fallback').show();
 			}	
 			
-		// For additional Juitter config options, check the original download
+			// For additional Juitter config options, check the original download
 		if ($('#live-tweets').length > 0) {
 			$.Juitter.start({
 				searchType:"searchWord", // needed, you can use "searchWord", "fromUser", "toUser"
-				searchObject:"LCF2013,lcf2013,#MA13,#ma13,LCFLondon",
+				searchObject:"LCF2013,lcf2013,MA13,ma13,LCFLondon",
 				lang:"en",
 				placeHolder:"live-tweets",
 				loadMSG: "image/gif",
@@ -62,12 +23,12 @@ $(function() {
 				openExternalLinks:"newWindow",
 				filter:"sex->*censored*,porn->*censored*,fuck->*censored*,shit->*censored*,crap->*censored*,cunt->*censored*,wank->*censored*,tits->*censored*"
 			});
-		}	
-
+		}
+	
 		// Countdown
 		if ($('#ticker').length > 0) {
 			$('#ticker').countdown({
-				until: new Date(2012, 6 - 1, 28, 18, 30),
+				until: new Date(2013, 2 - 1, 15, 10, 30),
 				onExpiry: liftOff,
 				alwaysExpire: true
 			});
@@ -77,6 +38,16 @@ $(function() {
 			}
 		}
 		
+		// 2013 Mark Fader
+	    var $element = $('#mark-img');
+	    setInterval(function () {
+	        $element.fadeIn(3500, function () {
+	            $element.fadeOut(3500, function () {
+
+	            });
+	        });
+	    }, 100);
+	
 		// Showtime JSON
 		if ($('#showtime-json').length) {
 		

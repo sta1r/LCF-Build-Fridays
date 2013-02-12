@@ -74,10 +74,15 @@
 
 		<div class="row">
 			
-			<div id="player" class="span12">
+			<div id="hero-container" class="span12">
 				<div id="slate">
-					<img src="../img/mark-white150.png" alt="London College of Fashion: MA 2013 logo" />
+					<div id="mark">
+						<div id="mark-img">
+							<img src="../img/mark-white150.png" alt="London College of Fashion: MA 2013 logo" />
+						</div>
+					</div>
 				<!--<iframe src='http://live.3xscreen.com/lcf/embed/' width='<?php echo $iframeWidth; ?>' height='<?php echo $iframeHeight; ?>' frameborder='0'></iframe>-->
+					<div id="countdown" class="aligncenter"><p>Live catwalk show begins: <span id="ticker"></span></p></div>
 				</div><!-- #slate -->	
 			</div><!-- #player -->
 	
@@ -91,7 +96,10 @@
 					<li>
 						<div class="name">Antonia Lloyd</div>
 						<div class="course">MA Fashion Design Technology (Menswear)</div>
-						<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/AntoniaLloyd">View gallery</a></div>
+						<div class="slink">
+							<a target="_blank" href="http://showtime.arts.ac.uk/AntoniaLloyd">Profile</a> |
+							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/04/ma13-designer-a-day-antonia-lloyd/">Interview</a>
+						</div>
 					</li><hr>
 					<li>
 						<div class="name">Keiko Nishyama</div>
@@ -181,26 +189,8 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>	
 	<script src="../js/bootstrap-collapse.js"></script>	
   	<script src="../js/plugins.js"></script>
-  	<script>
-	$(function() {
-	// For additional Juitter config options, check the original download
-		if ($('#live-tweets').length > 0) {
-			$.Juitter.start({
-				searchType:"searchWord", // needed, you can use "searchWord", "fromUser", "toUser"
-				searchObject:"LCF2013,lcf2013,MA13,ma13,LCFLondon",
-				lang:"en",
-				placeHolder:"live-tweets",
-				loadMSG: "image/gif",
-				imgName: "../img/ajax-loader.gif",
-				total: 10,
-				readMore: "Read it on Twitter",
-				nameUser:"image",
-				openExternalLinks:"newWindow",
-				filter:"sex->*censored*,porn->*censored*,fuck->*censored*,shit->*censored*,crap->*censored*,cunt->*censored*,wank->*censored*,tits->*censored*"
-			});
-		}
-	});
-  	</script>
+  	<script src="../js/main.js"></script>
+  	
 
 </body>
 </html>

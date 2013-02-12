@@ -61,17 +61,16 @@
 		</header>
 
 		<div class="row">
-			<div id="mark-container" class="span12 add-bottom">
+			<div id="hero-container" class="span12 add-bottom">
 				<div id="mark">
 					<div id="mark-img">
 						<img src="img/mark-white150.png" alt="London College of Fashion: MA 2013 logo" />
 					</div>
-					<div id="countdown"><div id="ticker"></div></div>
-
 				</div>	
+				<div id="countdown" class="aligncenter"><p>Live catwalk show begins: <span id="ticker"></span><a href="live/index.php">Watch now</a></p></div>	
 			</div>
 		</div>
-				
+
 		<div class="row">
 			<div class="span12 border-top border-bottom" id="description">
 				<p>London College of Fashion’s Graduate School will be showcasing the work of more than 200 students throughout a festival of events running until February 2013, covering the subject areas of design, media and management, including work from all its postgraduate courses.</p>
@@ -250,17 +249,8 @@
     <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>	
     <script src="js/jquery.countdown.pack.js"></script>
     <script src="js/bootstrap-collapse.js"></script>
-	<script>$(function () {
-	    var $element = $('#mark-img');
-	    setInterval(function () {
-	        $element.fadeIn(3500, function () {
-	            $element.fadeOut(3500, function () {
-
-	            });
-	        });
-	    }, 100);
-	});
-	</script>
+    <script src="js/main.js"></script>
+	
 
 </body>
 </html>
