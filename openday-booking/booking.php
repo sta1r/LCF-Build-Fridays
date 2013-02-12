@@ -6,7 +6,7 @@ $title = "Booking Form";
 
 // detect special courses
 $specialCourses = 'foo';
-if ($area == 'bm' || $area == 'dtmc' || $area == 'pg-fdt' || $area == 'pt') { $specialCourses = 1; }
+if ($area == 'bm' || $area == 'dtmc' || $area == 'pg-fdt' || $area == 'pt' || $area == 'pdgt') { $specialCourses = 1; }
 
 include('header.php');
 ?>
@@ -40,16 +40,12 @@ include('header.php');
 		  <option value="pt-13feb">Wednesday 27 February</option>
 		  <option value="pt-11may">Saturday 11 May</option>
 		<?php 	break;
-		    case "fe": ?>
-		  <!-- <option value="fe-6feb">Wednesday 6 February</option> -->
-		  <option value="fe-27feb">Wednesday 27 February</option>
-		<?php 	break;
-			case "bm": ?>
-		  <option value="bm-5feb">Tuesday 5th February</option>
-		<?php 	break;
 			case "dtmc": ?>
 		  <option value="dtmc-18feb">Monday 18th February</option>
-		<?php 	break;	
+		<?php 	break;
+			case "pdgt": ?>
+		  <option value="pdgt-7mar">Thursday 7th March</option>
+		<?php 	break;
 		}
 			?>
 			</select>
@@ -159,7 +155,12 @@ include('header.php');
 				<input type=checkbox name="interest[]" value="MA History &amp; Culture of Fashion" class="checkbox">MA History &amp; Culture of Fashion<br/>
 				<input type=checkbox name="interest[]" value="MA Fashion &amp; Film" class="checkbox">MA Fashion &amp; Film<br/>
 				<input type=checkbox name="interest[]" value="MA Fashion Media Production" class="checkbox">MA Fashion Media Production<br/>
-				<?php 	break;	}     ?>	
+				<?php 	break;
+							case "pdgt": ?>
+				<input type=checkbox name="interest[]" value="PG Diploma Pattern Design and Garment Technology" class="checkbox">PG Diploma Pattern Design and Garment Technology<br/>
+				<input type=checkbox name="interest[]" value="PG Certificate Fashion: Creative Pattern Cutting for the Fashion Industry" class="checkbox">PG Certificate Fashion: Creative Pattern Cutting for the Fashion Industry<br/>
+							
+				<?php 	break;	}     ?>
 				<label class="error" for="interest[]">Please select at one course you are interested in.</label>			
 			</fieldset>
 			<?php } ?>

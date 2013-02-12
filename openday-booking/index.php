@@ -12,7 +12,7 @@ include('header.php');
 
 		 <ul class="list-folding">
 			<li>
-				<div class="title expander"><a href="#"><span>Further Education</span></a><br /><span class="bodycopy"><strike>Wednesday 6 February *FULLY BOOKED*</strike> and Wednesday 27 February 2013, 11am (Lime Grove)</span></div>
+				<div class="title expander"><a href="#"><span>Further Education</span></a><br /><span class="bodycopy">Wednesday 27 February 2013, 11am (Lime Grove)</span></div>
 
 				<div id="list10" class="sublist_content bodycopy">
 					<ul class="inner">
@@ -21,11 +21,11 @@ include('header.php');
 						<li>Access to HE (Diploma): Fashion Media and Communications (1pm both dates)</li>
 						<li>Access to HE (Diploma): Fashion (2pm both dates)</li>
 					</ul>
-
-					<form action="booking.php" method="get">    
+					<p>Please call <span style="color:#C51B8A;">+44 (0)207 514 7582</span> for further details</p>
+				<!--	<form action="booking.php" method="get">    
 					<input type="hidden" value="fe" name="openday">	
 					<p><input type="submit" value="Select" /></p>
-					</form>
+					</form> -->
 				</div>
 			</li><!-- #list10 -->
 			
@@ -46,26 +46,6 @@ include('header.php');
 					</form>
 				</div>
 			</li><!-- #list9 -->
-			
-			<li>
-				<div class="title expander"><a href="#"><span>Graduate School: Business and Management</span></a><br /><span class="bodycopy">Tuesday 5th February (6pm) (High Holborn)</span></div>
-
-				<div id="list11" class="sublist_content bodycopy">
-					<ul class="inner">
-						<li>MA Strategic Fashion Marketing</li>
-						<li>MA Design Management for the Fashion Industries</li>
-						<li>MA Fashion Entrepreneurship</li>
-						<li>MA Fashion Retail</li>
-						<li>Postgraduate Certificate Fashion: Buying and Merchandising</li>
-						<li>Graduate Diploma in Fashion Management</li>
-					</ul>
-
-					<form action="booking.php" method="get">    
-					<input type="hidden" value="bm" name="openday">	
-					<p><input type="submit" value="Select" /></p>
-					</form>
-				</div>
-			</li><!-- #list11 -->
 			
 			<li>
 				<div class="title expander"><a href="#"><span>Graduate School: Design and Technology / <br/>Media and Communications</span></a><br /><span class="bodycopy">Monday 18th February (10am) (Victoria House Basement - exhibition venue)</span></div>
@@ -94,14 +74,54 @@ include('header.php');
 						<li>Graduate Diploma in Fashion Media Styling</li>
 						<li>MA Collaborative Performance</li>
 					</ul>
-					
+					<p>Please call <span style="color:#C51B8A;">+44 (0)207 514 7582</span> or email <a href="mailto:l.hicks@fashion.arts.ac.uk">l.hicks@fashion.arts.ac.uk</a> to book your place</p>					
+
+					<!--<form action="booking.php" method="get">    
+					<input type="hidden" value="dtmc" name="openday">	
+					<p><input type="submit" value="Select" /></p>
+					</form>-->
+				</div>
+			</li><!-- #list12 -->
+			
+			<li>
+				<div class="title expander"><a href="#"><span>Graduate School: Pattern Design and Garment Technology / Creative Pattern Cutting</span></a><br /><span class="bodycopy">Thursday 7th March 2013 (6pm) (Mare Street)</span></div>
+
+				<div id="list13" class="sublist_content bodycopy">
+					<ul class="inner">
+						<li>PG Diploma Pattern Design and Garment Technology</li>
+						<li>PG Certificate Fashion: Creative Pattern Cutting for the Fashion Industry</li>
+					</ul>
 
 					<form action="booking.php" method="get">    
-					<input type="hidden" value="dtmc" name="openday">	
+					<input type="hidden" value="pdgt" name="openday">	
 					<p><input type="submit" value="Select" /></p>
 					</form>
 				</div>
-			</li><!-- #list12 -->
+			</li><!-- #list13 -->
+			
+			<li>
+				<div class="title expander"><a href="#"><span>Research Degrees: Student Open Evening</span></a><br /><span class="bodycopy">Tuesday 12th February 2013 (4-6pm) (305, John Prince's Street)</span></div>
+
+				<div id="list14" class="sublist_content bodycopy">
+					<p>Please see the following event listing for more details and to RSVP:</p>
+					<ul class="inner">
+						<li><a href="http://newsevents.arts.ac.uk/event/lcf-research-degrees-student-open-evening/">LCF Research Degrees Student Open Evening</a></li>
+					</ul>
+
+				</div>
+			</li><!-- #list14 -->
+			
+			<li>
+				<div class="title expander"><a href="#"><span>Short Courses Open Afternoon</span></a><br /><span class="bodycopy">Saturday 9th March (12pm-4.30pm) (Lime Grove)</span></div>
+
+				<div id="list15" class="sublist_content bodycopy">
+					<p>Please see the following event page for more details and to RSVP:</p>
+					<ul class="inner">
+						<li><a href="http://www.fashion.arts.ac.uk/short-courses/usefulinformation/open-afternoon/">Short Courses Open Afternoon</a></li>
+					</ul>
+
+				</div>
+			</li><!-- #list15 -->
 
 		</ul><!-- .list-folding -->
 		
