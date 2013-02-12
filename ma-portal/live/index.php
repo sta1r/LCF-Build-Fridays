@@ -102,10 +102,10 @@
 						</div>
 					</li><hr>
 					<li>
-						<div class="name">Keiko Nishyama</div>
+						<div class="name">Keiko Nishiyama</div>
 						<div class="course">MA Fashion Design Technology (Womenswear)</div>
 						<div class="slink">
-						<!--	<a target="_blank" href="http://showtime.arts.ac.uk/">Showtime profile</a> |-->
+							<a target="_blank" href="http://showtime.arts.ac.uk/MA2013">Showtime profile</a> |
 							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/10/ma13-designer-a-day-keiko-nishiyama/">Interview</a>
 						</div>
 					</li><hr>
@@ -145,8 +145,8 @@
 						<div class="name">Sian Davies</div>
 						<div class="course">MA Fashion Design Technology (Womenswear)</div>
 						<div class="slink">
-						<!--	<a target="_blank" href="http://showtime.arts.ac.uk/">Showtime profile</a> |-->
-							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/06/ma13-designer-a-day-nadia-scullion/">Interview</a>
+							<a target="_blank" href="http://showtime.arts.ac.uk/menaisian">Showtime profile</a> |
+							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/09/ma13-designer-a-day-sian-davies/">Interview</a>
 						</div>
 					</li><hr>
 					<li>
