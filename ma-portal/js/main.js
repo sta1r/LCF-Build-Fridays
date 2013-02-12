@@ -51,7 +51,7 @@ $(function() {
 		if ($('#live-tweets').length > 0) {
 			$.Juitter.start({
 				searchType:"searchWord", // needed, you can use "searchWord", "fromUser", "toUser"
-				searchObject:"LCF2013,lcf2013,MA13,ma13,LCFLondon",
+				searchObject:"LCF2013,lcf2013,#MA13,#ma13,LCFLondon",
 				lang:"en",
 				placeHolder:"live-tweets",
 				loadMSG: "image/gif",
