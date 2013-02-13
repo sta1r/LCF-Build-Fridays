@@ -100,18 +100,6 @@ include('header.php');
 			</li><!-- #list13 -->
 			
 			<li>
-				<div class="title expander"><a href="#"><span>Research Degrees: Student Open Evening</span></a><br /><span class="bodycopy">Tuesday 12th February 2013 (4-6pm) (305, John Prince's Street)</span></div>
-
-				<div id="list14" class="sublist_content bodycopy">
-					<p>Please see the following event listing for more details and to RSVP:</p>
-					<ul class="inner">
-						<li><a href="http://newsevents.arts.ac.uk/event/lcf-research-degrees-student-open-evening/">LCF Research Degrees Student Open Evening</a></li>
-					</ul>
-
-				</div>
-			</li><!-- #list14 -->
-			
-			<li>
 				<div class="title expander"><a href="#"><span>Short Courses Open Afternoon</span></a><br /><span class="bodycopy">Saturday 9th March (12pm-4.30pm) (Lime Grove)</span></div>
 
 				<div id="list15" class="sublist_content bodycopy">
