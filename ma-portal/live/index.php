@@ -110,11 +110,11 @@
 						</div>
 					</li><hr>
 					<li>
-						<div class="name">Sian Davies</div>
+						<div class="name">Nadia Scullion</div>
 						<div class="course">MA Fashion Design Technology (Womenswear)</div>
 						<div class="slink">
-							<a target="_blank" href="http://showtime.arts.ac.uk/menaisian">Showtime profile</a> |
-							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/09/ma13-designer-a-day-sian-davies/">Interview</a>
+							<a target="_blank" href="http://showtime.arts.ac.uk/nadiascullion">Showtime profile</a> |
+							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/06/ma13-designer-a-day-nadia-scullion/">Interview</a>
 						</div>
 					</li><hr>
 					<li>
@@ -142,18 +142,18 @@
 						</div>
 					</li><hr>
 					<li>
-						<div class="name">Nadia Scullion</div>
+						<div class="name">Sian Davies</div>
 						<div class="course">MA Fashion Design Technology (Womenswear)</div>
 						<div class="slink">
-							<a target="_blank" href="http://showtime.arts.ac.uk/nadiascullion">Showtime profile</a> |
-							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/06/ma13-designer-a-day-nadia-scullion/">Interview</a>
+							<a target="_blank" href="http://showtime.arts.ac.uk/menaisian">Showtime profile</a> |
+							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/09/ma13-designer-a-day-sian-davies/">Interview</a>
 						</div>
 					</li><hr>
 					<li>
 						<div class="name">Yi Xie</div>
 						<div class="course">MA Fashion Design Technology (Womenswear)</div>
 						<div class="slink">
-						<!--	<a target="_blank" href="http://showtime.arts.ac.uk/">Showtime profile</a> |-->
+							<a target="_blank" href="http://showtime.arts.ac.uk/YIXIE">Showtime profile</a> |
 							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/13/ma13-designer-a-day-yi-xie/">Interview</a>
 						</div>
 					</li><hr>
