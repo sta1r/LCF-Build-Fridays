@@ -94,35 +94,11 @@
 				<h2 class="column-head">Catwalk Show Running Order</h2>
 				<ol>
 					<li>
-						<div class="name">Antonia Lloyd</div>
-						<div class="course">MA Fashion Design Technology (Menswear)</div>
-						<div class="slink">
-							<a target="_blank" href="http://showtime.arts.ac.uk/AntoniaLloyd">Showtime profile</a> |
-							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/04/ma13-designer-a-day-antonia-lloyd/">Interview</a>
-						</div>
-					</li><hr>
-					<li>
-						<div class="name">Keiko Nishiyama</div>
-						<div class="course">MA Fashion Design Technology (Womenswear)</div>
-						<div class="slink">
-							<a target="_blank" href="http://showtime.arts.ac.uk/MA2013">Showtime profile</a> |
-							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/10/ma13-designer-a-day-keiko-nishiyama/">Interview</a>
-						</div>
-					</li><hr>
-					<li>
 						<div class="name">Maddalena Mangialavori</div>
 						<div class="course">MA Fashion Design Technology (Womenswear)</div>
 						<div class="slink">
 							<a target="_blank" href="http://showtime.arts.ac.uk/maddalenamangialavori">Showtime profile</a> |
 							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/05/ma13-designer-a-day-maddalena-mangialavori/">Interview</a>
-						</div>
-					</li><hr>
-					<li>
-						<div class="name">Min Wu</div>
-						<div class="course">MA Fashion Design Technology (Womenswear)</div>
-						<div class="slink">
-							<a target="_blank" href="http://showtime.arts.ac.uk/minwu">Showtime profile</a> |
-							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/08/ma13-designer-a-day-min-wu/">Interview</a>
 						</div>
 					</li><hr>
 					<li>
@@ -134,6 +110,38 @@
 						</div>
 					</li><hr>
 					<li>
+						<div class="name">Sian Davies</div>
+						<div class="course">MA Fashion Design Technology (Womenswear)</div>
+						<div class="slink">
+							<a target="_blank" href="http://showtime.arts.ac.uk/menaisian">Showtime profile</a> |
+							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/09/ma13-designer-a-day-sian-davies/">Interview</a>
+						</div>
+					</li><hr>
+					<li>
+						<div class="name">Yan Yu "Octo" Cheung</div>
+						<div class="course">MA Fashion Design Technology (Menswear)</div>
+						<div class="slink">
+							<a target="_blank" href="http://showtime.arts.ac.uk/octocheung">Showtime profile</a> |
+							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/12/ma13-designer-a-day-octo-yan-yu-cheung/">Interview</a>
+						</div>
+					</li><hr>
+					<li>
+						<div class="name">Min Wu</div>
+						<div class="course">MA Fashion Design Technology (Womenswear)</div>
+						<div class="slink">
+							<a target="_blank" href="http://showtime.arts.ac.uk/minwu">Showtime profile</a> |
+							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/08/ma13-designer-a-day-min-wu/">Interview</a>
+						</div>
+					</li><hr>
+					<li>
+						<div class="name">Antonia Lloyd</div>
+						<div class="course">MA Fashion Design Technology (Menswear)</div>
+						<div class="slink">
+							<a target="_blank" href="http://showtime.arts.ac.uk/AntoniaLloyd">Showtime profile</a> |
+							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/04/ma13-designer-a-day-antonia-lloyd/">Interview</a>
+						</div>
+					</li><hr>
+					<li>
 						<div class="name">Nadia Scullion</div>
 						<div class="course">MA Fashion Design Technology (Womenswear)</div>
 						<div class="slink">
@@ -142,11 +150,11 @@
 						</div>
 					</li><hr>
 					<li>
-						<div class="name">Sian Davies</div>
+						<div class="name">Yi Xie</div>
 						<div class="course">MA Fashion Design Technology (Womenswear)</div>
 						<div class="slink">
-							<a target="_blank" href="http://showtime.arts.ac.uk/menaisian">Showtime profile</a> |
-							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/09/ma13-designer-a-day-sian-davies/">Interview</a>
+						<!--	<a target="_blank" href="http://showtime.arts.ac.uk/">Showtime profile</a> |-->
+							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/13/ma13-designer-a-day-yi-xie/">Interview</a>
 						</div>
 					</li><hr>
 					<li>
@@ -158,21 +166,11 @@
 						</div>
 					</li><hr>
 					<li>
-						<div class="name">Yan Yu "Octo" Cheung</div>
-						<div class="course">MA Fashion Design Technology (Menswear)</div>
-						<div class="slink">
-							<a target="_blank" href="http://showtime.arts.ac.uk/octocheung">Showtime profile</a> |
-							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/12/ma13-designer-a-day-octo-yan-yu-cheung/">Interview</a>
-						</div>
-						
-						
-					</li><hr>
-					<li>
-						<div class="name">Yi Xie</div>
+						<div class="name">Keiko Nishiyama</div>
 						<div class="course">MA Fashion Design Technology (Womenswear)</div>
 						<div class="slink">
-						<!--	<a target="_blank" href="http://showtime.arts.ac.uk/">Showtime profile</a> |-->
-							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/13/ma13-designer-a-day-yi-xie/">Interview</a>
+							<a target="_blank" href="http://showtime.arts.ac.uk/MA2013">Showtime profile</a> |
+							<a target="_blank" href="http://blogs.fashion.arts.ac.uk/snapshot/2013/02/10/ma13-designer-a-day-keiko-nishiyama/">Interview</a>
 						</div>
 					</li><hr>
 			
