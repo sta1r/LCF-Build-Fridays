@@ -10,6 +10,7 @@ $.Juitter.start({
 		loadMSG: "image/gif",
 		imgName: "../img/ajax-loader.gif",
 		total: 10,
+		live: "live-20",
 		readMore: "Read it on Twitter",
 		nameUser:"image",
 		openExternalLinks:"newWindow",

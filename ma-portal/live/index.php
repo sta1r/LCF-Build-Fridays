@@ -75,13 +75,13 @@
 		<div class="row">
 			
 			<div id="hero-container" class="span12">
-				<div id="slate">
-					<div id="mark">
+				<div id="slate" class="centered">
+					<!--<div id="mark">
 						<div id="mark-img">
 							<img src="../img/mark-white150.png" alt="London College of Fashion: MA 2013 logo" />
 						</div>
-					</div>
-				<!--<iframe src='http://live.3xscreen.com/lcf/embed/' width='<?php echo $iframeWidth; ?>' height='<?php echo $iframeHeight; ?>' frameborder='0'></iframe>-->
+					</div>-->
+					<iframe src='http://live.3xscreen.com/lcf/embed/' width='<?php echo $iframeWidth; ?>' height='<?php echo $iframeHeight; ?>' frameborder='0'></iframe>
 					<div id="countdown" class="aligncenter"><p>Live catwalk show begins: <span id="ticker"></span></p></div>
 				</div><!-- #slate -->	
 			</div><!-- #player -->
@@ -179,14 +179,23 @@
 			</div> <!-- #running-order-->
 			
 			<div id="tweet-section" class="relative span5 offset1" >
-					<h2 class="column-head">Live Tweets</h2>
-					<div id="tweet-key">
-						<p>Use <a href="http://www.twitter.com/LCFLondon">@LCFLondon</a> or #MA13</p>
-					</div>
-					<div id="live-tweets"></div>
+				<h2 class="column-head">Live Tweets</h2>
+				<div id="tweet-key">
+					<p>Use <a href="http://www.twitter.com/LCFLondon">@LCFLondon</a> or #MA13</p>
+				</div>
+				<div id="live-tweets"></div>
 			</div> <!-- #tweet-section -->
-				
+			
+			<div id="downloads" class="span12">
+	 			<h2 class="column-head">Downloads</h2>
+	 			<ul>
+	 				<li><a href="https://s3.amazonaws.com/lcfaudio/LCF-MA13-MIX.mp3">Catwalk show soundtrack - MA13 MIX [55MB, mp3 format]</a> (click to play, right-click to download and save)</li>
+	 			</ul>	
+ 			</div><!-- #downloads -->	
+
  		</div><!-- #ancillary -->
+
+ 		
 
 		<div class="row">
 					<div class="span12 border-top" id="link-row">
@@ -212,10 +221,10 @@
 
 	</div> <!-- .container -->
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>	
 	<script src="../js/bootstrap-collapse.js"></script>	
-  	<script src="../js/plugins.js"></script>
+	<script src="../js/jquery.countdown.pack.js"></script>	
+  	<script src="../js/jquery.juitter.js"></script>
   	<script src="../js/main.js"></script>
   	
 
