@@ -81,9 +81,11 @@
 							<img src="../img/mark-white150.png" alt="London College of Fashion: MA 2013 logo" />
 						</div>
 					</div>-->
-					<iframe src='http://live.3xscreen.com/lcf/embed/' width='<?php echo $iframeWidth; ?>' height='<?php echo $iframeHeight; ?>' frameborder='0'></iframe>
+					<iframe width="853" height="480" src="http://www.youtube.com/embed/VD957ztFz6k" frameborder="0" allowfullscreen></iframe>
+					
+				<!--	<iframe src='http://live.3xscreen.com/lcf/embed/' width='<?php echo $iframeWidth; ?>' height='<?php echo $iframeHeight; ?>' frameborder='0'></iframe>
 					<div id="countdown" class="aligncenter"><p>Live catwalk show begins: <span id="ticker"></span></p></div>
-				</div><!-- #slate -->	
+				</div> --> <!-- #slate -->	
 			</div><!-- #player -->
 	
 		</div><!-- .row -->
