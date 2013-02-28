@@ -30,6 +30,24 @@ include('header.php');
 			</li>--> <!-- #list10 -->
 			
 			<li>
+				<div class="title expander"><a href="#"><span>Part Time Degrees</span></a><br /><span class="bodycopy">Saturday 11 May (10.30am) (John Prince’s Street)</span></div>
+
+				<div id="list9" class="sublist_content bodycopy">
+					<ul class="inner">
+						<li>BA (Hons) Fashion Media (Part Time)</li>
+						<li>BA (Hons) Fashion Design and Realisation (Part Time)</li>
+						<li>BA (Hons) Fashion Business (Part Time)</li>
+						<li>FdA (Hons) Fashion Retail Branding and Visual Merchandising (Part Time)</li>
+					</ul>
+
+					<form action="booking.php" method="get">    
+					<input type="hidden" value="pt" name="openday">	
+					<p><input type="submit" value="Select" /></p>
+					</form>
+				</div>
+			</li><!-- #list9 -->
+			
+			<li>
 				<div class="title expander"><a href="#"><span>Graduate School: Pattern Design and Garment Technology / Creative Pattern Cutting</span></a><br /><span class="bodycopy">Thursday 7th March 2013 (6pm) (Mare Street)</span></div>
 
 				<div id="list13" class="sublist_content bodycopy">
