@@ -9,44 +9,10 @@ include('header.php');
 		<div id="inner-right">
 
 			<p>Please choose your area of interest from the list below and click 'Select' to book your place.</p>
+			<p>The undergraduate open days for all BA (Hons) subjects will take place in September and October 2013 – further information will be available in due course.</p>
 
 		 <ul class="list-folding">
-<!--			<li>
-				<div class="title expander"><a href="#"><span>Further Education</span></a><br /><span class="bodycopy">Wednesday 27 February 2013, 11am (Lime Grove)</span></div>
-
-				<div id="list10" class="sublist_content bodycopy">
-					<ul class="inner">
-						<li>Access to HE (Diploma): Fashion Business (11am both dates)</li>
-						<li>Becoming an LCF Student (12pm both dates)</li>
-						<li>Access to HE (Diploma): Fashion Media and Communications (1pm both dates)</li>
-						<li>Access to HE (Diploma): Fashion (2pm both dates)</li>
-					</ul>
-					<p>Please call <span style="color:#C51B8A;">+44 (0)207 514 7582</span> for further details</p>
-					<form action="booking.php" method="get">    
-					<input type="hidden" value="fe" name="openday">	
-					<p><input type="submit" value="Select" /></p>
-					</form> 
-				</div>
-			</li>--> <!-- #list10 -->
-			
-			<li>
-				<div class="title expander"><a href="#"><span>Part Time Degrees</span></a><br /><span class="bodycopy">Saturday 11 May (10.30am) (John Prince’s Street)</span></div>
-
-				<div id="list9" class="sublist_content bodycopy">
-					<ul class="inner">
-						<li>BA (Hons) Fashion Media (Part Time)</li>
-						<li>BA (Hons) Fashion Design and Realisation (Part Time)</li>
-						<li>BA (Hons) Fashion Business (Part Time)</li>
-						<li>FdA (Hons) Fashion Retail Branding and Visual Merchandising (Part Time)</li>
-					</ul>
-
-					<form action="booking.php" method="get">    
-					<input type="hidden" value="pt" name="openday">	
-					<p><input type="submit" value="Select" /></p>
-					</form>
-				</div>
-			</li><!-- #list9 -->
-			
+						
 			<li>
 				<div class="title expander"><a href="#"><span>Graduate School: Pattern Design and Garment Technology / Creative Pattern Cutting</span></a><br /><span class="bodycopy">Thursday 7th March 2013 (6pm) (Mare Street)</span></div>
 
@@ -69,11 +35,30 @@ include('header.php');
 				<div id="list15" class="sublist_content bodycopy">
 					<p>Please see the following event page for more details and to RSVP:</p>
 					<ul class="inner">
-						<li><a href="http://www.fashion.arts.ac.uk/short-courses/usefulinformation/open-afternoon/">Short Courses Open Afternoon</a></li>
-					</ul>
+						<li><a href="http://www.fashion.arts.ac.uk/short-courses/usefulinformation/open-afternoon/">Short Courses Open Afternoon</a>
+				</div> <!-- #list15-->
+			</li>
+						
+			<li>
+				<div class="title expander"><a href="#"><span>Part Time Degrees</span></a><br /><span class="bodycopy">Saturday 11 May (10.30am) (John Prince’s Street)</span></div>
 
+				<div id="list9" class="sublist_content bodycopy">
+						<ul class="inner">
+							<li>BA (Hons) Fashion Media (Part Time)</li>
+							<li>BA (Hons) Fashion Design and Realisation (Part Time)</li>
+							<li>BA (Hons) Fashion Business (Part Time)</li>
+							<li>FdA (Hons) Fashion Retail Branding and Visual Merchandising (Part Time)</li>
+						</ul>
+
+						<form action="booking.php" method="get">    
+						<input type="hidden" value="pt" name="openday">	
+						<p><input type="submit" value="Select" /></p>
+						</form>
 				</div>
-			</li><!-- #list15 -->
+			</li><!-- #list9 -->
+			
+			</ul>
+
 
 		</ul><!-- .list-folding -->
 		
