@@ -30,10 +30,10 @@ include('header.php');
 			</li><!-- #list13 -->
 			
 			<li>
-				<div class="title expander"><a href="#"><span>Short Courses Open Afternoon</span></a><br /><span class="bodycopy">Saturday 9th March (12pm-4.30pm) (Lime Grove)</span></div>
+				<div class="title expander"><a href="#"><span>Short Courses Open Afternoon</span></a><br /><span class="bodycopy"><strike>Saturday 9th March (12pm-4.30pm) (Lime Grove)</strike> *FULLY BOOKED*</span></div>
 
 				<div id="list15" class="sublist_content bodycopy">
-					<p>Please see the following event page for more details and to RSVP:</p>
+					<p>Please note that this open afternoon is now fully booked. If you have already booked your place, please see the following event page for details:</p>
 					<ul class="inner">
 						<li><a href="http://www.fashion.arts.ac.uk/short-courses/usefulinformation/open-afternoon/">Short Courses Open Afternoon</a>
 				</div> <!-- #list15-->
