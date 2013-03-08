@@ -12,22 +12,6 @@ include('header.php');
 			<p>The undergraduate open days for all BA (Hons) subjects will take place in September and October 2013 – further information will be available in due course.</p>
 
 		 <ul class="list-folding">
-						
-			<li>
-				<div class="title expander"><a href="#"><span>Graduate School: Pattern Design and Garment Technology / Creative Pattern Cutting</span></a><br /><span class="bodycopy">Thursday 7th March 2013 (6pm) (Mare Street)</span></div>
-
-				<div id="list13" class="sublist_content bodycopy">
-					<ul class="inner">
-						<li>PG Diploma Pattern Design and Garment Technology</li>
-						<li>PG Certificate Fashion: Creative Pattern Cutting for the Fashion Industry</li>
-					</ul>
-
-					<form action="booking.php" method="get">    
-					<input type="hidden" value="pdgt" name="openday">	
-					<p><input type="submit" value="Select" /></p>
-					</form>
-				</div>
-			</li><!-- #list13 -->
 			
 			<li>
 				<div class="title expander"><a href="#"><span>Short Courses Open Afternoon</span></a><br /><span class="bodycopy"><strike>Saturday 9th March (12pm-4.30pm) (Lime Grove)</strike> *FULLY BOOKED*</span></div>
