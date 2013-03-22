@@ -40,6 +40,8 @@
 		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
 		</script>
+		<!-- Twitter embeds-->
+		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 		<!-- We use Modernizr to facilitate HTML5 localstorage 
 		<script src="../js/vendor/modernizr-2.5.3.min.js"></script>-->
   		
@@ -185,7 +187,25 @@
 				<div id="tweet-key">
 					<p>Use <a href="http://www.twitter.com/LCFLondon">@LCFLondon</a> or #MA13</p>
 				</div>
-				<div id="live-tweets"></div>
+<!--				<div id="live-tweets"></div> -->
+
+<blockquote class="twitter-tweet"><p>JUST IN: see the @<a href="https://twitter.com/lcflondon">lcflondon</a> MA catwalk pictures - <a href="http://t.co/r7gQosuK" title="http://bit.ly/XSHarZ">bit.ly/XSHarZ</a></p>&mdash; VOGUE.CO.UK (@BritishVogue) <a href="https://twitter.com/BritishVogue/status/302439198475051008">February 15, 2013</a></blockquote>
+
+<blockquote class="twitter-tweet" data-cards="hidden"><p>@<a href="https://twitter.com/lcflondon">lcflondon</a> <a href="https://twitter.com/search/%23MA13">#MA13</a> amazing styling from @<a href="https://twitter.com/kim_howells">kim_howells</a> SO MANY LOOKS <a href="http://t.co/BKh6e8bp" title="http://twitter.com/thepop/status/302443569615093761/photo/1">twitter.com/thepop/status/…</a></p>&mdash; POP MAGAZINE (@thepop) <a href="https://twitter.com/thepop/status/302443569615093761">February 15, 2013</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>London College of Fashion: Photos and reviews of the London College of Fashion Collections Fall Winter 2013-14 c... <a href="http://t.co/eui4H8Jv" title="http://bit.ly/12LSmMV">bit.ly/12LSmMV</a></p>&mdash; Vogue Italia(@vogue_italia) <a href="https://twitter.com/vogue_italia/status/304199261996859392">February 20, 2013</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>English garden florals from Keiko Nishiyama <a href="https://twitter.com/search/%23ma13">#ma13</a> lcflondon <a href="http://t.co/IHhnX2S0" title="http://instagr.am/p/Vv8-DqKavQ/">instagr.am/p/Vv8-DqKavQ/</a></p>&mdash; susiebubble (@susiebubble) <a href="https://twitter.com/susiebubble/status/302372670752841728">February 15, 2013</a></blockquote>
+
+<blockquote class="twitter-tweet" data-cards="hidden"><p>Yi Xie look from LCF MA show - tight collection with commercial bite that would look good on a rack <a href="https://twitter.com/search/%23lfw">#lfw</a> <a href="http://t.co/n22ECBws" title="http://twitter.com/simonchilvers/status/302389509381828608/photo/1">twitter.com/simonchilvers/…</a></p>&mdash; Simon Chilvers (@simonchilvers) <a href="https://twitter.com/simonchilvers/status/302389509381828608">February 15, 2013</a></blockquote>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-cards="hidden"><p>A catwalk shorts-off! Antonia Lloyd's boyish LCF MA collection also featured a parrot print <a href="https://twitter.com/search/%23lfw">#lfw</a> <a href="http://t.co/m9yeX3Hi" title="http://twitter.com/simonchilvers/status/302390491046100993/photo/1">twitter.com/simonchilvers/…</a></p>&mdash; Simon Chilvers (@simonchilvers) <a href="https://twitter.com/simonchilvers/status/302390491046100993">February 15, 2013</a></blockquote>
+
+<blockquote class="twitter-tweet" data-cards="hidden"><p>My favourite <a href="https://twitter.com/search/%23lcf">#lcf</a> <a href="https://twitter.com/search/%23lfw">#lfw</a> designer Na Di - a menswear mashup of gentlemanly tailoring and hiphop style <a href="http://t.co/0uK3pYAa" title="http://twitter.com/Disneyrollrgirl/status/302387879081021441/photo/1">twitter.com/Disneyrollrgir…</a></p>&mdash; Disneyrollergirl (@Disneyrollrgirl) <a href="https://twitter.com/Disneyrollrgirl/status/302387879081021441">February 15, 2013</a></blockquote>
+
+<blockquote class="twitter-tweet"><p>LCF MA is showing today! And we got the preview @<a href="https://twitter.com/lcfpressoffice">lcfpressoffice</a> <a href="http://t.co/9xSErN1F" title="http://ow.ly/hIO4G">ow.ly/hIO4G</a></p>&mdash; Fashion156.com (@Fashion156) <a href="https://twitter.com/Fashion156/status/302349226367668225">February 15, 2013</a></blockquote>
+
 			</div> <!-- #tweet-section -->
 			
 			<div id="downloads" class="span12">
