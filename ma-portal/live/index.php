@@ -183,7 +183,7 @@
 			</div> <!-- #running-order-->
 			
 			<div id="tweet-section" class="relative span5 offset1" >
-				<h2 class="column-head">Twitter Coverage</h2>
+				<h2 class="column-head">Twitter</h2>
 				<div id="tweet-key">
 					<p>Use <a href="http://www.twitter.com/LCFLondon">@LCFLondon</a> or #MA13</p>
 				</div>
