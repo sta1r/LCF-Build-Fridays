@@ -17,19 +17,21 @@
 </head>
 
 
-<body class="live-stream">
+<body class="index live-stream">
 	
 	<div id="container" class="clearfix">
 		<div class="span16">
-	    <header class="row add-top add-bottom" id="banner">				
-	    </header>
+	    <header class="row add-top add-bottom" id="banner"></header>
 
 	    <div id="main" class="row">
 				
-				
 			<div id="player" class="span16" style="height: 400px">
+				<div id="countdown"><div id="ticker"></div></div>
 				<div id="slate">
-				<!--	<div id="countdown"><div id="ticker"></div></div> The countdown is breaking the Showtime feed.-->
+						
+						
+					
+					<?php // include('../elements/video-on-demand.php'); ?>
 				</div>				
 			</div>
 				

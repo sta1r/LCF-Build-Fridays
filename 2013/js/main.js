@@ -4,7 +4,7 @@ $(function() {
 
 		var target = window.location.hash;
 		// if a hash is present in the URL, scroll to that tile		
-    if(target) { $.scrollTo(target + '-tile', 200, { offset: -20 }); }
+    	if(target) { $.scrollTo(target + '-tile', 200, { offset: -20 }); }
 		
 		// routing links to scroll between tiles		
 		$('.router').click(function(e) {
