@@ -20,17 +20,27 @@
 <body class="index live-stream">
 	
 	<div id="container" class="clearfix">
-		<div class="span16">
-	    <header class="row add-top add-bottom" id="banner"></header>
+
+	    <header class="row add-top add-bottom">
+
+				<div class="span10">
+					<p><strong>Catwalk Show Live Stream 2013</strong></p>
+					<!--<div id="countdown"><div id="ticker"></div></div>-->
+				</div>	
+			
+				<div class="span6">	
+					<p><strong>Date:</strong> Monday 1 July, 18.00<br/>
+					<strong>Venue:</strong> The Yard, London EC2A</p>
+					<p><a href="http://blogs.arts.ac.uk/fashion/tag/ba13/">Check the 2013 page for links to news and events info</a></p>
+				</div>	
+				
+	    </header>
 
 	    <div id="main" class="row">
 				
 			<div id="player" class="span16" style="height: 400px">
 				<div id="countdown"><div id="ticker"></div></div>
 				<div id="slate">
-						
-						
-					
 					<?php // include('../elements/video-on-demand.php'); ?>
 				</div>				
 			</div>
@@ -47,34 +57,32 @@
 			<div class="span8">
 				<div class="row add-bottom">
 					<div class="span8">
-					<h2>Catwalk Show Live Stream 2013</h2>
-					<div id="tweet-key"><p><strong>Date:</strong> Monday 1 July, 1800<br/>
-					<strong>Venue:</strong> The Yard, London EC2A</p>
-					<p><a href="http://blogs.arts.ac.uk/fashion/tag/ba13/">Check the 2013 page for the full exhibition schedule</a></p></div>
-					<!--<div id="live-tweets" class="no-bullet"></div>-->
+					<h2>Follow the shows on Twitter</h2>
+					<div id="tweet-key"><p><strong>Use the hashtag #LCF13 and follow <a href="http://www.twitter.com/LCFLondon">@LCFLondon</a></strong></p></div>
+					<a class="twitter-timeline" href="https://twitter.com/search?q=%23lcf13" data-widget-id="348030047027863552">Tweets about "#lcf13"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 					</div>
 				</div>
-				<div class="row add-bottom">
+				<div id="tweet-section" class="row">
 					<div class="span8">
-					<h2>Follow the shows on Twitter</h2>
-					<div id="tweet-key"><p><strong>Use <a href="http://www.twitter.com/LCFLondon">@LCFLondon</a> - or the hashtag #LCF13</strong></p></div>
-					<!--<div id="live-tweets" class="no-bullet"></div>-->
+						<div id="live-tweets"></div>
 					</div>
-				</div>	
+				</div>
 				<div class="row add-bottom">
 					<div class="span8">
 						<h2>Browse the featured courses</h2>
 						<?php include('../elements/catwalk-course-list.php'); ?>
 					</div>
 				</div>	
-				<div class="row add-bottom">
+				<!--<div class="row add-bottom">
 					<div class="span8">
 						<h2>Latest graduate work on Showtime</h2>
 						<div id="showtime-json" data-limit="46">
 							<ul class="thumb-list no-bullet clearfix"></ul>
 						</div>
 					</div>
-				</div>
+				</div>-->
 			</div>
 				
  		</div><!-- #ancillary -->
@@ -97,13 +105,14 @@
 </div> <!--! end of #container -->
 	
 		<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>	
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script>					
 
-		<script src="http://cdn.jquerytools.org/1.2.7/tiny/jquery.tools.min.js"></script>
+		<!--<script src="http://cdn.jquerytools.org/1.2.7/tiny/jquery.tools.min.js"></script>-->
 
 		<!-- scripts concatenated and minified via build script -->
 	  <script src="../js/plugins.js"></script>
+	  <script src="../js/jquery.juitter.js"></script>
 	  <script src="../js/main.js"></script>
 	  <!-- end scripts -->
 		
