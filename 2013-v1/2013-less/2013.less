@@ -1,0 +1,414 @@
+h3, h4 {
+	margin-bottom: 1em;
+}
+
+a {
+	text-decoration: underline;
+}
+
+iframe body {
+	background: transparent;
+}
+
+/* Blocks */
+.padbox {
+	padding: 40px;
+}
+
+.top-level-container {
+	width: 3000px;
+}
+
+#main-header {
+	height: 250px;
+}
+
+#super-container {
+	background:	@bodyBackground url(../img/green-splatter.png) 300px 0 no-repeat;
+}
+
+#footer-container {
+	border-top: 1px solid @black;
+	margin-top: 60px;
+}
+
+/* Video */
+video {
+	//.box-shadow(~"0 3px 6px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1)");
+	box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Issuu Embeds */
+.issuu-embed header {
+	margin-top: 30px;
+}
+
+/* Layout components */
+.tile, .arrow {
+	position: absolute;
+}
+
+section .router {
+	display: block;
+	width: 14px;
+	height: 25px;
+	background: url(../img/router-up-left.gif) top left no-repeat;
+	&.down {
+		background-image: url(../img/router-down-left.gif);
+	}
+}
+
+.pop, .pop:hover, #controls a {
+	text-decoration: none;
+}
+
+
+#banner {
+	background: url(../img/ba13-940-170.jpg) top center no-repeat;
+	margin-left: 0px;
+	height: 167px;
+}
+
+/* Do this with a mixin? */
+
+@-webkit-keyframes spin {  
+from {  
+	-webkit-transform: rotate(0deg);  
+}  
+to {  
+	-webkit-transform: rotate(360deg);  
+    } 
+}
+
+#logo-bg:hover {
+	-webkit-animation-name: spin; 
+	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-duration: 2s; 
+	-webkit-animation-direction: alternate;
+}
+
+
+/* Twitter */
+#twitter {
+	background: url(../img/twitter.png) top right no-repeat;
+}
+
+#hashtag {
+	width: 50px;
+	position: absolute;
+	right: 55px;
+	top: 12px;
+	color: @grayLight;
+}
+
+/* Navigator */
+#navigator {
+	background: url(../img/cog.png) top right no-repeat;
+}
+
+#nav-tile {
+	background: url(../img/navigator-arrow.png) 166px 0 no-repeat;
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	right: 0;
+	top: 78px;
+}
+
+#nav-tile .inner {
+	background: rgba(255, 255, 255, 0.6) url(../img/stripe.png) top left repeat;
+	position: absolute;
+	top: 41px;
+	right: 80px;
+	padding: 10px 16px 6px 8px;
+	border-radius: 5px;
+}
+
+
+/* Scrollable */
+.gallery-container {
+	height: 430px;
+}
+
+.scroll {
+	position:relative;
+	overflow:hidden;
+	width: 275px;
+	height: 410px;
+	.items {
+		width:20000em;
+		position:absolute;
+		div {
+			float:left;
+			width: 275px;
+		}
+	}
+}
+
+.item p {
+	width: 230px;
+}
+
+.navi-container {
+	width: 100%;
+}
+
+.navi {
+	margin: 0 auto;
+	width: 55px;
+	padding: 4px 0;
+}
+
+.navi a {
+	width:8px;
+	height:8px;
+	float:left;
+	margin:3px;
+	background: transparent url(../img/navigator.png) 0 0 no-repeat;
+	display:block;
+	font-size:1px;
+}
+
+/* mouseover state */
+.navi a:hover {
+	background-position:0 -8px;  
+}
+
+/* active state (current page state) */
+.navi a.active {
+	background-position:0 -16px;     
+}
+
+/* Generic classes */
+.no-bullet, .no-bullet ul {
+	list-style: none;
+	margin-left: 0;
+}
+
+a.btn {
+	text-decoration: none;
+}
+
+/* Generic Countdown styles */
+.countdown_amount {
+	font-size: 200%;
+}
+.countdown_section, .countdown_amount, .countdown_descr {
+	float: left;
+}
+.countdown_section { 
+	margin-right: 10px; 
+}
+.countdown_amount { 
+	margin-right: 10px; 
+	font-weight: bold;
+}
+#ticker br { 
+	display: none;
+}
+
+/* Live stream */
+#live-stream-link {
+	position: absolute;
+	top: 139px;
+	left: 213px;
+	width: 174px;
+	height: 176px;
+	background: url(../img/live-stream-icon.png) top left no-repeat;
+	p {
+		position: absolute;
+		top: 30px;
+		left: 95px;
+		text-align: center;
+	}
+	small {
+		color: @white;
+	}
+}
+
+
+header .countdown_amount { margin-right: 4px; }
+header .countdown_section { margin-right: 6px;}
+
+/* LIVE */
+#container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#player {
+	background-color: #000;
+	text-align: center;
+	padding: 40px 0;
+}
+
+#slate {
+	width: 700px;
+	margin: 0 auto;
+}
+
+#countdown {
+	color: @white;
+	font-size: 2em;
+	text-align: center;
+	margin: 170px auto 0;
+	width: 580px;
+}
+
+#date {
+	margin-bottom: 20px;
+}
+
+#ancillary {
+	padding: 60px 0 30px;
+}
+
+#running-order {
+	h2 {
+		border-bottom: 1px solid @grayLighter;
+	}
+	ol {
+		padding-top: 16px;
+	}
+	li {
+		position: relative;
+		margin-bottom: 10px;
+		padding: 10px 0;
+		.relative {
+			padding-top: 10px;
+		}
+		.name {
+			font-weight: bold;
+		}
+		.course {
+			width: 300px;
+		}
+		.slink {
+			position: absolute;
+			top: 10px;
+			right: 0;
+		}
+	}
+	hr {
+		margin-left: -25px;
+	}
+	
+}
+
+#live-tweets {
+	font-size: 1.2em;
+}
+
+#tweet-key {
+	/*position: absolute;
+	top: 4px;
+	right: 0;*/
+}
+
+#live-tweets, .twittLI, .twittLI .tweet-image, .twittLI .tweet-body { float: left;}
+
+.twittLI {
+	background-color: @grayLighter;
+	border: 1px solid #ddd;
+	margin: 0 0 16px;
+	padding: 6px;
+	.tweet-body {
+		width: 378px; 
+		line-height: 1.4em;
+	}
+	.tweet-image {
+		margin-right: 10px; 
+		width: 54px;
+		img {
+			padding: 2px;
+			background: #fff;
+			border: 1px solid #ddd;
+		}
+	}
+}
+
+.profileLink {
+	font-style: normal;
+}
+
+span.time { color: #777;}
+.JRM { display: none;}
+
+/* Showtime feed */
+.thumb-list {
+	margin-left: 0;
+}
+
+.thumb-list .profile {
+	list-style: none;
+	display: inline-block;
+	width: 51px;
+	height: 51px;
+	margin: 0 10px 10px 0;
+}
+
+#showtime-json .loader {
+	background: url(../img/spinner.gif) top left no-repeat;
+	width: 51px;
+	height: 51px;
+}
+
+/* Tooltips */
+.tooltip {
+  display:none;
+	background: #fff;
+	border: 2px solid #ddd;
+  height:163px;
+  padding:20px;
+  width:300px;
+  font-size:11px;
+  z-index: $zindexTooltip;
+  &.in     { @include opacity(80); }
+  &.top    { margin-top:  -6px; }
+  &.right  { margin-left:  2px; }
+  &.bottom { margin-top:   2px; }
+  &.left   { margin-left: -2px; }
+  &.top .arrow    {  
+		#popoverArrow > .top(); 
+		position: absolute;
+		bottom: -5px;
+	  width: 0;
+	  height: 0;
+		border-top-color: #ddd;
+	}
+  &.left .arrow   {  @include  left(); }
+  &.bottom .arrow {   @include  bottom(); }
+  &.right .arrow  {  @include  right(); }
+}
+
+.tooltip-inner {
+  padding: 3px 8px;
+  text-decoration: none;
+}
+
+.tooltip-thumb {
+  float: left;
+	margin-right: 9px;
+}
+
+/* China page */
+.china h1 {
+	font-size: 1.5em;
+	font-style: italic;
+}
+#student-stories {
+	img {
+		margin-bottom: 10px;
+	}
+	.student-block {
+		margin-bottom: 10px;
+	}
+}
+
+.bordered {
+	border-top: 1px solid @grayLighter;
+	border-bottom: 1px solid @grayLighter;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}

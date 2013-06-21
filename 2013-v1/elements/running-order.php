@@ -1,9 +1,9 @@
 <ol class="clearfix">
-		<li >
-			<div class="name">Valentina La Porta</div>
-			<div class="course"><p>BA (Hons) Fashion Design Technology: Womenswear</p></div>
-			<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/vlaporta1">View gallery</a></div>
-		</li><hr>
+	<li>
+		<div class="name">Valentina La Porta</div>
+		<div class="course"><p>BA (Hons) Fashion Design Technology: Womenswear</p></div>
+		<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/vlaporta1">View gallery</a></div>
+	</li><hr>
 	<li>
 		<div class="name">Alexis Housden</div>
 		<div class="course">BA (Hons) Fashion Design Technology: Menswear</div>
