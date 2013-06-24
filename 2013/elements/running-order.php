@@ -1,7 +1,7 @@
 <ol class="clearfix">
 		<li >
 			<div class="name">Valentina La Porta</div>
-			<div class="course"><p>BA (Hons) Fashion Design Technology: Womenswear</p></div>
+			<div class="course">BA (Hons) Fashion Design Technology: Womenswear</div>
 			<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/vlaporta1">View gallery</a></div>
 		</li><hr>
 	<li>
@@ -25,7 +25,7 @@
 		<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/roxanneleger">View gallery</a></div>
 		<div class="relative">
 			<div class="name">Natasha Searls-Punter</div>
-			<div class="course"><p>BA (Hons) Fashion Design Technology: Surface Textiles</p></div>
+			<div class="course">BA (Hons) Fashion Design Technology: Surface Textiles</div>
 			<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/natashasearlspunter">View gallery</a></div>
 		</div>
 	</li><hr>
@@ -35,12 +35,12 @@
 		<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/AndreasFeet">View gallery</a></div>
 		<div class="relative">
 			<div class="name">Katharine Anne Taylor</div>
-			<div class="course"><p>BA (Hons) Fashion Jewellery</p></div>
+			<div class="course">BA (Hons) Fashion Jewellery</div>
 			<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/KatharineAnneTaylor">View gallery</a></div>
 		</div>
 		<div class="relative">
 			<div class="name">Stevan Saville</div>
-			<div class="course"><p>BA (Hons) Cordwainers Accessories: Product Design &amp; Development</p></div>
+			<div class="course">BA (Hons) Cordwainers Accessories: Product Design &amp; Development</div>
 			<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/stevansaville">View gallery</a></div>
 		</div>
 	</li><hr>
@@ -60,7 +60,7 @@
 		<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/randolphturpin">View gallery</a></div>
 		<div class="relative">
 			<div class="name">Hue Tawn Chan</div>
-			<div class="course"><p>BA (Hons) Fashion Jewellery</p></div>
+			<div class="course">BA (Hons) Fashion Jewellery</div>
 			<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/huetawnchan">View gallery</a></div>
 		</div>
 	</li><hr>
@@ -71,11 +71,11 @@
 	</li><hr>
 	<li>
 		<div class="name">Christina Tiran</div>
-		<div class="course"><p>BA (Hons) Fashion Design Technology: Womenswear</p></div>
+		<div class="course">BA (Hons) Fashion Design Technology: Womenswear</div>
 		<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/christinatiran">View gallery</a></div>
 		<div class="relative">
 			<div class="name">Victoria Rowley</div>
-			<div class="course"><p>BA (Hons) Fashion Design Technology: Surface Textiles</p></div>
+			<div class="course">BA (Hons) Fashion Design Technology: Surface Textiles</div>
 			<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/victoriarowley">View gallery</a></div>
 		</div>	
 	</li><hr>
@@ -86,7 +86,7 @@
 	</li><hr>
 	<li>
 		<div class="name">Thomas Wickens</div>
-		<div class="course"><p>BA (Hons) Bespoke Tailoring</p></div>
+		<div class="course">BA (Hons) Bespoke Tailoring</div>
 		<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/thomaswickens">View gallery</a></div>	
 	</li><hr>
 	<li>
@@ -95,12 +95,12 @@
 		<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/sarahbuchanan">View gallery</a></div>
 		<div class="relative">
 			<div class="name">Georgina Howling</div>
-			<div class="course"><p>BA (Hons) Fashion Jewellery</p></div>
+			<div class="course">BA (Hons) Fashion Jewellery</div>
 			<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/GeorginaHowling">View gallery</a></div>
 		</div>
 		<div class="relative">
 			<div class="name">Claire Kelly</div>
-			<div class="course"><p>BA (Hons) Fashion Design Technology: Surface Textiles</p></div>
+			<div class="course">BA (Hons) Fashion Design Technology: Surface Textiles</div>
 			<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/ClaireKelly">View gallery</a></div>
 		</div>
 	</li><hr>
@@ -110,7 +110,7 @@
 		<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/MillieCockton">View gallery</a></div>
 		<div class="relative">
 			<div class="name">Roxanne Farahmand</div>
-			<div class="course"><p>BA (Hons) Fashion Jewellery</p></div>
+			<div class="course">BA (Hons) Fashion Jewellery</div>
 			<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/RoxanneFarahmand">View gallery</a></div>
 		</div>
 	</li><hr>
@@ -145,22 +145,22 @@
 		<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/Rebeccamorter">View gallery</a></div>
 		<div class="relative">
 			<div class="name">Helena Dillon</div>
-			<div class="course"><p>BA (Hons) Cordwainers Accessories: Product Design &amp; Development</p></div>
+			<div class="course">BA (Hons) Cordwainers Accessories: Product Design &amp; Development</div>
 			<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/HelenaDIllon">View gallery</a></div>
 		</div>
 		<div class="relative">
 			<div class="name">Marie Gallagher</div>
-			<div class="course"><p>BA (Hons) Fashion Contour</p></div>
+			<div class="course">BA (Hons) Fashion Contour</div>
 			<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/MarieGallagher">View gallery</a></div>
 		</div>
 	</li><hr>
 	<li>
 		<div class="name">Lucy Seabrook</div>
-		<div class="course"><p>BA (Hons) Bespoke Tailoring</p></div>
+		<div class="course">BA (Hons) Bespoke Tailoring</div>
 		<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/LucySeabrook">View gallery</a></div>
 		<div class="relative">
 			<div class="name">Shanna Bent</div>
-			<div class="course"><p>BA (Hons) Fashion Design and Development</p></div>
+			<div class="course">BA (Hons) Fashion Design and Development</div>
 			<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/ShannaBent">View gallery</a></div>
 		</div>			
 	</li><hr>
@@ -196,7 +196,7 @@
 	</li><hr>
 	<li>
 		<div class="name">Brogan Toyn</div>
-		<div class="course"><p>BA (Hons) Fashion Design Technology: Menswear</p></div>
+		<div class="course">BA (Hons) Fashion Design Technology: Menswear</div>
 		<div class="slink"><a class="btn" target="_blank" href="http://showtime.arts.ac.uk/BroganToyn">View gallery</a></div>
 		
 		<div class="relative">	
