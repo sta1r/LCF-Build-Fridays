@@ -19,7 +19,7 @@
 		<meta name="description" content="London College of Fashion presents the 2013 Undergraduate Catwalk Show" />
 		<title>Runway - BA Catwalk Show 2013 - London College of Fashion</title>
 
-		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/bootstrap.css?v=1">
 
 		<!-- We use Modernizr to facilitate HTML5 localstorage -->
 		<script src="../js/vendor/modernizr-2.5.3.min.js"></script>
