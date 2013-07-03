@@ -1,1 +1,0 @@
-<div class="hide fallback"><p>Your browser does not support HTML5 video - but you can watch our featured videos <a href="http://www.youtube.com/user/artslondonfashion/videos">on YouTube</a>.</p></div>

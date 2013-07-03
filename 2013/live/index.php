@@ -16,13 +16,14 @@
 <!doctype html>
 <head>
   	<meta charset="utf-8">
-		<meta name="description" content="London College of Fashion presents the 2013 Undergraduate Catwalk Show" />
-		<title>Runway - BA Catwalk Show 2013 - London College of Fashion</title>
+	<title>Runway - BA Catwalk Show 2013 - London College of Fashion</title>	
+	<meta name="description" content="London College of Fashion presents the 2013 Undergraduate Catwalk Show" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="stylesheet" href="../css/bootstrap.css?v=1">
+	<link rel="stylesheet" href="../css/bootstrap.css?v=1">
 
-		<!-- We use Modernizr to facilitate HTML5 localstorage -->
-		<script src="../js/vendor/modernizr-2.5.3.min.js"></script>
+	<!-- We use Modernizr to facilitate HTML5 localstorage -->
+	<script src="../js/vendor/modernizr-2.5.3.min.js"></script>
   		
 </head>
 
@@ -47,10 +48,10 @@
 		<div class="row">
     		<div id="hero-container" class="span12">
 				
-				<div id="player" class="clearfix" style="height: 400px">
-					<div id="countdown"><div id="ticker"></div></div>
+				<div id="player" class="clearfix">
 					<div id="slate">
-						<?php // include('../elements/video-on-demand.php'); ?>
+						<?php include('../elements/video-on-demand.php'); ?>
+						<!--<div id="countdown" class="aligncenter"><p>Live catwalk show begins: <span id="ticker"></span></p></div>-->
 					</div>				
 				</div>
 			</div>
