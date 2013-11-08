@@ -1,0 +1,5 @@
+lsi: false
+pygments: true
+url: http://artslondon.github.io/Build-Fridays/x/
+
+# Run Jekyll: jekyll build -w
