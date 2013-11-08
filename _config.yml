@@ -1,0 +1,5 @@
+lsi: false
+pygments: true
+baseurl: /Build-Fridays
+
+# Run Jekyll: jekyll build -w

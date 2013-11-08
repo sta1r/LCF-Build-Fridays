@@ -1,0 +1,211 @@
+/* New stylesheet for new course page - to be included in other CSS in due course */
+body#course #main-content a {
+	text-decoration: none;
+}
+
+#course-panel h1 {
+	margin: 1em 0 1em;
+	font-size: 2em;
+}
+
+/* Tab buttons */
+ul#tab-buttons {
+	font-weight: bold;
+	border-bottom: 1px solid #C9C9C9;
+	padding-left: 0;
+	font-family: Arial, sans-serif;
+}
+
+#tab-buttons li {
+	margin-right: 4px;
+}
+
+#tab-buttons li a {
+	padding-left: 8px;
+	padding-right: 8px;
+	background: none;
+	color: #666;
+	border-top: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #FFF;
+}
+
+#tab-buttons li a:hover, #tab-buttons li a.current {
+	background-color: #FFF;
+	-moz-border-radius-topleft: 4px;  
+	-webkit-border-top-left-radius: 4px;
+	-moz-border-radius-topright: 4px;  
+	-webkit-border-top-right-radius: 4px;
+	border-top: 1px solid #C9C9C9;
+	border-left: 1px solid #C9C9C9;
+	border-right: 1px solid #C9C9C9;
+	border-bottom: 1px solid #fff;
+}
+
+/* Course tabs */
+.course-tab {
+	margin-top: 22px;
+}
+
+div.course-tab table#course-details tr {
+	padding: 2px 0;
+}
+
+div.course-tab table#course-details th {
+	width: 180px;
+}
+
+.rule {
+	margin: 6px 0 8px;
+	border-bottom: 1px solid #C9C9C9;
+}
+
+/* IE does not allow borders applied to table rows */
+.ie .rule td, .ie .rule th {
+	border-bottom: 1px solid #C9C9C9;
+	height: 4px;
+}
+
+/* Super teaser */
+#super-teaser {
+	margin-bottom: 18px;
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+/* Glance tab */
+#glanceTab .block {
+	width: 240px;
+}
+
+.course-tab ul.gallery li {
+	float:left;
+	width:111px;
+	margin: 0 9px 9px 0;
+}
+
+span.all {
+	position: absolute;	
+	top: 0;
+	right: 9px;
+}
+
+.imgwrapper {
+	width: 109px;
+	height: 109px;
+}
+
+.imgdetails {
+	line-height: 1.2em; /* just to tighten things up a bit */
+}
+
+.imgwrapper a, .imgwrapper a:hover {
+	background: none;
+}
+
+.image-container .item {
+	width: 349px;
+	height: 349px;
+}
+
+.image-container-caption, .caption, #glanceTab h4, #paginate {
+	color: #666;
+}
+
+#paginate {
+	position: absolute;
+	width: 40px;
+	right: 40px;
+	margin: 4px;
+	top: 352px;
+}
+
+.scrollable.mini {
+	width: 240px;
+	height: 160px;
+}
+
+.scrollable.mini .item {
+	width: 111px;
+	margin-right: 9px;
+}
+
+.block {
+	float: left;
+	position: relative;
+	margin-bottom: 9px;
+	width: 112px;
+}
+
+.block .nextPage {
+	top: 70px;
+	right: -22px;
+}
+.block .prevPage {
+	top: 70px;
+	right: 242px;
+}
+
+.nextPage:hover, .prevPage:hover {
+	background-color: #fff;
+}
+
+/* Facts tab */
+#course-panel div.course-tab table#course-details {
+	width: 100%;
+}
+
+/* Sidebar */
+.course-links ul {
+	padding: 5px 0 5px 4px;
+}
+
+body#course #showtime-feed {
+	margin-top: 60px;
+}
+
+/* Social Share Buttons */
+#course .social-widget {
+	height: 100px;
+}
+#course .social-widget ul {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+}
+#course .share-links li, .facebook-share-btn, .facebook-share-label {
+	float: left;
+}
+#course .share-links li {
+	margin-right: 6px;
+}
+.facebook-share-btn, .facebook-share-btn:active {
+	background-color: #EDEEF4;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #CDD5E5;
+	border-radius: 3px;
+	padding: 3px 4px;
+	height: 14px;
+	cursor: pointer;
+	position: relative;
+}
+.facebook-share-btn:hover {
+	text-decoration: none;
+	background-color: #EDEEF4;
+	border-color: #9DACCE;
+}
+
+.facebook-share-label {
+	color: #3B5998;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.facebook-share-icon {
+	background: url(../img/fb-mini.png) 0 0 no-repeat;
+	width: 14px;
+	height: 13px;
+	float: left;
+	margin: 0 2px 1px 1px;
+}
