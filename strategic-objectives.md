@@ -1,30 +1,36 @@
 LCF Web Team - Strategic Objectives 2012-2015
 =============================================
 
-1. To ensure the College website supports recruitment. To achieve this we intend to:
+1. To ensure the College website supports recruitment.
 ----------------
+
+To achieve this we intend to:
 
 * Work with the recruitment team to timetable specific targeted developments around key dates and application periods
 * Work with the communications team to publish recruitment-focused content online
 * Surface student work from user-generated repositories such as Showtime in all areas of the site
-* Harness the College’s [network of microsites](#portfolio) to push recruitment where possible (e.g. P&P, LCFM)
+* Harness the College’s [network of microsites](#portfolio) to push recruitment where possible
 
-2. To support enterprise and student employability at LCF, specifically aiming to improve interactions between students and industry. To achieve this we intend to:
+2. To support enterprise and student employability at LCF, specifically aiming to improve interactions between students and industry.
 ----------------
 
-* Work with Platform X project team to bring our ideas to life and transform the facilities students and graduates currently have to self-promote and engage
-* Work with colleagues in FBRS to support their industry focus on the web 
-* Support the web publishing needs of satellite businesses like DISC, CFE, CSF and ensure their websites stay managed internally 
+To achieve this we intend to:
 
-3. To evolve the College website into an effective and robust platform that inspires prospective students, engages industry and alumni, and helps LCF present its brand online.  To achieve this we intend to:
+* Support our LCF Careers team to offer the best possible online services and tools to students and graduates
+* Continuously improve the [LCF Careers web pages](http://www.arts.ac.uk/fashion/about/lcf-careers/), ensuring that content is both rich and widely linked to around the site
+* Support the web publishing needs of satellite businesses like DISC, CFE, CSF 
+* Incubate [Platform X](http://artslondon.github.io/Build-Fridays/x)
+
+3. To ensure the LCF sections of the [University website](http://www.arts.ac.uk) inspire prospective students, engage industry and alumni, and help LCF present its brand online. 
 ----------------
 
-* Contribute to the progress of the Website Re-development Project, ensuring College priorities are met in the implementation of new designs and templates
-* Work with the central web team / central IT to ensure the LCF website supports the publishing goals of its wider team of web editors
-* Support best practice in the use of existing platforms and foster the adoption of new tools and techniques
-* Facilitate the expression of the LCF brand online in areas designated as ‘local’ or ‘loose’ with regard to the University branding
-* Use both existing tools and systems as well as new technologies to development new features and functionality on the website
-* Contribute to the wider goals of the LCF technology group
+To achieve this we intend to:
+
+* Contribute to the ongoing development of the website, ensuring College priorities are met in the implementation of new designs and templates
+* Support the central web team in implementing its new governance model
+* Supports the publishing goals of LCF's wider team of web editors
+* Support best practice in the use of existing platforms and encourage the adoption of new tools and techniques
+* Contribute to the wider goals of the LCF technology group, LCF Media Services and other web-focussed groups
   
 
 
@@ -40,5 +46,5 @@ The team manages a portfolio of external websites:
 5. [http://www.francescorner.com](Frances Corner blog)
 6. [http://blogs.arts.ac.uk/thebigmove/](The Big Move blog)
 7. [http://blogs.arts.ac.uk/ma/](The MA_STERS blog)
-
-
+8. [http://www.fia-london.com](The Fashion Innovation Agency) - coming 2014
+9. The Centre for Fashion Curation - coming 2014
