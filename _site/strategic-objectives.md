@@ -19,7 +19,7 @@ To achieve this we intend to:
 * Support our LCF Careers team to offer the best possible online services and tools to students and graduates
 * Continuously improve the [LCF Careers web pages](http://www.arts.ac.uk/fashion/about/lcf-careers/), ensuring that content is both rich and widely linked to around the site
 * Support the web publishing needs of satellite businesses like DISC, CFE, CSF 
-* Incubate [Platform X](http://artslondon.github.io/Build-Fridays/x)
+* Incubate [Platform X](http://artslondon.github.io/Build-Fridays/x/)
 
 3. To ensure the LCF sections of the [University website](http://www.arts.ac.uk) inspire prospective students, engage industry and alumni, and help LCF present its brand online. 
 ----------------
