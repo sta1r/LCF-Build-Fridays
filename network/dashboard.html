@@ -1,0 +1,109 @@
+---
+layout: y.tpl
+title: LCF Network
+section: dashboard
+---
+
+{% include network/_navbar.html %}
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Welcome</h1>
+        </div>
+    </div>
+
+    <div class="container">        
+
+        <div class="row-fluid">
+            <section class="span12">
+
+                <ul class="nav nav-tabs" id="myTab">
+                    <li class="active">
+                        <a href="#dashboard" data-toggle="tab">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#profile" data-toggle="tab">Profile</a>
+                    </li>
+                    <li>
+                        <a href="#media" data-toggle="tab">Media</a>
+                    </li>
+                    <li>
+                        <a href="#settings" data-toggle="tab">Settings</a>
+                    </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="dashboard">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h3>Your services</h3>
+                            
+                            <ul>
+                                <li><a href="#">Library</a></li>
+                            </ul>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <!-- .tab-pane -->
+                
+                {% include _tab-profile.html %}
+
+                <div class="tab-pane" id="media">
+                    <h3>Your media</h3>
+                    <div class="row-fluid">
+                        <div class="span8">
+                            <div id="showtime-json" data-limit="50" data-url="http://showtime.arts.ac.uk/francescasmith.json">
+                                <div class="loader"></div>
+                                <ul class="thumb-list no-bullet"></ul>
+                            </div>
+                        </div>
+                        <aside class="span3 offset1">
+                            <div class="well">
+                                <h4>Media FAQs</h4>
+                                <ul>
+                                    <li>Why is my image not showing?</li>
+                                    <li>The colours in my image are wrong, how do I fix this?</li>
+                                    <li>How do I upload video?</li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+                <!-- .tab-pane -->
+
+                <!--<div class="tab-pane" id="network">
+                <div id="network-feed"></div>
+            </div>
+            -->
+            <div class="tab-pane" id="settings">
+                <div class="span6">
+                    <h3>Settings</h3>
+                    <h5>Connect to LinkedIn</h5>
+
+                    <p>We can use LinkedIn as follows:</p>
+                    <ul>
+                        <li>
+                            A new member can log in with LinkedIn i.e. they use their login credentials from LinkedIn and do not need to create a new password. In this case they would still have a record in our database including (as a minimum) an email address, and perhaps their 'class of' year at LCF.
+                        </li>
+                        <li>
+                            When completing a profile, a user can use her LinkedIn
+                            <a href="https://developer.linkedin.com/documents/profile-api">profile API data</a>
+                            as suggested content for her Platform X account. She would have the option to save or amend this data. The user's member ID is stored, so potentially we can have a 'refresh your profile' button that updates Platform X info from the LinkedIn API.
+                            <a href="https://developer.linkedin.com/forum/using-api-profile-data-suggestions-3rd-party-profile-data">Further reading</a>
+                            .
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- .tab-content --> 
+            </section>
+
+        </div>
+<!-- .row-fluid -->
+    </div><!-- .container -->
+
+{% include network/_footer.html %}
