@@ -1,1 +1,0 @@
-A repository for the LCF web team to share code and work on projects.
