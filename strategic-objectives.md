@@ -39,12 +39,26 @@ To achieve this we intend to:
 The team manages a portfolio of external websites:
 ----------------
 
+Hosted on blogs.arts.ac.uk
+
 1. [http://www.sustainable-fashion.com](The Centre for Sustainable Fashion)
 2. [http://www.fashion-enterprise.com](The Centre for Fashion Enterprise)
-3. [http://www.fashion-manufacturing.com](DISC - The Designer-Manufacturer Innovation Support Centre)
-4. [http://www.pigeonsandpeacocks.com](Pigeons & Peacocks)
-5. [http://www.francescorner.com](Frances Corner blog)
-6. [http://blogs.arts.ac.uk/thebigmove/](The Big Move blog)
-7. [http://blogs.arts.ac.uk/ma/](The MA_STERS blog)
-8. [http://www.fia-london.com](The Fashion Innovation Agency) - coming 2014
-9. The Centre for Fashion Curation - coming 2014
+3. [http://blogs.arts.ac.uk/thebigmove/](The Big Move blog)
+4. [http://blogs.arts.ac.uk/ma/](The MA_STERS blog)
+5. [http://www.pigeonsandpeacocks.com](Pigeons & Peacocks)
+
+Hosted on the TSOHost Cloud
+
+1. [http://www.francescorner.com](Frances Corner blog)
+2. [http://www.fia-london.com](The Fashion Innovation Agency)
+3. [http://www.fashioncolloquia.com/](Fashion Colloquia)
+4. [http://www.fashionspacegallery.com/](Fashion Space Gallery)
+5. [http://www.lcfm.co.uk](LCFM)
+6. [http://www.sharedtalentindia.com](Shared Talent India)
+7. [http://www.goldwell-beautify.com](Goldwell Beautify) (industry sponsored project developed by Mark Wells)
+8. [http://www.reallusion-2014.com](Reallusion) (industry sponsored project developed by Mark Wells)
+9. Connect Forum
+
+Hosted on other 3rd-party systems
+
+1. [http://www.fashion-manufacturing.com/](DISC)
