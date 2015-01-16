@@ -1,0 +1,3 @@
+<div id="playerLayer">
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="593" height="360" id="utv160288"><param name="flashvars" value="autoplay=true&brand=embed&cid=26348%2Ftest-217841&locale=en_US&viewcount=false"/><param name="allowfullscreen" value="true"/><param name="allowscriptaccess" value="always"/><param name="movie" value="http://www.ustream.tv/flash/live/26348/test-217841"/><embed flashvars="autoplay=true&brand=embed&cid=26348%2Ftest-217841&locale=en_US&viewcount=false" width="593" height="360" allowfullscreen="true" allowscriptaccess="always" id="utv160288" name="utv_n_642443" src="http://www.ustream.tv/flash/live/26348/test-217841" type="application/x-shockwave-flash" /></object>						
+</div>
