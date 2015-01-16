@@ -1,6 +1,6 @@
 lsi: false
 pygments: true
-baseurl: /build-fridays
+baseurl: /lcf-build-fridays
 exclude: [Gemfile, node_modules, temp, config.rb, gruntfile.js, package.json, Gemfile.lock, README.md]
 
 # Run Jekyll: jekyll build -w
